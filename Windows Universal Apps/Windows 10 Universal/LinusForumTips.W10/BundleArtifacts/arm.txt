@@ -1,0 +1,2 @@
+MainPackage=C:\Users\alast\Downloads\LinusForumTips.Source-v1.6.2.0\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.6.2.0_ARM.appx
+SymbolPackage=C:\Users\alast\Downloads\LinusForumTips.Source-v1.6.2.0\LinusForumTips.W10\AppPackages\LinusForumTips.W10_1.6.2.0_Test\LinusForumTips.W10_1.6.2.0_ARM.appxsym
