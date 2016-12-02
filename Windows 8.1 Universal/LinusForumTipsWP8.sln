@@ -4,8 +4,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LinusForumTipsWP8.Shared", "LinusForumTipsWP8.Shared\LinusForumTipsWP8.Shared.shproj", "{409ED09D-D59B-4F2B-B89E-8EA16D806125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinusForumTipsWP8.Windows", "LinusForumTipsWP8.Windows\LinusForumTipsWP8.Windows.csproj", "{E119D336-C89A-4993-87C4-9F0B895D7DC9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinusForumTipsWP8.WindowsPhone", "LinusForumTipsWP8.WindowsPhone\LinusForumTipsWP8.WindowsPhone.csproj", "{9E605056-3622-4C2B-A40E-BFC7F5C6A423}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1B203C88-72C1-4D34-9D4E-9BA2F75C889B}"
@@ -19,7 +17,6 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		LinusForumTipsWP8.Shared\LinusForumTipsWP8.Shared.projitems*{409ed09d-d59b-4f2b-b89e-8ea16d806125}*SharedItemsImports = 13
 		LinusForumTipsWP8.Shared\LinusForumTipsWP8.Shared.projitems*{9e605056-3622-4c2b-a40e-bfc7f5c6a423}*SharedItemsImports = 4
-		LinusForumTipsWP8.Shared\LinusForumTipsWP8.Shared.projitems*{e119d336-c89a-4993-87c4-9f0b895d7dc9}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,30 +29,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Debug|ARM.ActiveCfg = Debug|ARM
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Debug|ARM.Build.0 = Debug|ARM
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Debug|ARM.Deploy.0 = Debug|ARM
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Debug|x64.ActiveCfg = Debug|x64
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Debug|x64.Build.0 = Debug|x64
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Debug|x64.Deploy.0 = Debug|x64
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Debug|x86.ActiveCfg = Debug|x86
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Debug|x86.Build.0 = Debug|x86
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Debug|x86.Deploy.0 = Debug|x86
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Release|ARM.ActiveCfg = Release|ARM
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Release|ARM.Build.0 = Release|ARM
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Release|ARM.Deploy.0 = Release|ARM
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Release|x64.ActiveCfg = Release|x64
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Release|x64.Build.0 = Release|x64
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Release|x64.Deploy.0 = Release|x64
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Release|x86.ActiveCfg = Release|x86
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Release|x86.Build.0 = Release|x86
-		{E119D336-C89A-4993-87C4-9F0B895D7DC9}.Release|x86.Deploy.0 = Release|x86
 		{9E605056-3622-4C2B-A40E-BFC7F5C6A423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E605056-3622-4C2B-A40E-BFC7F5C6A423}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E605056-3622-4C2B-A40E-BFC7F5C6A423}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
