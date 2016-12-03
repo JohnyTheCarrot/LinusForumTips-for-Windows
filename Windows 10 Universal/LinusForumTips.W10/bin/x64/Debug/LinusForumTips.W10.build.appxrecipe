@@ -461,7 +461,7 @@
     <AppxPackagedFile Include="C:\Users\alast\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Debug\LinusForumTips.W10.xr.xml">
       <PackagePath>LinusForumTips.W10.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.10586.0\\redist\Debug\X64\ucrtbased.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.14393.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">

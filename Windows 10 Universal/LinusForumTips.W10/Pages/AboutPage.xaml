@@ -82,7 +82,20 @@
 						x:Uid="AboutCapabilityTileUpdater"
 						Margin="0,12,0,0"
 						Style="{StaticResource AppDescriptionsStyle}"/>
-                </StackPanel>
+					<StackPanel Margin="0,12,0,0" Orientation="Horizontal">
+						<TextBlock
+							x:Uid="AboutPoweredBy"
+							FontSize="14"
+							VerticalAlignment="Center"
+							Style="{StaticResource AppDescriptionsStyle}" />
+						<HyperlinkButton
+							Margin="6,0,0,0"
+							Content="Windows App Studio"
+							VerticalAlignment="Center"
+							NavigateUri="{x:Bind AboutThisAppModel.WindowsAppStudioWeb}"
+							Style="{StaticResource HyperlinkStyle}"/>
+					</StackPanel>
+				</StackPanel>
 			</StackPanel>
         </ScrollViewer>
     </Grid>    

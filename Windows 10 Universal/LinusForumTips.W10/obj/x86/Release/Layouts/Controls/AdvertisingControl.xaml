@@ -12,7 +12,8 @@
     d:DesignWidth="400">
     <Grid Background="#dddddd" Margin="0,24,0,24">
         <Grid Margin="24,24,24,24">
-            <UI:AdControl x:ConnectionId='2'  x:Name="adControl1"                                                             HorizontalAlignment="Center"/>
+            <UI:AdControl x:ConnectionId='2'  x:Name="adControl1"                                                             HorizontalAlignment="Center" AdUnitId="286452" ApplicationId="
+c64fd9b1-a93c-4691-872a-7190c0f82a7b"/>
         </Grid>
     </Grid>
 </UserControl>

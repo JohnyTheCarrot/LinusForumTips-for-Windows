@@ -45,8 +45,7 @@
                 d:DataContext="{d:DesignData Source=/Assets/Design/DesignData.json, Type=vm:DesignViewModel, IsDesignTimeCreatable=true}">
                 <DataTemplate>
                     <list_layouts:ListBigVerticalCard DataContext="{Binding}" ItemsSource="{Binding Items}" ItemClickCommand="{Binding ItemClickCommand}" OneRowModeEnabled="True" Margin="19,0,12,24"/>
-                    
-                    </DataTemplate>
+                </DataTemplate>
 			</was_controls:SectionListItem>
 			<was_controls:SectionListItem                
                 DataContext="{Binding SectionAd}"
@@ -71,18 +70,7 @@
                     <list_layouts:ListBigVerticalCard DataContext="{Binding}" ItemsSource="{Binding Items}" ItemClickCommand="{Binding ItemClickCommand}" OneRowModeEnabled="True" Margin="19,0,12,24"/>
                 </DataTemplate>
 			</was_controls:SectionListItem>
-            <was_controls:SectionListItem                
-                DataContext="{Binding SectionAd}"
-                HeaderLinkVisibility="Collapsed"
-                TitleVisibility="Visible"
-                ErrorVisibility="Collapsed"
-                LoadingVisibility="Collapsed"
-                ManageLoading="False" Margin="0,12,0,0">
-                <DataTemplate>
-                    <controls:AdvertisingControl/>
-                </DataTemplate>
-            </was_controls:SectionListItem>
-            <was_controls:SectionListItem
+			<was_controls:SectionListItem
                 DataContext="{Binding TechquickieVideos}"
                 HeaderLinkClickCommand="{Binding SectionHeaderClickCommand}" 
                 HeaderLinkVisibility="Visible"
@@ -94,18 +82,7 @@
                     <list_layouts:ListBigVerticalCard DataContext="{Binding}" ItemsSource="{Binding Items}" ItemClickCommand="{Binding ItemClickCommand}" OneRowModeEnabled="True" Margin="19,0,12,24"/>
                 </DataTemplate>
 			</was_controls:SectionListItem>
-            <was_controls:SectionListItem                
-                DataContext="{Binding SectionAd}"
-                HeaderLinkVisibility="Collapsed"
-                TitleVisibility="Visible"
-                ErrorVisibility="Collapsed"
-                LoadingVisibility="Collapsed"
-                ManageLoading="False" Margin="0,12,0,0">
-                <DataTemplate>
-                    <controls:AdvertisingControl/>
-                </DataTemplate>
-            </was_controls:SectionListItem>
-            <was_controls:SectionListItem
+			<was_controls:SectionListItem
                 DataContext="{Binding ChannelSuperFunVideos}"
                 HeaderLinkClickCommand="{Binding SectionHeaderClickCommand}" 
                 HeaderLinkVisibility="Visible"
@@ -117,18 +94,7 @@
                     <list_layouts:ListBigVerticalCard DataContext="{Binding}" ItemsSource="{Binding Items}" ItemClickCommand="{Binding ItemClickCommand}" OneRowModeEnabled="True" Margin="19,0,12,24"/>
                 </DataTemplate>
 			</was_controls:SectionListItem>
-            <was_controls:SectionListItem                
-                DataContext="{Binding SectionAd}"
-                HeaderLinkVisibility="Collapsed"
-                TitleVisibility="Visible"
-                ErrorVisibility="Collapsed"
-                LoadingVisibility="Collapsed"
-                ManageLoading="False" Margin="0,12,0,0">
-                <DataTemplate>
-                    <controls:AdvertisingControl/>
-                </DataTemplate>
-            </was_controls:SectionListItem>
-            <was_controls:SectionListItem
+			<was_controls:SectionListItem
                 DataContext="{Binding BuildGuides}"
                 HeaderLinkClickCommand="{Binding SectionHeaderClickCommand}" 
                 HeaderLinkVisibility="Visible"
@@ -140,18 +106,7 @@
                     <list_layouts:ListBigVerticalCard DataContext="{Binding}" ItemsSource="{Binding Items}" ItemClickCommand="{Binding ItemClickCommand}" OneRowModeEnabled="True" Margin="19,0,12,24"/>
                 </DataTemplate>
 			</was_controls:SectionListItem>
-            <was_controls:SectionListItem                
-                DataContext="{Binding SectionAd}"
-                HeaderLinkVisibility="Collapsed"
-                TitleVisibility="Visible"
-                ErrorVisibility="Collapsed"
-                LoadingVisibility="Collapsed"
-                ManageLoading="False" Margin="0,12,0,0">
-                <DataTemplate>
-                    <controls:AdvertisingControl/>
-                </DataTemplate>
-            </was_controls:SectionListItem>
-            <was_controls:SectionListItem
+			<was_controls:SectionListItem
                 DataContext="{Binding BuildLogs}"
                 HeaderLinkClickCommand="{Binding SectionHeaderClickCommand}" 
                 HeaderLinkVisibility="Visible"
@@ -163,18 +118,7 @@
                     <list_layouts:ListBigVerticalCard DataContext="{Binding}" ItemsSource="{Binding Items}" ItemClickCommand="{Binding ItemClickCommand}" OneRowModeEnabled="True" Margin="19,0,12,24"/>
                 </DataTemplate>
 			</was_controls:SectionListItem>
-            <was_controls:SectionListItem                
-                DataContext="{Binding SectionAd}"
-                HeaderLinkVisibility="Collapsed"
-                TitleVisibility="Visible"
-                ErrorVisibility="Collapsed"
-                LoadingVisibility="Collapsed"
-                ManageLoading="False" Margin="0,12,0,0">
-                <DataTemplate>
-                    <controls:AdvertisingControl/>
-                </DataTemplate>
-            </was_controls:SectionListItem>
-            <was_controls:SectionListItem
+			<was_controls:SectionListItem
                 DataContext="{Binding GuidesAndTutorials}"
                 HeaderLinkClickCommand="{Binding SectionHeaderClickCommand}" 
                 HeaderLinkVisibility="Visible"
@@ -185,7 +129,7 @@
                 <DataTemplate>
                     <list_layouts:ListBigVerticalCard DataContext="{Binding}" ItemsSource="{Binding Items}" ItemClickCommand="{Binding ItemClickCommand}" OneRowModeEnabled="True" Margin="19,0,12,24"/>
                 </DataTemplate>
-            </was_controls:SectionListItem>
+			</was_controls:SectionListItem>
         </was_controls:SectionList>
         <controls:DataUpdateInformationControl
 			Grid.Row="1"

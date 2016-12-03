@@ -6,7 +6,7 @@ namespace LinusForumTips.ViewModels
 
         public AdvertisingViewModel()
         {
-            Title = "Advertisement - To remove ADs pay for Linus Forum Tips Premium";            
+            Title = "Advertising";            
         }        
     }
 }

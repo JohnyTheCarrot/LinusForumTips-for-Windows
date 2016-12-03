@@ -16,25 +16,25 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>19B8C915411449FF0A84DA5A094A8250AF13D62BE1806BE39318906F0474EC44</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>52729AluminiumTech.LinusForumTips_1.7.0.0_x64__2a74cp6g1st7y</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>5EC5C60817204E6AA3169D4E6B45EE9823D06BB7261B6E6AC9A80CC77A12C509</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>52729AluminiumTech.LinusForumTips_1.7.1.0_x64__2a74cp6g1st7y</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>52729AluminiumTech.LinusForumTips_2a74cp6g1st7y!App</RegisteredUserModeAppID>
     <RegisteredPackageID>52729AluminiumTech.LinusForumTips</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=7597FB63-211E-47C3-95FB-0206DFA089D9</RegisteredPackagePublisher>
-    <RegisteredVersion>1.7.0.0</RegisteredVersion>
+    <RegisteredVersion>1.7.1.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\alast\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-03T10:57:27.581</Modified>
+      <Modified>2016-12-03T14:54:52.637</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\alast\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Debug\LinusForumTips.W10.exe">
       <PackagePath>entrypoint\LinusForumTips.W10.exe</PackagePath>
-      <Modified>2016-12-03T10:57:26.628</Modified>
+      <Modified>2016-12-03T13:08:18.485</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alast\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -613,11 +613,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alast\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Debug\LinusForumTips.W10.xr.xml">
       <PackagePath>LinusForumTips.W10.xr.xml</PackagePath>
-      <Modified>2016-12-03T10:41:02.332</Modified>
+      <Modified>2016-12-03T13:08:17.879</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.10586.0\\redist\Debug\X64\ucrtbased.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.14393.0\\redist\Debug\X64\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
-      <Modified>2016-03-29T00:24:44.000</Modified>
+      <Modified>2016-07-28T03:45:18.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -633,11 +633,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alast\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-12-03T10:57:27.228</Modified>
+      <Modified>2016-12-03T14:54:52.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alast\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Debug\Core\LinusForumTips.W10.exe">
       <PackagePath>LinusForumTips.W10.exe</PackagePath>
-      <Modified>2016-12-03T10:57:27.577</Modified>
+      <Modified>2016-12-03T14:54:52.629</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

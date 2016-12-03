@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="52729AluminiumTech.LinusForumTips" Publisher="CN=7597FB63-211E-47C3-95FB-0206DFA089D9" Version="1.7.0.0" ProcessorArchitecture="x64" />
+  <Identity Name="52729AluminiumTech.LinusForumTips" Publisher="CN=7597FB63-211E-47C3-95FB-0206DFA089D9" Version="1.7.1.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="50ae11e2-7941-4891-b11a-28ce61fd273b" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Linus Forum Tips</DisplayName>
@@ -15,7 +15,7 @@
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10586.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.14393.0" />
     <PackageDependency Name="Microsoft.Advertising.Xaml" MinVersion="10.1609.2.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
     <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.24210.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
@@ -33,6 +33,11 @@
             <uap:ShowOn Tile="square310x310Logo" />
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="landscape" />
+          <uap:Rotation Preference="portraitFlipped" />
+        </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>
@@ -49,7 +54,7 @@
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25527.1" />
-    <build:Item Name="WindowsMobile" Version="10.0.10586.0" />
+    <build:Item Name="WindowsMobile" Version="10.0.14393.0" />
     <build:Item Name="MakePri.exe" Version="10.0.14393.33 (rs1_release_sec.160727-1952)" />
   </build:Metadata>
 </Package>

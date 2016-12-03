@@ -508,6 +508,8 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="AdUnitId" />
+      <RootProperty Name="ApplicationId" />
     </RootType>
     <RootType FullName="LinusForumTips.Layouts.Controls.AdvertisingControl" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">

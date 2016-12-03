@@ -1132,6 +1132,8 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
             case 74:   //  Microsoft.Advertising.WinRT.UI.AdControl
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.StackPanel"));
                 userType.Activator = Activate_74_AdControl;
+                userType.AddMemberName("AdUnitId");
+                userType.AddMemberName("ApplicationId");
                 userType.AddMemberName("HasAd");
                 userType.AddMemberName("IsSuspended");
                 userType.AddMemberName("PostalCode");
@@ -1140,8 +1142,6 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 userType.AddMemberName("AutoRefreshIntervalInSeconds");
                 userType.AddMemberName("IsAutoRefreshEnabled");
                 userType.AddMemberName("IsEngaged");
-                userType.AddMemberName("ApplicationId");
-                userType.AddMemberName("AdUnitId");
                 xamlType = userType;
                 break;
 
@@ -2551,90 +2551,90 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
             var that = (global::LinusForumTips.Layouts.Controls.HeroImage)instance;
             that.Source = (global::System.String)Value;
         }
-        private object get_93_AdControl_HasAd(object instance)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            return that.HasAd;
-        }
-        private object get_94_AdControl_IsSuspended(object instance)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            return that.IsSuspended;
-        }
-        private object get_95_AdControl_PostalCode(object instance)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            return that.PostalCode;
-        }
-        private void set_95_AdControl_PostalCode(object instance, object Value)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            that.PostalCode = (global::System.String)Value;
-        }
-        private object get_96_AdControl_CountryOrRegion(object instance)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            return that.CountryOrRegion;
-        }
-        private void set_96_AdControl_CountryOrRegion(object instance, object Value)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            that.CountryOrRegion = (global::System.String)Value;
-        }
-        private object get_97_AdControl_Keywords(object instance)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            return that.Keywords;
-        }
-        private void set_97_AdControl_Keywords(object instance, object Value)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            that.Keywords = (global::System.String)Value;
-        }
-        private object get_98_AdControl_AutoRefreshIntervalInSeconds(object instance)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            return that.AutoRefreshIntervalInSeconds;
-        }
-        private void set_98_AdControl_AutoRefreshIntervalInSeconds(object instance, object Value)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            that.AutoRefreshIntervalInSeconds = (global::System.Int32)Value;
-        }
-        private object get_99_AdControl_IsAutoRefreshEnabled(object instance)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            return that.IsAutoRefreshEnabled;
-        }
-        private void set_99_AdControl_IsAutoRefreshEnabled(object instance, object Value)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            that.IsAutoRefreshEnabled = (global::System.Boolean)Value;
-        }
-        private object get_100_AdControl_IsEngaged(object instance)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            return that.IsEngaged;
-        }
-        private object get_101_AdControl_ApplicationId(object instance)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            return that.ApplicationId;
-        }
-        private void set_101_AdControl_ApplicationId(object instance, object Value)
-        {
-            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
-            that.ApplicationId = (global::System.String)Value;
-        }
-        private object get_102_AdControl_AdUnitId(object instance)
+        private object get_93_AdControl_AdUnitId(object instance)
         {
             var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
             return that.AdUnitId;
         }
-        private void set_102_AdControl_AdUnitId(object instance, object Value)
+        private void set_93_AdControl_AdUnitId(object instance, object Value)
         {
             var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
             that.AdUnitId = (global::System.String)Value;
+        }
+        private object get_94_AdControl_ApplicationId(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.ApplicationId;
+        }
+        private void set_94_AdControl_ApplicationId(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.ApplicationId = (global::System.String)Value;
+        }
+        private object get_95_AdControl_HasAd(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.HasAd;
+        }
+        private object get_96_AdControl_IsSuspended(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.IsSuspended;
+        }
+        private object get_97_AdControl_PostalCode(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.PostalCode;
+        }
+        private void set_97_AdControl_PostalCode(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.PostalCode = (global::System.String)Value;
+        }
+        private object get_98_AdControl_CountryOrRegion(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.CountryOrRegion;
+        }
+        private void set_98_AdControl_CountryOrRegion(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.CountryOrRegion = (global::System.String)Value;
+        }
+        private object get_99_AdControl_Keywords(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.Keywords;
+        }
+        private void set_99_AdControl_Keywords(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.Keywords = (global::System.String)Value;
+        }
+        private object get_100_AdControl_AutoRefreshIntervalInSeconds(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.AutoRefreshIntervalInSeconds;
+        }
+        private void set_100_AdControl_AutoRefreshIntervalInSeconds(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.AutoRefreshIntervalInSeconds = (global::System.Int32)Value;
+        }
+        private object get_101_AdControl_IsAutoRefreshEnabled(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.IsAutoRefreshEnabled;
+        }
+        private void set_101_AdControl_IsAutoRefreshEnabled(object instance, object Value)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            that.IsAutoRefreshEnabled = (global::System.Boolean)Value;
+        }
+        private object get_102_AdControl_IsEngaged(object instance)
+        {
+            var that = (global::Microsoft.Advertising.WinRT.UI.AdControl)instance;
+            return that.IsEngaged;
         }
         private object get_103_AdvertisingControl_BannerWidth(object instance)
         {
@@ -4658,65 +4658,65 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlMember.Getter = get_92_HeroImage_Source;
                 xamlMember.Setter = set_92_HeroImage_Source;
                 break;
+            case "Microsoft.Advertising.WinRT.UI.AdControl.AdUnitId":
+                userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
+                xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "AdUnitId", "String");
+                xamlMember.Getter = get_93_AdControl_AdUnitId;
+                xamlMember.Setter = set_93_AdControl_AdUnitId;
+                break;
+            case "Microsoft.Advertising.WinRT.UI.AdControl.ApplicationId":
+                userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
+                xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "ApplicationId", "String");
+                xamlMember.Getter = get_94_AdControl_ApplicationId;
+                xamlMember.Setter = set_94_AdControl_ApplicationId;
+                break;
             case "Microsoft.Advertising.WinRT.UI.AdControl.HasAd":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "HasAd", "Boolean");
-                xamlMember.Getter = get_93_AdControl_HasAd;
+                xamlMember.Getter = get_95_AdControl_HasAd;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.Advertising.WinRT.UI.AdControl.IsSuspended":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "IsSuspended", "Boolean");
-                xamlMember.Getter = get_94_AdControl_IsSuspended;
+                xamlMember.Getter = get_96_AdControl_IsSuspended;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.Advertising.WinRT.UI.AdControl.PostalCode":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "PostalCode", "String");
-                xamlMember.Getter = get_95_AdControl_PostalCode;
-                xamlMember.Setter = set_95_AdControl_PostalCode;
+                xamlMember.Getter = get_97_AdControl_PostalCode;
+                xamlMember.Setter = set_97_AdControl_PostalCode;
                 break;
             case "Microsoft.Advertising.WinRT.UI.AdControl.CountryOrRegion":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "CountryOrRegion", "String");
-                xamlMember.Getter = get_96_AdControl_CountryOrRegion;
-                xamlMember.Setter = set_96_AdControl_CountryOrRegion;
+                xamlMember.Getter = get_98_AdControl_CountryOrRegion;
+                xamlMember.Setter = set_98_AdControl_CountryOrRegion;
                 break;
             case "Microsoft.Advertising.WinRT.UI.AdControl.Keywords":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Keywords", "String");
-                xamlMember.Getter = get_97_AdControl_Keywords;
-                xamlMember.Setter = set_97_AdControl_Keywords;
+                xamlMember.Getter = get_99_AdControl_Keywords;
+                xamlMember.Setter = set_99_AdControl_Keywords;
                 break;
             case "Microsoft.Advertising.WinRT.UI.AdControl.AutoRefreshIntervalInSeconds":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "AutoRefreshIntervalInSeconds", "Int32");
-                xamlMember.Getter = get_98_AdControl_AutoRefreshIntervalInSeconds;
-                xamlMember.Setter = set_98_AdControl_AutoRefreshIntervalInSeconds;
+                xamlMember.Getter = get_100_AdControl_AutoRefreshIntervalInSeconds;
+                xamlMember.Setter = set_100_AdControl_AutoRefreshIntervalInSeconds;
                 break;
             case "Microsoft.Advertising.WinRT.UI.AdControl.IsAutoRefreshEnabled":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "IsAutoRefreshEnabled", "Boolean");
-                xamlMember.Getter = get_99_AdControl_IsAutoRefreshEnabled;
-                xamlMember.Setter = set_99_AdControl_IsAutoRefreshEnabled;
+                xamlMember.Getter = get_101_AdControl_IsAutoRefreshEnabled;
+                xamlMember.Setter = set_101_AdControl_IsAutoRefreshEnabled;
                 break;
             case "Microsoft.Advertising.WinRT.UI.AdControl.IsEngaged":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "IsEngaged", "Boolean");
-                xamlMember.Getter = get_100_AdControl_IsEngaged;
+                xamlMember.Getter = get_102_AdControl_IsEngaged;
                 xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.Advertising.WinRT.UI.AdControl.ApplicationId":
-                userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
-                xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "ApplicationId", "String");
-                xamlMember.Getter = get_101_AdControl_ApplicationId;
-                xamlMember.Setter = set_101_AdControl_ApplicationId;
-                break;
-            case "Microsoft.Advertising.WinRT.UI.AdControl.AdUnitId":
-                userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Advertising.WinRT.UI.AdControl");
-                xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "AdUnitId", "String");
-                xamlMember.Getter = get_102_AdControl_AdUnitId;
-                xamlMember.Setter = set_102_AdControl_AdUnitId;
                 break;
             case "LinusForumTips.Layouts.Controls.AdvertisingControl.BannerWidth":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("LinusForumTips.Layouts.Controls.AdvertisingControl");
