@@ -18,7 +18,7 @@
                 <TextBlock
                     Style="{StaticResource AppDescriptionsStyle}">
                     <Run x:Uid="AppVersion"/>
-                    <Run x:ConnectionId='10'                                             />
+                    <Run x:ConnectionId='11'                                             />
                 </TextBlock>
                 <Viewbox
                     Margin="0,12,0,0"
@@ -32,14 +32,14 @@
                                 Opacity="0.5"
                                 Color="{StaticResource DescriptionForegroundColor}"/>
                         </Border.Background>
-                        <Image x:ConnectionId='9'                                            />
+                        <Image x:ConnectionId='10'                                            />
                     </Border>
                 </Viewbox>
                 <TextBlock
                     Margin="0,12,0,0"
                     Style="{StaticResource AppDescriptionsStyle}">
                     <Run x:Uid="DevelopedBy"/>
-                    <Run x:ConnectionId='8'                                            />
+                    <Run x:ConnectionId='9'                                            />
                 </TextBlock>
                 <TextBlock x:ConnectionId='3'
                     Margin="0,25,0,0"
@@ -49,38 +49,41 @@
                     x:Uid="PrivacyTermsButton"
                                                                     
                     Style="{StaticResource HyperlinkStyle}"/>
-                <HyperlinkButton x:ConnectionId='5'                    
+				<HyperlinkButton x:ConnectionId='5'                    
                         x:Uid="AboutViewMoreInformation"
                         Style="{StaticResource HyperlinkStyle}"
                                                                                                                                                                              
                                                                                              />
                 <StackPanel x:ConnectionId='6'
                                                                                                                                                 >
-                    <TextBlock
+					<TextBlock
 						x:Uid="AboutSectionLicenses"
 						Margin="0,25,0,0"
 						FontWeight="Bold"
 						Style="{StaticResource AppDescriptionsStyle}"/>
-                    <HyperlinkButton x:ConnectionId='7'
+					<HyperlinkButton x:ConnectionId='7'                    
+						x:Uid="AboutAppStudioOpenSourceLibraries"                    
+						                                                
+						Style="{StaticResource HyperlinkStyle}"/>
+					<HyperlinkButton x:ConnectionId='8'
 						Content="Newtonsoft JSON"
 						                                                      
 						Style="{StaticResource HyperlinkStyle}"/>
-                    <TextBlock
+					<TextBlock
 						x:Uid="AboutSectionCapabilities"
 						Margin="0,25,0,0"
 						FontWeight="Bold"
 						Style="{StaticResource AppDescriptionsStyle}"/>
-                    <TextBlock
+					<TextBlock
 						x:Uid="AboutCapabilityInternet"
 						Margin="0,12,0,0"
 						Style="{StaticResource AppDescriptionsStyle}"/>
-                    <TextBlock
+					<TextBlock
 						x:Uid="AboutCapabilityTileUpdater"
 						Margin="0,12,0,0"
 						Style="{StaticResource AppDescriptionsStyle}"/>
-                    <StackPanel Margin="0,12,0,0" Orientation="Horizontal"/>
                 </StackPanel>
-            </StackPanel>
+			</StackPanel>
         </ScrollViewer>
     </Grid>    
 </Page>

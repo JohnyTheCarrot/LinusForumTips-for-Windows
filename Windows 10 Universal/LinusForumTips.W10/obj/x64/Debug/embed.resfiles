@@ -1,4 +1,5 @@
 App.xbf
+Layouts\Controls\AdvertisingControl.xbf
 Layouts\Controls\DataUpdateInformationControl.xbf
 Layouts\Controls\HeroImage.xbf
 Layouts\Controls\SectionListItemHeader.xbf
@@ -30,13 +31,11 @@ Pages\BuildLogsDetailPage.xbf
 Pages\BuildLogsListPage.xbf
 Pages\ChannelSuperFunVideosDetailPage.xbf
 Pages\ChannelSuperFunVideosListPage.xbf
-Pages\Credits.xbf
 Pages\GuidesAndTutorialsDetailPage.xbf
 Pages\GuidesAndTutorialsListPage.xbf
 Pages\HomePage.xbf
 Pages\LinusTechTipsVideosDetailPage.xbf
 Pages\LinusTechTipsVideosListPage.xbf
-Pages\Preferences.xbf
 Pages\ShellPage.xbf
 Pages\TechquickieVideosDetailPage.xbf
 Pages\TechquickieVideosListPage.xbf

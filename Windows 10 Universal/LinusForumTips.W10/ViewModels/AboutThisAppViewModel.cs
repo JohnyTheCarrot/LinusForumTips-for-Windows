@@ -21,6 +21,8 @@ namespace LinusForumTips.ViewModels
     "s app for Windows 10.";
             this.AppLogo = new BitmapImage(new Uri("ms-appx:///Assets/ApplicationLogo.png"));
             this.Privacy = "https://appstudio.windows.com/home/appprivacyterms";
+            this.WasLibs = "https://github.com/wasteam/waslibs";
+            this.WindowsAppStudioWeb = "https://appstudio.windows.com/";
             this.NewtonsoftWeb = "http://www.newtonsoft.com/json";
         }
 
@@ -29,6 +31,8 @@ namespace LinusForumTips.ViewModels
         public string AppVersion { get; set; }
         public string AboutText { get; set; }
         public string Privacy { get; set; }
+        public string WasLibs { get; set; }
+        public string WindowsAppStudioWeb { get; set; }
         public string NewtonsoftWeb { get; set; }
         public BitmapImage AppLogo { get; set; }
 

@@ -6,7 +6,7 @@ namespace LinusForumTips.ViewModels
 
         public AdvertisingViewModel()
         {
-            Title = "Advertising";            
+            Title = "Advertisement";            
         }        
     }
 }

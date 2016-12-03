@@ -27,10 +27,12 @@ namespace LinusForumTips.ViewModels
         public ListViewModel BuildGuides { get; private set; }
         public ListViewModel BuildLogs { get; private set; }
         public ListViewModel GuidesAndTutorials { get; private set; }
+		public AdvertisingViewModel SectionAd { get; set; }
 
         public MainViewModel(int visibleItems) : base()
         {
             Title = "Linus Forum Tips";
+			this.SectionAd = new AdvertisingViewModel();
             LinusTechTipsVideos = ViewModelFactory.NewList(new LinusTechTipsVideosSection(), visibleItems);
             WanShowArchive = ViewModelFactory.NewList(new WanShowArchiveSection(), visibleItems);
             TechquickieVideos = ViewModelFactory.NewList(new TechquickieVideosSection(), visibleItems);

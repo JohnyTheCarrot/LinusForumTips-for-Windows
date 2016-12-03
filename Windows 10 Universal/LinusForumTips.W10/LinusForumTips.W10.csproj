@@ -4,14 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{FC09F4CD-7811-4166-B818-E4D42BE1412E}</ProjectGuid>
+    <ProjectGuid>{3FBC4669-850E-4467-B4F8-E957C8DD2590}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LinusForumTips</RootNamespace>
     <AssemblyName>LinusForumTips.W10</AssemblyName>
     <DefaultLanguage>en-us</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
@@ -21,11 +21,6 @@
     <RestorePackages>true</RestorePackages>
     <UapDefaultAssetScale>100</UapDefaultAssetScale>
     <UseDotNetNativeSharedAssemblyFrameworkPackage>True</UseDotNetNativeSharedAssemblyFrameworkPackage>
-    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
-    <AppxBundle>Always</AppxBundle>
-    <PackageCertificateThumbprint>94A7D6E6EC987CACB15CC49DB8556B0D5CA114A9</PackageCertificateThumbprint>
-    <PackageCertificateKeyFile>LinusForumTips.W10_StoreKey.pfx</PackageCertificateKeyFile>
-    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -207,9 +202,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Pages\Credits.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Layouts\Controls\AdvertisingControl.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Pages\HomePage.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -218,10 +213,6 @@
     <Page Include="Pages\LinusTechTipsVideosListPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Pages\Preferences.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\WanShowArchiveListPage.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -389,17 +380,14 @@
     <Compile Include="Layouts\Controls\HeroImage.xaml.cs">
       <DependentUpon>HeroImage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Credits.xaml.cs">
-      <DependentUpon>Credits.xaml</DependentUpon>
+    <Compile Include="Layouts\Controls\AdvertisingControl.xaml.cs">
+      <DependentUpon>AdvertisingControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\LinusTechTipsVideosListPage.xaml.cs">
       <DependentUpon>LinusTechTipsVideosListPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Preferences.xaml.cs">
-      <DependentUpon>Preferences.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\WanShowArchiveListPage.xaml.cs">
       <DependentUpon>WanShowArchiveListPage.xaml</DependentUpon>
@@ -448,7 +436,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="LinusForumTips.W10_StoreKey.pfx" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
@@ -524,7 +511,6 @@
     <Content Include="Assets\Design\MediumGray.png" />
     <Content Include="Assets\about.png" />
     <Content Include="Assets\RelatedContentVBP.json" />
-    <None Include="Package.StoreAssociation.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\ApplicationLogo.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
@@ -539,7 +525,14 @@
     <PRIResource Include="Strings\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
-    <SDKReference Include="WindowsMobile, Version=10.0.14393.0">
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <SDKReference Include="Microsoft.Advertising.Xaml, Version=10.0">
+      <Name>Microsoft Advertising SDK for XAML</Name>
+    </SDKReference>
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0">
+      <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
+    </SDKReference>
+    <SDKReference Include="WindowsMobile, Version=10.0.10586.0">
       <Name>Windows Mobile Extensions for the UWP</Name>
     </SDKReference>
   </ItemGroup>
