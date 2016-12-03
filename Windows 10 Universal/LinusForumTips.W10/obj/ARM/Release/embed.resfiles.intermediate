@@ -1,4 +1,5 @@
 App.xbf
+Layouts\Controls\AdvertisingControl.xbf
 Layouts\Controls\DataUpdateInformationControl.xbf
 Layouts\Controls\HeroImage.xbf
 Layouts\Controls\SectionListItemHeader.xbf

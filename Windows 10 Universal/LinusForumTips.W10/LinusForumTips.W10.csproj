@@ -11,7 +11,7 @@
     <AssemblyName>LinusForumTips.W10</AssemblyName>
     <DefaultLanguage>en-us</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
@@ -21,6 +21,12 @@
     <RestorePackages>true</RestorePackages>
     <UapDefaultAssetScale>100</UapDefaultAssetScale>
     <UseDotNetNativeSharedAssemblyFrameworkPackage>True</UseDotNetNativeSharedAssemblyFrameworkPackage>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>E:\Downloads\LFT Packages\</AppxPackageDir>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>9021243677EB98CCE8E2AFB50FF2FF5C9584A6A7</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>LinusForumTips.W10_StoreKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -436,6 +442,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="LinusForumTips.W10_StoreKey.pfx" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
@@ -511,6 +518,7 @@
     <Content Include="Assets\Design\MediumGray.png" />
     <Content Include="Assets\about.png" />
     <Content Include="Assets\RelatedContentVBP.json" />
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\ApplicationLogo.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
@@ -532,7 +540,7 @@
     <SDKReference Include="Microsoft.VCLibs, Version=14.0">
       <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
     </SDKReference>
-    <SDKReference Include="WindowsMobile, Version=10.0.10586.0">
+    <SDKReference Include="WindowsMobile, Version=10.0.14393.0">
       <Name>Windows Mobile Extensions for the UWP</Name>
     </SDKReference>
   </ItemGroup>

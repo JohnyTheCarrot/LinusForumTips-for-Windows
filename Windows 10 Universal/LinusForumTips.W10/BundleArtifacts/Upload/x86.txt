@@ -1,2 +1,2 @@
-MainPackage=C:\Users\alast\Downloads\LinusForumTips.Source-v1.6.2.0\LinusForumTips.W10\bin\x86\Release\Upload\LinusForumTips.W10_1.6.2.0_x86.appx
-SymbolPackage=C:\Users\alast\Downloads\LinusForumTips.Source-v1.6.2.0\LinusForumTips.W10\AppPackages\LinusForumTips.W10_1.6.2.0\LinusForumTips.W10_1.6.2.0_x86.appxsym
+MainPackage=C:\Users\alast\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x86\Release\Upload\LinusForumTips.W10_1.7.0.0_x86.appx
+SymbolPackage=E:\Downloads\LFT Packages\LinusForumTips.W10_1.7.0.0\LinusForumTips.W10_1.7.0.0_x86.appxsym

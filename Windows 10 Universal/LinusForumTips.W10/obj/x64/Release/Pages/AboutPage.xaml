@@ -18,7 +18,7 @@
                 <TextBlock
                     Style="{StaticResource AppDescriptionsStyle}">
                     <Run x:Uid="AppVersion"/>
-                    <Run x:ConnectionId='12'                                             />
+                    <Run x:ConnectionId='11'                                             />
                 </TextBlock>
                 <Viewbox
                     Margin="0,12,0,0"
@@ -32,14 +32,14 @@
                                 Opacity="0.5"
                                 Color="{StaticResource DescriptionForegroundColor}"/>
                         </Border.Background>
-                        <Image x:ConnectionId='11'                                            />
+                        <Image x:ConnectionId='10'                                            />
                     </Border>
                 </Viewbox>
                 <TextBlock
                     Margin="0,12,0,0"
                     Style="{StaticResource AppDescriptionsStyle}">
                     <Run x:Uid="DevelopedBy"/>
-                    <Run x:ConnectionId='10'                                            />
+                    <Run x:ConnectionId='9'                                            />
                 </TextBlock>
                 <TextBlock x:ConnectionId='3'
                     Margin="0,25,0,0"
@@ -82,20 +82,7 @@
 						x:Uid="AboutCapabilityTileUpdater"
 						Margin="0,12,0,0"
 						Style="{StaticResource AppDescriptionsStyle}"/>
-					<StackPanel Margin="0,12,0,0" Orientation="Horizontal">
-						<TextBlock
-							x:Uid="AboutPoweredBy"
-							FontSize="14"
-							VerticalAlignment="Center"
-							Style="{StaticResource AppDescriptionsStyle}" />
-						<HyperlinkButton x:ConnectionId='9'
-							Margin="6,0,0,0"
-							Content="Windows App Studio"
-							VerticalAlignment="Center"
-							                                                            
-							Style="{StaticResource HyperlinkStyle}"/>
-					</StackPanel>
-				</StackPanel>
+                </StackPanel>
 			</StackPanel>
         </ScrollViewer>
     </Grid>    

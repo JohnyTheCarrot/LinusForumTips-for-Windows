@@ -39,14 +39,15 @@
 			ErrorColor="{StaticResource DescriptionForeground}"
 			                                                                                                                         
 			Margin="10,0,18,0"/>
-		<list_layouts:ListBigVerticalCard x:ConnectionId='4'
+        <list_layouts:ListBigVerticalCard x:ConnectionId='4'
             Grid.Row="1"
             OneRowModeEnabled="False"
                                                   
                                                                   
                                                                        >
         </list_layouts:ListBigVerticalCard>
-		<Grid x:ConnectionId='5'
+ 
+        <Grid x:ConnectionId='5'
 			Grid.Row="1"
             VerticalAlignment="Top"
                                                                                                                                               >
@@ -58,7 +59,18 @@
                 IsIndeterminate="True"
                 Foreground="{StaticResource DescriptionForeground}"/>
         </Grid>
-		<ProgressBar x:ConnectionId='6'
+        <was_controls:SectionListItem                
+                DataContext="{Binding SectionAd}"
+                HeaderLinkVisibility="Collapsed"
+                TitleVisibility="Visible"
+                ErrorVisibility="Collapsed"
+                LoadingVisibility="Collapsed"
+                ManageLoading="False" Margin="0,12,0,0">
+            <DataTemplate>
+                <controls:AdvertisingControl/>
+            </DataTemplate>
+        </was_controls:SectionListItem>
+        <ProgressBar x:ConnectionId='6'
             Grid.Row="2"
             Margin="0,6,0,6"
             IsIndeterminate="True"

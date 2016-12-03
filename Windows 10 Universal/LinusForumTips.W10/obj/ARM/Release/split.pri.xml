@@ -325,6 +325,11 @@
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="Layouts">
 				<ResourceMapSubtree name="Controls">
+					<NamedResource name="AdvertisingControl.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/Controls/AdvertisingControl.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
 					<NamedResource name="DataUpdateInformationControl.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/Controls/DataUpdateInformationControl.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
@@ -673,6 +678,11 @@
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Microsoft.Advertising.winmd" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/WinMetadata/Microsoft.Advertising.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Microsoft.Advertising.winmd</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="Windows.winmd" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/WinMetadata/Windows.winmd">
 					<Candidate type="Path">
 						<Value>WinMetadata\Windows.winmd</Value>

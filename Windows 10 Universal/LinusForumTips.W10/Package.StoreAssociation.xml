@@ -371,11 +371,5 @@
     <MainPackageIdentityName>52729AluminiumTech.LearnFusion360</MainPackageIdentityName>
     <MainPackageIdentityName>52729AluminiumTech.LinusForumTipsMessenger</MainPackageIdentityName>
   </AccountPackageIdentityNames>
-  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9NBLGGH4R4W0">
-    <PackageInfo>
-      <OsMinVersion>6.3.0.0</OsMinVersion>
-      <PackageArchitecture>neutral</PackageArchitecture>
-      <PackageMaxArchitectureVersion>1.0.0.0</PackageMaxArchitectureVersion>
-    </PackageInfo>
-  </PackageInfoList>
+  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9NBLGGH4R4W0" />
 </StoreAssociation>

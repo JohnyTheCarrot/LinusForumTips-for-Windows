@@ -6,7 +6,7 @@
     <autoResourcePackage qualifier="DXFeatureLevel" />
     <omitSchemaFromResourcePacks />
   </packaging>
-  <index root="\" startIndexAt="C:\Users\alast\Downloads\LinusForumTips.Source-v1.6.2.0\LinusForumTips.W10\bin\ARM\Release\ilc\resources.pri">
+  <index root="\" startIndexAt="C:\Users\alast\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\resources.pri">
     <default>
       <qualifier name="Language" value="en-us" />
       <qualifier name="Contrast" value="standard" />
