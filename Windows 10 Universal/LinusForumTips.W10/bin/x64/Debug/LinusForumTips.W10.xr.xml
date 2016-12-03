@@ -85,7 +85,6 @@
     <RootPropertyPathName Name="LinusTechTipsVideos" />
     <RootPropertyPathName Name="FullScreenCommand" />
     <RootPropertyPathName Name="ShowInfoCommand" />
-    <RootPropertyPathName Name="ApplyFontSizeCommand" />
     <RootPropertyPathName Name="Share" />
     <RootPropertyPathName Name="Caption" />
     <RootPropertyPathName Name="Image" />
@@ -604,7 +603,6 @@
       <RootProperty Name="Command" />
       <RootProperty Name="Style" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="CommandParameter" />
     </RootType>
     <RootType FullName="LinusForumTips.Pages.LinusTechTipsVideosDetailPage" />
     <RootType FullName="LinusForumTips.Pages.WanShowArchiveDetailPage" />

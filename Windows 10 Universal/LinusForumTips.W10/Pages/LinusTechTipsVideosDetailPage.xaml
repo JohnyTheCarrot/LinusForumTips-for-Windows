@@ -44,7 +44,6 @@
                     Command="{Binding Source={StaticResource ActionCommands}, Path=Share}"
                     Foreground="{StaticResource AppBarForeground}"
                     Style="{StaticResource WasAppBarButtonStyle}"/>
-                </AppBarButton>
             </was_actions:ActionsCommandBar.SecondaryCommands>
         </was_actions:ActionsCommandBar>
     </was_controls:ShellControl.CommandBar>

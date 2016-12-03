@@ -1,5 +1,5 @@
-<Page
-    x:Class="LinusForumTips.Pages.GuidesAndTutorialsDetailPage"
+﻿<Page x:ConnectionId='1'
+    x:Class="LinusForumTips.Pages.BuildLogsDetailPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -18,7 +18,7 @@
 
 
 	<was_controls:ShellControl.CommandBar>
-        <was_actions:ActionsCommandBar
+        <was_actions:ActionsCommandBar x:ConnectionId='2'
             x:Name="commandBar"
             ActionsSource="{Binding SelectedItem.Actions}"
             Style="{StaticResource WasCommandBarStyle}"
@@ -49,6 +49,7 @@
     </was_controls:ShellControl.CommandBar>
     
     <Grid Background="{StaticResource AppBackground}">
-        <layouts:YouTubeDetailLayout ViewModel="{x:Bind ViewModel}" />
+        <layouts:YouTubeDetailLayout x:ConnectionId='3'                                />
     </Grid>
 </Page>
+
