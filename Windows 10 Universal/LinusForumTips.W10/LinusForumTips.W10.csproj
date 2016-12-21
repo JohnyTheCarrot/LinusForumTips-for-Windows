@@ -445,7 +445,6 @@
     <Compile Include="DesignTime\DesignViewModel.cs" />
     <Compile Include="Layouts\List\ListLayoutBase.cs" />
     <Compile Include="Services\DeviceFamilyService.cs" />
-    <Compile Include="ViewModels\AdvertisingViewModel.cs" />
     <Compile Include="ViewModels\GroupedItemViewModel.cs" />
     <Compile Include="Services\RoamingService.cs" />
     <Compile Include="Extensions\DateTimeExtensions.cs" />
@@ -474,7 +473,6 @@
     <Compile Include="ViewModels\ListViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\PrivacyViewModel.cs" />
-    <Compile Include="ViewModels\SearchViewModel.cs" />
     <Compile Include="Sections\LinusTechTipsVideosSection.cs" />
     <Compile Include="Sections\WanShowArchiveSection.cs" />
     <Compile Include="Sections\TechquickieVideosSection.cs" />

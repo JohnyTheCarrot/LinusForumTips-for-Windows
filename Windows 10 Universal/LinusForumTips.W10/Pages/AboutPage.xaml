@@ -49,54 +49,33 @@
                     x:Uid="PrivacyTermsButton"
                     NavigateUri="{x:Bind AboutThisAppModel.Privacy}"
                     Style="{StaticResource HyperlinkStyle}"/>
-				<HyperlinkButton                    
+                <HyperlinkButton                    
                         x:Uid="AboutViewMoreInformation"
                         Style="{StaticResource HyperlinkStyle}"
                         Visibility="{x:Bind AboutThisAppModel.IsMoreInfoVisible, Mode=OneWay, Converter={StaticResource BoolToVisibilityConverter}, ConverterParameter=true}"
                         Command="{x:Bind AboutThisAppModel.ViewMoreInfoCommand, Mode=OneWay}"/>
                 <StackPanel
                     Visibility="{x:Bind AboutThisAppModel.IsMoreInfoVisible, Mode=OneWay, Converter={StaticResource BoolToVisibilityConverter}}">
-					<TextBlock
+                    <TextBlock
 						x:Uid="AboutSectionLicenses"
 						Margin="0,25,0,0"
 						FontWeight="Bold"
 						Style="{StaticResource AppDescriptionsStyle}"/>
-					<HyperlinkButton                    
-						x:Uid="AboutAppStudioOpenSourceLibraries"                    
-						NavigateUri="{x:Bind AboutThisAppModel.WasLibs}"
-						Style="{StaticResource HyperlinkStyle}"/>
-					<HyperlinkButton
+                    <HyperlinkButton
 						Content="Newtonsoft JSON"
 						NavigateUri="{x:Bind AboutThisAppModel.NewtonsoftWeb}"
 						Style="{StaticResource HyperlinkStyle}"/>
-					<TextBlock
+                    <TextBlock
 						x:Uid="AboutSectionCapabilities"
 						Margin="0,25,0,0"
 						FontWeight="Bold"
 						Style="{StaticResource AppDescriptionsStyle}"/>
-					<TextBlock
+                    <TextBlock
 						x:Uid="AboutCapabilityInternet"
 						Margin="0,12,0,0"
 						Style="{StaticResource AppDescriptionsStyle}"/>
-					<TextBlock
-						x:Uid="AboutCapabilityTileUpdater"
-						Margin="0,12,0,0"
-						Style="{StaticResource AppDescriptionsStyle}"/>
-					<StackPanel Margin="0,12,0,0" Orientation="Horizontal">
-						<TextBlock
-							x:Uid="AboutPoweredBy"
-							FontSize="14"
-							VerticalAlignment="Center"
-							Style="{StaticResource AppDescriptionsStyle}" />
-						<HyperlinkButton
-							Margin="6,0,0,0"
-							Content="Windows App Studio"
-							VerticalAlignment="Center"
-							NavigateUri="{x:Bind AboutThisAppModel.WindowsAppStudioWeb}"
-							Style="{StaticResource HyperlinkStyle}"/>
-					</StackPanel>
-				</StackPanel>
-			</StackPanel>
+                </StackPanel>
+            </StackPanel>
         </ScrollViewer>
     </Grid>    
 </Page>
