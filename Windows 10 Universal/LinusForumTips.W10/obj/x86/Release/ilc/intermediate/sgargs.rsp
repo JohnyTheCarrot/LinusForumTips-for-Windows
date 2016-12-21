@@ -1,0 +1,10 @@
+/out:"D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\obj\x86\Release\ilc\intermediate\SgGenerated\\"
+/int:"D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\obj\x86\Release\ilc\intermediate\\"
+/ref:"D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\\"
+/ref:"D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\obj\x86\Release\ilc\intermediate\TransformedSRWR\\"
+/ref:"D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\obj\x86\Release\ilc\in\\"
+/ref:"D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\obj\x86\Release\ilc\in\\"
+/ref:"D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\obj\x86\Release\ilc\in\\"
+/ref:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\x86\ilc\lib\Private\\"
+/ref:"D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\obj\x86\Release\ilc\in\WinMetadata\\"
+/ca:System.Private.CoreLib
