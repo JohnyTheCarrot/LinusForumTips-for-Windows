@@ -18,6 +18,7 @@ This would allow customers to be able to be able to project videos wireless from
 * [Link to support article (Advanced)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AdvancedCasting)
 
 ### Crossplatform Controller support (May come in version 1.10.0)
+* [Link to support article](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlGamepadNavigation)
 
 ### Background Media Playback support (May come in version 1.8.0)
 * [Link to support article](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundMediaPlayback)
