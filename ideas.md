@@ -38,3 +38,34 @@ This would allow customers to be able to be able to project videos wireless from
 * *3 Requires a device with Windows Inking Capabilities.
 * *4 Available only to customers runnign Windows 10 Build 105896 or newer.
 * *5 Requires Miracast hardware on both the device and the display.
+
+## Other potentially useful links
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Nfc
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VideoPlayback
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VideoPlaybackSynchronization
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/VersionAdaptiveCode
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlCustomMediaTransportControls
+https://github.com/Microsoft/Windows-task-snippets/blob/1a40a94cab7db26494920f67fa3c1273698f7c8e/tasks/Location-of-device.md
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlDragAndDrop
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Compression
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BackgroundTransfer
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BarcodeScanner
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Compression
+https://github.com/Microsoft/Windows-task-snippets/blob/1a40a94cab7db26494920f67fa3c1273698f7c8e/tasks/File-exists.md
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MessageDialog
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/MapControl
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/ResizeAppView
+
+Camera Stuff
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraVideoStabilization
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraProfile
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraResolution
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraGetPreviewFrame
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicFaceDetection
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraStarterKit
+
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraAdvancedCapture
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraFaceDetection
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraFaceDetection
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/BasicFaceTracking
+https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CameraFrames
