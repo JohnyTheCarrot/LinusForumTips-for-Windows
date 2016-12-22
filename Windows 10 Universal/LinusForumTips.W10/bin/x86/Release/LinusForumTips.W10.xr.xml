@@ -482,7 +482,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="NavigateUri" />
       <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="LinusForumTips.Layouts.Detail.RelatedContentDetailLayout" />
     <RootType FullName="LinusForumTips.Layouts.Controls.DataUpdateInformationControl">

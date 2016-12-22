@@ -5,7 +5,7 @@
     <autoResourcePackage qualifier="Scale" />
     <autoResourcePackage qualifier="DXFeatureLevel" />
   </packaging>
-  <index root="\" startIndexAt="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\resources.pri">
+  <index root="\" startIndexAt="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\resources.pri">
     <default>
       <qualifier name="Language" value="en-us" />
       <qualifier name="Contrast" value="standard" />

@@ -1,5 +1,5 @@
-/In:"D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\obj\x64\Release\ilc\in"
-/Lib:"D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\obj\x64\Release\ilc\in"
+/In:"D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\ilc\in"
+/Lib:"D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\ilc\in"
 /Lib:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\x64\ilc\lib\Private"
 /Lib:"C:\Program Files (x86)\Windows Kits\10\References\Windows.ApplicationModel.Activation.WebUISearchActivatedEventsContract\1.0.0.0"
 /Lib:"C:\Program Files (x86)\Windows Kits\10\References\Windows.ApplicationModel.Calls.Background.CallsBackgroundContract\1.0.0.0"
@@ -20,6 +20,6 @@
 /Lib:"C:\Program Files (x86)\Windows Kits\10\References\Windows.System.Profile.ProfileRetailInfoContract\1.0.0.0"
 /Lib:"C:\Program Files (x86)\Windows Kits\10\References\Windows.System.UserProfile.UserProfileContract\1.0.0.0"
 /Lib:"C:\Program Files (x86)\Windows Kits\10\References\Windows.UI.WebUI.Core.WebUICommandBarContract\1.0.0.0"
-/WinMD:"D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
+/WinMD:"D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
 /RdXmlPath:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\LibraryXML"
 /RunOnlyPreDR

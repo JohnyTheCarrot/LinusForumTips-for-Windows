@@ -10,156 +10,156 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>50ae11e2-7941-4891-b11a-28ce61fd273b</PackageIdentityName>
     <PackageIdentityPublisher>CN=7597FB63-211E-47C3-95FB-0206DFA089D9</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\obj\ARM\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\ARM\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\about.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\about.png">
       <PackagePath>Assets\about.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\ApplicationLogo.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\ApplicationLogo.png">
       <PackagePath>Assets\ApplicationLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\DarkGray.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\DarkGray.png">
       <PackagePath>Assets\Design\DarkGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\DesignData.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\DesignData.json">
       <PackagePath>Assets\Design\DesignData.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\DesignDataHtml.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\DesignDataHtml.json">
       <PackagePath>Assets\Design\DesignDataHtml.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\DesignDataMenu.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\DesignDataMenu.json">
       <PackagePath>Assets\Design\DesignDataMenu.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\DesignDataTD.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\DesignDataTD.json">
       <PackagePath>Assets\Design\DesignDataTD.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\DetailDesignData.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\DetailDesignData.json">
       <PackagePath>Assets\Design\DetailDesignData.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\LightGray.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\LightGray.png">
       <PackagePath>Assets\Design\LightGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\MediumGray.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Design\MediumGray.png">
       <PackagePath>Assets\Design\MediumGray.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\RelatedContentVBP.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\RelatedContentVBP.json">
       <PackagePath>Assets\RelatedContentVBP.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Square310x310Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Square310x310Logo.scale-100.png">
       <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Square71x71Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Square71x71Logo.scale-100.png">
       <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\ClrCompression.dll">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\ClrCompression.dll">
       <PackagePath>ClrCompression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\Detail\MulticolumnLayout.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\Detail\MulticolumnLayout.json">
       <PackagePath>Layouts\Detail\MulticolumnLayout.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\Detail\TextDetailLayout.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\Detail\TextDetailLayout.json">
       <PackagePath>Layouts\Detail\TextDetailLayout.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Large.ContactCard.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Large.ContactCard.json">
       <PackagePath>Layouts\List\Breakpoints.Large.ContactCard.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Large.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Large.json">
       <PackagePath>Layouts\List\Breakpoints.Large.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Large.ListBigHorizontalCard.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Large.ListBigHorizontalCard.json">
       <PackagePath>Layouts\List\Breakpoints.Large.ListBigHorizontalCard.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Large.ListBigHorizontalCardBox.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Large.ListBigHorizontalCardBox.json">
       <PackagePath>Layouts\List\Breakpoints.Large.ListBigHorizontalCardBox.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Large.ListBigHorizontalCardGroupedHome.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Large.ListBigHorizontalCardGroupedHome.json">
       <PackagePath>Layouts\List\Breakpoints.Large.ListBigHorizontalCardGroupedHome.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.ListGrouped.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.ListGrouped.json">
       <PackagePath>Layouts\List\Breakpoints.ListGrouped.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.json">
       <PackagePath>Layouts\List\Breakpoints.Medium.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.ListBigVerticalCard.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.ListBigVerticalCard.json">
       <PackagePath>Layouts\List\Breakpoints.Medium.ListBigVerticalCard.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.ListBigVerticalCardBox.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.ListBigVerticalCardBox.json">
       <PackagePath>Layouts\List\Breakpoints.Medium.ListBigVerticalCardBox.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.ListTextCard.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.ListTextCard.json">
       <PackagePath>Layouts\List\Breakpoints.Medium.ListTextCard.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.MenuBig.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.MenuBig.json">
       <PackagePath>Layouts\List\Breakpoints.Medium.MenuBig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.MenuMedium.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.MenuMedium.json">
       <PackagePath>Layouts\List\Breakpoints.Medium.MenuMedium.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.MenuSmall.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.MenuSmall.json">
       <PackagePath>Layouts\List\Breakpoints.Medium.MenuSmall.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.MenuText.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.MenuText.json">
       <PackagePath>Layouts\List\Breakpoints.Medium.MenuText.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.Photo.json">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\Layouts\List\Breakpoints.Medium.Photo.json">
       <PackagePath>Layouts\List\Breakpoints.Medium.Photo.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\LinusForumTips.W10.dll">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\LinusForumTips.W10.dll">
       <PackagePath>LinusForumTips.W10.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\LinusForumTips.W10.exe">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\LinusForumTips.W10.exe">
       <PackagePath>LinusForumTips.W10.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\LinusForumTips.W10.pdb">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\LinusForumTips.W10.pdb">
       <PackagePath>LinusForumTips.W10.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\_Resources\0.rsrc">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\_Resources\0.rsrc">
       <PackagePath>_Resources\0.rsrc</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\_Resources\1.rsrc">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\_Resources\1.rsrc">
       <PackagePath>_Resources\1.rsrc</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\_Resources\2.rsrc">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\_Resources\2.rsrc">
       <PackagePath>_Resources\2.rsrc</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\bin\ARM\Release\ilc\_Resources\index.txt">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\ilc\_Resources\index.txt">
       <PackagePath>_Resources\index.txt</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

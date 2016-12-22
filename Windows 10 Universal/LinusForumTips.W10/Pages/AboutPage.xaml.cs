@@ -1,13 +1,3 @@
-//---------------------------------------------------------------------------
-//
-// <copyright file="AboutPage.xaml.cs" company="Microsoft">
-//    Copyright (C) 2015 by Microsoft Corporation.  All rights reserved.
-// </copyright>
-//
-// <createdOn>12/20/2016 2:44:50 AM</createdOn>
-//
-//---------------------------------------------------------------------------
-
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 using LinusForumTips.ViewModels;

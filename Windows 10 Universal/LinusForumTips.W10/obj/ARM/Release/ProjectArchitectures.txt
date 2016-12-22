@@ -1,1 +1,1 @@
-D:\Downloads\LinusForumTips.Source-v1.7.3.0\LinusForumTips.W10\LinusForumTips.W10.csproj;arm
+D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\LinusForumTips.W10.csproj;arm
