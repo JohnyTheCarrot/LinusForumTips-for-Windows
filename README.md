@@ -7,7 +7,6 @@ The Windows 10 UWP and Windows Phone 8.1 Linus Forum Tips Apps.
 * Windows 10 64 Bit (Build 14393 recommended)
 * [Visual Studio 2015 Community](https://www.visualstudio.com/vs/)
 * Windows 10 SDKs (10240, 10586 and 14393)
-* Windows Phone 8.1 and Windows 8.1 SDK
 
 ### Hardware requirements
 * At least 4GB RAM (8GB recommended)
