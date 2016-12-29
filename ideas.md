@@ -1,4 +1,4 @@
-## Ideas for the Windows 10 App
+## Ideas for the Windows 10 UWP App
 
 ### Annotation support using Windows Inking*1 (May come in Version 1.12.0)
 This would add a new button in the appbar/commandbar and would pause any video being 
@@ -28,9 +28,6 @@ This would allow customers to be able to be able to project videos wireless from
 
 ### Allow Pull to refresh on Touchscreen devices (May come in 1.9.0)
 * [Link to support article](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/XamlPullToRefresh)
-
-## Ideas for the Windows Phone 8.1 App
-
 
 ## Notes
 * *1 Available only to customers running Windows 10 Build 14393 or newer.
