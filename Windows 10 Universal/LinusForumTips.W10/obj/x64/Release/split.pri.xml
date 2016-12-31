@@ -1,155 +1,156 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PriInfo>
-	<ResourceMap name="52729AluminiumTech.LinusForumTipsMessenger" version="1.0" primary="true">
+	<ResourceMap name="52729AluminiumTech.LinusForumTips" version="1.0" primary="true">
 		<Qualifiers>
 			<Scale>100</Scale>
+			<TargetSize>16,48</TargetSize>
 		</Qualifiers>
 		<ResourceMapSubtree name="Files">
-			<NamedResource name="App.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/App.xbf">
+			<NamedResource name="App.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/App.xbf">
 				<Candidate type="EmbeddedData">
 					<Base64Value>[Embedded Binary Data]</Base64Value>
 				</Candidate>
 			</NamedResource>
-			<NamedResource name="LinusForumTips.W10.xr.xml" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/LinusForumTips.W10.xr.xml">
+			<NamedResource name="LinusForumTips.W10.xr.xml" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/LinusForumTips.W10.xr.xml">
 				<Candidate type="Path">
 					<Value>LinusForumTips.W10.xr.xml</Value>
 				</Candidate>
 			</NamedResource>
 			<ResourceMapSubtree name="AppStudio.Uwp">
-				<NamedResource name="AppStudio.Uwp.xr.xml" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/AppStudio.Uwp.xr.xml">
+				<NamedResource name="AppStudio.Uwp.xr.xml" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/AppStudio.Uwp.xr.xml">
 					<Candidate type="Path">
 						<Value>AppStudio.Uwp\AppStudio.Uwp.xr.xml</Value>
 					</Candidate>
 				</NamedResource>
 				<ResourceMapSubtree name="Controls">
 					<ResourceMapSubtree name="Carousel">
-						<NamedResource name="Carousel.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/Carousel/Carousel.xbf">
+						<NamedResource name="Carousel.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/Carousel/Carousel.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="ErrorNotificationControl">
-						<NamedResource name="ErrorNotificationControl.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/ErrorNotificationControl/ErrorNotificationControl.xbf">
+						<NamedResource name="ErrorNotificationControl.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/ErrorNotificationControl/ErrorNotificationControl.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="GifControl">
-						<NamedResource name="GifControl.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/GifControl/GifControl.xbf">
+						<NamedResource name="GifControl.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/GifControl/GifControl.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="HtmlBlock">
-						<NamedResource name="HtmlBlock.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/HtmlBlock/HtmlBlock.xbf">
+						<NamedResource name="HtmlBlock.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/HtmlBlock/HtmlBlock.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="HtmlViewer">
-						<NamedResource name="HtmlViewer.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/HtmlViewer/HtmlViewer.xbf">
+						<NamedResource name="HtmlViewer.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/HtmlViewer/HtmlViewer.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="ImageEx">
-						<NamedResource name="ImageEx.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/ImageEx/ImageEx.xbf">
+						<NamedResource name="ImageEx.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/ImageEx/ImageEx.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="Indicator">
-						<NamedResource name="Indicator.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/Indicator/Indicator.xbf">
+						<NamedResource name="Indicator.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/Indicator/Indicator.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="Pivorama">
-						<NamedResource name="Pivorama.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/Pivorama/Pivorama.xbf">
+						<NamedResource name="Pivorama.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/Pivorama/Pivorama.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="PropertySet">
-						<NamedResource name="PropertySet.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/PropertySet/PropertySet.xbf">
+						<NamedResource name="PropertySet.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/PropertySet/PropertySet.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="Relativebox">
-						<NamedResource name="Relativebox.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/Relativebox/Relativebox.xbf">
+						<NamedResource name="Relativebox.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/Relativebox/Relativebox.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="ResponsiveGridView">
-						<NamedResource name="ResponsiveGridView.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/ResponsiveGridView/ResponsiveGridView.xbf">
+						<NamedResource name="ResponsiveGridView.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/ResponsiveGridView/ResponsiveGridView.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="RoundButton">
-						<NamedResource name="RoundButton.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/RoundButton/RoundButton.xbf">
+						<NamedResource name="RoundButton.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/RoundButton/RoundButton.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="SearchBox">
-						<NamedResource name="SearchBox.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/SearchBox/SearchBox.xbf">
+						<NamedResource name="SearchBox.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/SearchBox/SearchBox.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="SectionList">
-						<NamedResource name="SectionList.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/SectionList/SectionList.xbf">
+						<NamedResource name="SectionList.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/SectionList/SectionList.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="ShellControl">
-						<NamedResource name="ShellControl.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/ShellControl/ShellControl.xbf">
+						<NamedResource name="ShellControl.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/ShellControl/ShellControl.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="SliderView">
-						<NamedResource name="SliderView.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/SliderView/SliderView.xbf">
+						<NamedResource name="SliderView.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/SliderView/SliderView.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="SplitterCard">
-						<NamedResource name="SplitterCard.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/SplitterCard/SplitterCard.xbf">
+						<NamedResource name="SplitterCard.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/SplitterCard/SplitterCard.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="VariableSizedGrid">
-						<NamedResource name="VariableSizedGrid.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/VariableSizedGrid/VariableSizedGrid.xbf">
+						<NamedResource name="VariableSizedGrid.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/VariableSizedGrid/VariableSizedGrid.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="Virtualbox">
-						<NamedResource name="Virtualbox.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Controls/Virtualbox/Virtualbox.xbf">
+						<NamedResource name="Virtualbox.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Controls/Virtualbox/Virtualbox.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
@@ -158,56 +159,56 @@
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="Labs">
 					<ResourceMapSubtree name="Accordion">
-						<NamedResource name="Accordion.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Labs/Accordion/Accordion.xbf">
+						<NamedResource name="Accordion.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Labs/Accordion/Accordion.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="AutoHide">
-						<NamedResource name="AutoHide.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Labs/AutoHide/AutoHide.xbf">
+						<NamedResource name="AutoHide.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Labs/AutoHide/AutoHide.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="Mosaic">
-						<NamedResource name="Mosaic.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Labs/Mosaic/Mosaic.xbf">
+						<NamedResource name="Mosaic.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Labs/Mosaic/Mosaic.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="ResponsiveGridView">
-						<NamedResource name="ResponsiveGridView.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Labs/ResponsiveGridView/ResponsiveGridView.xbf">
+						<NamedResource name="ResponsiveGridView.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Labs/ResponsiveGridView/ResponsiveGridView.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="ResponsiveRow">
-						<NamedResource name="ResponsiveRow.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Labs/ResponsiveRow/ResponsiveRow.xbf">
+						<NamedResource name="ResponsiveRow.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Labs/ResponsiveRow/ResponsiveRow.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="ResponsiveTextBlock">
-						<NamedResource name="ResponsiveTextBlock.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Labs/ResponsiveTextBlock/ResponsiveTextBlock.xbf">
+						<NamedResource name="ResponsiveTextBlock.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Labs/ResponsiveTextBlock/ResponsiveTextBlock.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="ShapeImage">
-						<NamedResource name="ShapeImage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Labs/ShapeImage/ShapeImage.xbf">
+						<NamedResource name="ShapeImage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Labs/ShapeImage/ShapeImage.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
 						</NamedResource>
 					</ResourceMapSubtree>
 					<ResourceMapSubtree name="SlideShow">
-						<NamedResource name="SlideShow.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Labs/SlideShow/SlideShow.xbf">
+						<NamedResource name="SlideShow.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Labs/SlideShow/SlideShow.xbf">
 							<Candidate type="EmbeddedData">
 								<Base64Value>[Embedded Binary Data]</Base64Value>
 							</Candidate>
@@ -215,14 +216,14 @@
 					</ResourceMapSubtree>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="Properties">
-					<NamedResource name="AppStudio.Uwp.rd.xml" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Properties/AppStudio.Uwp.rd.xml">
+					<NamedResource name="AppStudio.Uwp.rd.xml" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Properties/AppStudio.Uwp.rd.xml">
 						<Candidate type="Path">
 							<Value>AppStudio.Uwp\Properties\AppStudio.Uwp.rd.xml</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="Themes">
-					<NamedResource name="Generic.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/AppStudio.Uwp/Themes/Generic.xbf">
+					<NamedResource name="Generic.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/AppStudio.Uwp/Themes/Generic.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
@@ -230,306 +231,282 @@
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="Assets">
-				<NamedResource name="about.png" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/about.png">
+				<NamedResource name="about.png" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/about.png">
 					<Candidate type="Path">
 						<Value>Assets\about.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="ApplicationLogo.png" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/ApplicationLogo.png">
+				<NamedResource name="ApplicationLogo.png" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/ApplicationLogo.png">
 					<Candidate type="Path">
 						<Value>Assets\ApplicationLogo.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="RelatedContentVBP.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/RelatedContentVBP.json">
+				<NamedResource name="RelatedContentVBP.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/RelatedContentVBP.json">
 					<Candidate type="Path">
 						<Value>Assets\RelatedContentVBP.json</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="SplashScreen.png" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/SplashScreen.png">
+				<NamedResource name="SplashScreen.png" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/SplashScreen.png">
 					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
 						<Value>Assets\SplashScreen.scale-100.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="Square150x150Logo.png" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Square150x150Logo.png">
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/Square150x150Logo.png">
 					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
 						<Value>Assets\Square150x150Logo.scale-100.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="Square310x310Logo.png" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Square310x310Logo.png">
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/Square310x310Logo.png">
 					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
 						<Value>Assets\Square310x310Logo.scale-100.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="Square44x44Logo.png" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Square44x44Logo.png">
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
+					</Candidate>
 					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
 						<Value>Assets\Square44x44Logo.scale-100.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="Square71x71Logo.png" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Square71x71Logo.png">
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/Square71x71Logo.png">
 					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
 						<Value>Assets\Square71x71Logo.scale-100.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="StoreLogo.png" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/StoreLogo.png">
+				<NamedResource name="StoreLogo.png" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/StoreLogo.png">
 					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
 						<Value>Assets\StoreLogo.scale-100.png</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Wide310x150Logo.png">
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/Wide310x150Logo.png">
 					<Candidate qualifiers="Scale-100" isDefault="true" type="Path">
 						<Value>Assets\Wide310x150Logo.scale-100.png</Value>
 					</Candidate>
 				</NamedResource>
 				<ResourceMapSubtree name="Design">
-					<NamedResource name="DarkGray.png" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Design/DarkGray.png">
-						<Candidate type="Path">
-							<Value>Assets\Design\DarkGray.png</Value>
-						</Candidate>
-					</NamedResource>
-					<NamedResource name="DesignData.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Design/DesignData.json">
+					<NamedResource name="DesignData.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/Design/DesignData.json">
 						<Candidate type="Path">
 							<Value>Assets\Design\DesignData.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="DesignDataHtml.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Design/DesignDataHtml.json">
+					<NamedResource name="DesignDataHtml.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/Design/DesignDataHtml.json">
 						<Candidate type="Path">
 							<Value>Assets\Design\DesignDataHtml.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="DesignDataMenu.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Design/DesignDataMenu.json">
+					<NamedResource name="DesignDataMenu.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/Design/DesignDataMenu.json">
 						<Candidate type="Path">
 							<Value>Assets\Design\DesignDataMenu.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="DesignDataTD.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Design/DesignDataTD.json">
+					<NamedResource name="DesignDataTD.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/Design/DesignDataTD.json">
 						<Candidate type="Path">
 							<Value>Assets\Design\DesignDataTD.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="DetailDesignData.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Design/DetailDesignData.json">
+					<NamedResource name="DetailDesignData.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Assets/Design/DetailDesignData.json">
 						<Candidate type="Path">
 							<Value>Assets\Design\DetailDesignData.json</Value>
-						</Candidate>
-					</NamedResource>
-					<NamedResource name="LightGray.png" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Design/LightGray.png">
-						<Candidate type="Path">
-							<Value>Assets\Design\LightGray.png</Value>
-						</Candidate>
-					</NamedResource>
-					<NamedResource name="MediumGray.png" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Assets/Design/MediumGray.png">
-						<Candidate type="Path">
-							<Value>Assets\Design\MediumGray.png</Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="Layouts">
 				<ResourceMapSubtree name="Controls">
-					<NamedResource name="DataUpdateInformationControl.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/Controls/DataUpdateInformationControl.xbf">
+					<NamedResource name="DataUpdateInformationControl.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/Controls/DataUpdateInformationControl.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="HeroImage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/Controls/HeroImage.xbf">
+					<NamedResource name="HeroImage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/Controls/HeroImage.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="SectionListItemHeader.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/Controls/SectionListItemHeader.xbf">
+					<NamedResource name="SectionListItemHeader.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/Controls/SectionListItemHeader.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="Detail">
-					<NamedResource name="MultiColumnDetailLayout.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/Detail/MultiColumnDetailLayout.xbf">
+					<NamedResource name="MultiColumnDetailLayout.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/Detail/MultiColumnDetailLayout.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="MulticolumnLayout.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/Detail/MulticolumnLayout.json">
+					<NamedResource name="MulticolumnLayout.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/Detail/MulticolumnLayout.json">
 						<Candidate type="Path">
 							<Value>Layouts\Detail\MulticolumnLayout.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="PhotoDetailLayout.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/Detail/PhotoDetailLayout.xbf">
+					<NamedResource name="PhotoDetailLayout.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/Detail/PhotoDetailLayout.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="RelatedContentDetailLayout.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/Detail/RelatedContentDetailLayout.xbf">
+					<NamedResource name="RelatedContentDetailLayout.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/Detail/RelatedContentDetailLayout.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="TextDetailLayout.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/Detail/TextDetailLayout.json">
+					<NamedResource name="TextDetailLayout.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/Detail/TextDetailLayout.json">
 						<Candidate type="Path">
 							<Value>Layouts\Detail\TextDetailLayout.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="TextDetailLayout.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/Detail/TextDetailLayout.xbf">
+					<NamedResource name="TextDetailLayout.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/Detail/TextDetailLayout.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="YouTubeDetailLayout.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/Detail/YouTubeDetailLayout.xbf">
+					<NamedResource name="YouTubeDetailLayout.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/Detail/YouTubeDetailLayout.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
 				<ResourceMapSubtree name="List">
-					<NamedResource name="Breakpoints.Large.ContactCard.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Large.ContactCard.json">
+					<NamedResource name="Breakpoints.Large.ContactCard.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Large.ContactCard.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Large.ContactCard.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Large.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Large.json">
+					<NamedResource name="Breakpoints.Large.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Large.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Large.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Large.ListBigHorizontalCard.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Large.ListBigHorizontalCard.json">
+					<NamedResource name="Breakpoints.Large.ListBigHorizontalCard.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Large.ListBigHorizontalCard.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Large.ListBigHorizontalCard.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Large.ListBigHorizontalCardBox.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Large.ListBigHorizontalCardBox.json">
+					<NamedResource name="Breakpoints.Large.ListBigHorizontalCardBox.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Large.ListBigHorizontalCardBox.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Large.ListBigHorizontalCardBox.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Large.ListBigHorizontalCardGroupedHome.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Large.ListBigHorizontalCardGroupedHome.json">
+					<NamedResource name="Breakpoints.Large.ListBigHorizontalCardGroupedHome.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Large.ListBigHorizontalCardGroupedHome.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Large.ListBigHorizontalCardGroupedHome.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.ListGrouped.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.ListGrouped.json">
+					<NamedResource name="Breakpoints.ListGrouped.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.ListGrouped.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.ListGrouped.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Medium.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Medium.json">
+					<NamedResource name="Breakpoints.Medium.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Medium.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Medium.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Medium.ListBigVerticalCard.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Medium.ListBigVerticalCard.json">
+					<NamedResource name="Breakpoints.Medium.ListBigVerticalCard.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Medium.ListBigVerticalCard.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Medium.ListBigVerticalCard.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Medium.ListBigVerticalCardBox.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Medium.ListBigVerticalCardBox.json">
+					<NamedResource name="Breakpoints.Medium.ListBigVerticalCardBox.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Medium.ListBigVerticalCardBox.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Medium.ListBigVerticalCardBox.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Medium.ListTextCard.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Medium.ListTextCard.json">
+					<NamedResource name="Breakpoints.Medium.ListTextCard.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Medium.ListTextCard.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Medium.ListTextCard.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Medium.MenuBig.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Medium.MenuBig.json">
+					<NamedResource name="Breakpoints.Medium.MenuBig.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Medium.MenuBig.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Medium.MenuBig.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Medium.MenuMedium.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Medium.MenuMedium.json">
+					<NamedResource name="Breakpoints.Medium.MenuMedium.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Medium.MenuMedium.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Medium.MenuMedium.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Medium.MenuSmall.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Medium.MenuSmall.json">
+					<NamedResource name="Breakpoints.Medium.MenuSmall.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Medium.MenuSmall.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Medium.MenuSmall.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Medium.MenuText.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Medium.MenuText.json">
+					<NamedResource name="Breakpoints.Medium.MenuText.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Medium.MenuText.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Medium.MenuText.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="Breakpoints.Medium.Photo.json" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/Breakpoints.Medium.Photo.json">
+					<NamedResource name="Breakpoints.Medium.Photo.json" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/Breakpoints.Medium.Photo.json">
 						<Candidate type="Path">
 							<Value>Layouts\List\Breakpoints.Medium.Photo.json</Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="CarouselBig.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/CarouselBig.xbf">
+					<NamedResource name="CarouselBig.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/CarouselBig.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="CarouselMedium.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/CarouselMedium.xbf">
+					<NamedResource name="CarouselMedium.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/CarouselMedium.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="HtmlSection.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/HtmlSection.xbf">
+					<NamedResource name="HtmlSection.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/HtmlSection.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="ListBigHorizontalCard.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/ListBigHorizontalCard.xbf">
+					<NamedResource name="ListBigHorizontalCard.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/ListBigHorizontalCard.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="ListBigHorizontalCardBox.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/ListBigHorizontalCardBox.xbf">
+					<NamedResource name="ListBigHorizontalCardBox.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/ListBigHorizontalCardBox.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="ListBigVerticalCard.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/ListBigVerticalCard.xbf">
+					<NamedResource name="ListBigVerticalCard.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/ListBigVerticalCard.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="ListBigVerticalCardBox.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/ListBigVerticalCardBox.xbf">
+					<NamedResource name="ListBigVerticalCardBox.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/ListBigVerticalCardBox.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="ListContactCard.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/ListContactCard.xbf">
+					<NamedResource name="ListContactCard.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/ListContactCard.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="ListGrouped.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/ListGrouped.xbf">
+					<NamedResource name="ListGrouped.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/ListGrouped.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="ListGroupedHome.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/ListGroupedHome.xbf">
+					<NamedResource name="ListGroupedHome.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/ListGroupedHome.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="ListPhoto.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/ListPhoto.xbf">
+					<NamedResource name="ListPhoto.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/ListPhoto.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="ListTextCard.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/ListTextCard.xbf">
+					<NamedResource name="ListTextCard.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/ListTextCard.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
 					</NamedResource>
-					<NamedResource name="MenuBig.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/MenuBig.xbf">
-						<Candidate type="EmbeddedData">
-							<Base64Value>[Embedded Binary Data]</Base64Value>
-						</Candidate>
-					</NamedResource>
-					<NamedResource name="MenuMedium.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/MenuMedium.xbf">
-						<Candidate type="EmbeddedData">
-							<Base64Value>[Embedded Binary Data]</Base64Value>
-						</Candidate>
-					</NamedResource>
-					<NamedResource name="MenuSmall.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/MenuSmall.xbf">
-						<Candidate type="EmbeddedData">
-							<Base64Value>[Embedded Binary Data]</Base64Value>
-						</Candidate>
-					</NamedResource>
-					<NamedResource name="MenuText.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Layouts/List/MenuText.xbf">
+					<NamedResource name="MenuText.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Layouts/List/MenuText.xbf">
 						<Candidate type="EmbeddedData">
 							<Base64Value>[Embedded Binary Data]</Base64Value>
 						</Candidate>
@@ -537,143 +514,143 @@
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="Pages">
-				<NamedResource name="AboutPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/AboutPage.xbf">
+				<NamedResource name="AboutPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/AboutPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="BuildGuidesDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/BuildGuidesDetailPage.xbf">
+				<NamedResource name="BuildGuidesDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/BuildGuidesDetailPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="BuildGuidesListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/BuildGuidesListPage.xbf">
+				<NamedResource name="BuildGuidesListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/BuildGuidesListPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="BuildLogsDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/BuildLogsDetailPage.xbf">
+				<NamedResource name="BuildLogsDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/BuildLogsDetailPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="BuildLogsListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/BuildLogsListPage.xbf">
+				<NamedResource name="BuildLogsListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/BuildLogsListPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="ChannelSuperFunVideosDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/ChannelSuperFunVideosDetailPage.xbf">
+				<NamedResource name="ChannelSuperFunVideosDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/ChannelSuperFunVideosDetailPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="ChannelSuperFunVideosListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/ChannelSuperFunVideosListPage.xbf">
+				<NamedResource name="ChannelSuperFunVideosListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/ChannelSuperFunVideosListPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="GuidesAndTutorialsDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/GuidesAndTutorialsDetailPage.xbf">
+				<NamedResource name="GuidesAndTutorialsDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/GuidesAndTutorialsDetailPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="GuidesAndTutorialsListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/GuidesAndTutorialsListPage.xbf">
+				<NamedResource name="GuidesAndTutorialsListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/GuidesAndTutorialsListPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="HomePage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/HomePage.xbf">
+				<NamedResource name="HomePage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/HomePage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="LinusTechTipsVideosDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/LinusTechTipsVideosDetailPage.xbf">
+				<NamedResource name="LinusTechTipsVideosDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/LinusTechTipsVideosDetailPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="LinusTechTipsVideosListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/LinusTechTipsVideosListPage.xbf">
+				<NamedResource name="LinusTechTipsVideosListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/LinusTechTipsVideosListPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="ShellPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/ShellPage.xbf">
+				<NamedResource name="ShellPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/ShellPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="TechquickieVideosDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/TechquickieVideosDetailPage.xbf">
+				<NamedResource name="TechquickieVideosDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/TechquickieVideosDetailPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="TechquickieVideosListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/TechquickieVideosListPage.xbf">
+				<NamedResource name="TechquickieVideosListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/TechquickieVideosListPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="WanShowArchiveDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/WanShowArchiveDetailPage.xbf">
+				<NamedResource name="WanShowArchiveDetailPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/WanShowArchiveDetailPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="WanShowArchiveListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Pages/WanShowArchiveListPage.xbf">
+				<NamedResource name="WanShowArchiveListPage.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Pages/WanShowArchiveListPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="Properties">
-				<NamedResource name="Default.rd.xml" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Properties/Default.rd.xml">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Properties/Default.rd.xml">
 					<Candidate type="Path">
 						<Value>Properties\Default.rd.xml</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="Styles">
-				<NamedResource name="AppBarButtons.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Styles/AppBarButtons.xbf">
+				<NamedResource name="AppBarButtons.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Styles/AppBarButtons.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="AppColors.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Styles/AppColors.xbf">
+				<NamedResource name="AppColors.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Styles/AppColors.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="AppTheme.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Styles/AppTheme.xbf">
+				<NamedResource name="AppTheme.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Styles/AppTheme.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="ButtonStyles.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Styles/ButtonStyles.xbf">
+				<NamedResource name="ButtonStyles.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Styles/ButtonStyles.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="DefaultTheme.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Styles/DefaultTheme.xbf">
+				<NamedResource name="DefaultTheme.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Styles/DefaultTheme.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="DetailStyles.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Styles/DetailStyles.xbf">
+				<NamedResource name="DetailStyles.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Styles/DetailStyles.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="FontSizes.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Styles/FontSizes.xbf">
+				<NamedResource name="FontSizes.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Styles/FontSizes.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="SectionListStyles.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/Styles/SectionListStyles.xbf">
+				<NamedResource name="SectionListStyles.xbf" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/Styles/SectionListStyles.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="WinMetadata">
-				<NamedResource name="Windows.winmd" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Files/WinMetadata/Windows.winmd">
+				<NamedResource name="Windows.winmd" uri="ms-resource://52729AluminiumTech.LinusForumTips/Files/WinMetadata/Windows.winmd">
 					<Candidate type="Path">
 						<Value>WinMetadata\Windows.winmd</Value>
 					</Candidate>
@@ -681,142 +658,142 @@
 			</ResourceMapSubtree>
 		</ResourceMapSubtree>
 		<ResourceMapSubtree name="Resources">
-			<NamedResource name="LoadingRelatedContent" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/LoadingRelatedContent">
+			<NamedResource name="LoadingRelatedContent" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/LoadingRelatedContent">
 				<Candidate type="String">
 					<Value>Loading...</Value>
 				</Candidate>
 			</NamedResource>
-			<NamedResource name="NarrationSubTitle" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/NarrationSubTitle">
+			<NamedResource name="NarrationSubTitle" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/NarrationSubTitle">
 				<Candidate type="String">
 					<Value>subtitle</Value>
 				</Candidate>
 			</NamedResource>
-			<NamedResource name="NarrationTitle" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/NarrationTitle">
+			<NamedResource name="NarrationTitle" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/NarrationTitle">
 				<Candidate type="String">
 					<Value>title</Value>
 				</Candidate>
 			</NamedResource>
-			<NamedResource name="NavigationPaneAbout" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/NavigationPaneAbout">
+			<NamedResource name="NavigationPaneAbout" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/NavigationPaneAbout">
 				<Candidate type="String">
 					<Value>About</Value>
 				</Candidate>
 			</NamedResource>
-			<NamedResource name="NavigationPanePrivacy" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/NavigationPanePrivacy">
+			<NamedResource name="NavigationPanePrivacy" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/NavigationPanePrivacy">
 				<Candidate type="String">
 					<Value>Privacy terms</Value>
 				</Candidate>
 			</NamedResource>
-			<NamedResource name="ThereIsNotRelatedContent" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/ThereIsNotRelatedContent">
+			<NamedResource name="ThereIsNotRelatedContent" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/ThereIsNotRelatedContent">
 				<Candidate type="String">
 					<Value>There is no related content.</Value>
 				</Candidate>
 			</NamedResource>
 			<ResourceMapSubtree name="AboutAppStudioOpenSourceLibraries">
-				<NamedResource name="Content" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AboutAppStudioOpenSourceLibraries/Content">
+				<NamedResource name="Content" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AboutAppStudioOpenSourceLibraries/Content">
 					<Candidate type="String">
 						<Value>Windows App Studio Libraries</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AboutButton">
-				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AboutButton/Label">
+				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AboutButton/Label">
 					<Candidate type="String">
 						<Value>about</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AboutCapabilityApplicationInsights">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AboutCapabilityApplicationInsights/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AboutCapabilityApplicationInsights/Text">
 					<Candidate type="String">
 						<Value>Application Insights</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AboutCapabilityInternet">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AboutCapabilityInternet/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AboutCapabilityInternet/Text">
 					<Candidate type="String">
 						<Value>Internet connection</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AboutCapabilityTileUpdater">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AboutCapabilityTileUpdater/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AboutCapabilityTileUpdater/Text">
 					<Candidate type="String">
 						<Value>Tile Updater</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AboutFlyout">
-				<NamedResource name="Title" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AboutFlyout/Title">
+				<NamedResource name="Title" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AboutFlyout/Title">
 					<Candidate type="String">
 						<Value>About</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AboutPoweredBy">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AboutPoweredBy/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AboutPoweredBy/Text">
 					<Candidate type="String">
 						<Value>Powered by</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AboutSection">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AboutSection/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AboutSection/Text">
 					<Candidate type="String">
 						<Value>about</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AboutSectionCapabilities">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AboutSectionCapabilities/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AboutSectionCapabilities/Text">
 					<Candidate type="String">
 						<Value>Application capabilities</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AboutSectionLicenses">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AboutSectionLicenses/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AboutSectionLicenses/Text">
 					<Candidate type="String">
 						<Value>Dependencies</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AboutSectionLicensesDescription">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AboutSectionLicensesDescription/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AboutSectionLicensesDescription/Text">
 					<Candidate type="String">
 						<Value>This app is developed using following open source software:</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AboutViewMoreInformation">
-				<NamedResource name="Content" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AboutViewMoreInformation/Content">
+				<NamedResource name="Content" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AboutViewMoreInformation/Content">
 					<Candidate type="String">
 						<Value>View more information</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AdvertisementSection">
-				<NamedResource name="Header" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AdvertisementSection/Header">
+				<NamedResource name="Header" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AdvertisementSection/Header">
 					<Candidate type="String">
 						<Value>Advertisement</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="AppVersion">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/AppVersion/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/AppVersion/Text">
 					<Candidate type="String">
 						<Value>App version:</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="BigTextButton">
-				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/BigTextButton/Label">
+				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/BigTextButton/Label">
 					<Candidate type="String">
 						<Value>big text</Value>
 					</Candidate>
 				</NamedResource>
 				<ResourceMapSubtree name="AutomationProperties">
-					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/BigTextButton/AutomationProperties/Name">
+					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/BigTextButton/AutomationProperties/Name">
 						<Candidate type="String">
 							<Value>Press to set big size on text</Value>
 						</Candidate>
@@ -824,20 +801,20 @@
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="DevelopedBy">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/DevelopedBy/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/DevelopedBy/Text">
 					<Candidate type="String">
 						<Value>Developed by:</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="FavoriteButton">
-				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/FavoriteButton/Label">
+				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/FavoriteButton/Label">
 					<Candidate type="String">
 						<Value>Favorite</Value>
 					</Candidate>
 				</NamedResource>
 				<ResourceMapSubtree name="AutomationProperties">
-					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/FavoriteButton/AutomationProperties/Name">
+					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/FavoriteButton/AutomationProperties/Name">
 						<Candidate type="String">
 							<Value>Add or remove to favorites</Value>
 						</Candidate>
@@ -845,13 +822,13 @@
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="FullScreenButton">
-				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/FullScreenButton/Label">
+				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/FullScreenButton/Label">
 					<Candidate type="String">
 						<Value>Full Screen</Value>
 					</Candidate>
 				</NamedResource>
 				<ResourceMapSubtree name="AutomationProperties">
-					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/FullScreenButton/AutomationProperties/Name">
+					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/FullScreenButton/AutomationProperties/Name">
 						<Candidate type="String">
 							<Value>Press to start full screen mode</Value>
 						</Candidate>
@@ -859,40 +836,40 @@
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="LastUpdated">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/LastUpdated/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/LastUpdated/Text">
 					<Candidate type="String">
 						<Value>Last update</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="ListErrorNotificationControl">
-				<NamedResource name="ErrorText" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/ListErrorNotificationControl/ErrorText">
+				<NamedResource name="ErrorText" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/ListErrorNotificationControl/ErrorText">
 					<Candidate type="String">
 						<Value>There was an unexpected error loading the section data. Try to refresh later.</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="LoadDataErrorMessage">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/LoadDataErrorMessage/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/LoadDataErrorMessage/Text">
 					<Candidate type="String">
 						<Value>There was an unexpected error loading the section data. Try to refresh later.</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="LoadMoreButton">
-				<NamedResource name="Content" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/LoadMoreButton/Content">
+				<NamedResource name="Content" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/LoadMoreButton/Content">
 					<Candidate type="String">
 						<Value>Load more</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="LoadMoreItemsButton">
-				<NamedResource name="AutomationPropertiesName" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/LoadMoreItemsButton/AutomationPropertiesName">
+				<NamedResource name="AutomationPropertiesName" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/LoadMoreItemsButton/AutomationPropertiesName">
 					<Candidate type="String">
 						<Value>Press to load more items</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/LoadMoreItemsButton/Label">
+				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/LoadMoreItemsButton/Label">
 					<Candidate type="String">
 						<Value>Load more items</Value>
 					</Candidate>
@@ -900,7 +877,7 @@
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="NavigationPageButton">
 				<ResourceMapSubtree name="AutomationProperties">
-					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/NavigationPageButton/AutomationProperties/Name">
+					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/NavigationPageButton/AutomationProperties/Name">
 						<Candidate type="String">
 							<Value>Application navigation panel</Value>
 						</Candidate>
@@ -908,27 +885,27 @@
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="NoConnectionAvailable">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/NoConnectionAvailable/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/NoConnectionAvailable/Text">
 					<Candidate type="String">
 						<Value>The video cannot be shown because there is no connection available.</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="NoFavoritesTxt">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/NoFavoritesTxt/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/NoFavoritesTxt/Text">
 					<Candidate type="String">
 						<Value>Looks that there is nothing here. Navigate through the application and add your items hear by tapping or clicking in the icon</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="NormalTextButton">
-				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/NormalTextButton/Label">
+				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/NormalTextButton/Label">
 					<Candidate type="String">
 						<Value>normal text</Value>
 					</Candidate>
 				</NamedResource>
 				<ResourceMapSubtree name="AutomationProperties">
-					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/NormalTextButton/AutomationProperties/Name">
+					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/NormalTextButton/AutomationProperties/Name">
 						<Candidate type="String">
 							<Value>Press to set normal size on text</Value>
 						</Candidate>
@@ -936,86 +913,86 @@
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="PrivacyButton">
-				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/PrivacyButton/Label">
+				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/PrivacyButton/Label">
 					<Candidate type="String">
 						<Value>privacy</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="PrivacyFlyout">
-				<NamedResource name="Title" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/PrivacyFlyout/Title">
+				<NamedResource name="Title" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/PrivacyFlyout/Title">
 					<Candidate type="String">
 						<Value>Privacy</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="PrivacyTermsButton">
-				<NamedResource name="Content" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/PrivacyTermsButton/Content">
+				<NamedResource name="Content" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/PrivacyTermsButton/Content">
 					<Candidate type="String">
 						<Value>Privacy terms</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="RefreshButton">
-				<NamedResource name="AutomationPropertiesName" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/RefreshButton/AutomationPropertiesName">
+				<NamedResource name="AutomationPropertiesName" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/RefreshButton/AutomationPropertiesName">
 					<Candidate type="String">
 						<Value>Press to refresh the data</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/RefreshButton/Label">
+				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/RefreshButton/Label">
 					<Candidate type="String">
 						<Value>refresh</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="RoamingWarning">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/RoamingWarning/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/RoamingWarning/Text">
 					<Candidate type="String">
 						<Value>Roaming is not enabled in this device. Data stored on this device will not be replicated in the rest of your devices.</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="SearchBox">
-				<NamedResource name="PlaceholderText" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/SearchBox/PlaceholderText">
+				<NamedResource name="PlaceholderText" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/SearchBox/PlaceholderText">
 					<Candidate type="String">
 						<Value>type search text...</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="SearchNoResultsTxt">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/SearchNoResultsTxt/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/SearchNoResultsTxt/Text">
 					<Candidate type="String">
 						<Value>No results found.</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="SearchResultTxt">
-				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/SearchResultTxt/Text">
+				<NamedResource name="Text" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/SearchResultTxt/Text">
 					<Candidate type="String">
 						<Value>Search results for:</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="SectionListItem">
-				<NamedResource name="ErrorText" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/SectionListItem/ErrorText">
+				<NamedResource name="ErrorText" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/SectionListItem/ErrorText">
 					<Candidate type="String">
 						<Value>There was an unexpected error loading the section data. Try to refresh later.</Value>
 					</Candidate>
 				</NamedResource>
-				<NamedResource name="HeaderLinkText" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/SectionListItem/HeaderLinkText">
+				<NamedResource name="HeaderLinkText" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/SectionListItem/HeaderLinkText">
 					<Candidate type="String">
 						<Value>View all</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="ShareItemButton">
-				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/ShareItemButton/Label">
+				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/ShareItemButton/Label">
 					<Candidate type="String">
 						<Value>share</Value>
 					</Candidate>
 				</NamedResource>
 				<ResourceMapSubtree name="AutomationProperties">
-					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/ShareItemButton/AutomationProperties/Name">
+					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/ShareItemButton/AutomationProperties/Name">
 						<Candidate type="String">
 							<Value>Press to share</Value>
 						</Candidate>
@@ -1023,13 +1000,13 @@
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="ShowInfoButton">
-				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/ShowInfoButton/Label">
+				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/ShowInfoButton/Label">
 					<Candidate type="String">
 						<Value>Show info</Value>
 					</Candidate>
 				</NamedResource>
 				<ResourceMapSubtree name="AutomationProperties">
-					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/ShowInfoButton/AutomationProperties/Name">
+					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/ShowInfoButton/AutomationProperties/Name">
 						<Candidate type="String">
 							<Value>Press to show or hide information</Value>
 						</Candidate>
@@ -1037,13 +1014,13 @@
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="ShowPresentationButton">
-				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/ShowPresentationButton/Label">
+				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/ShowPresentationButton/Label">
 					<Candidate type="String">
 						<Value>Slide show</Value>
 					</Candidate>
 				</NamedResource>
 				<ResourceMapSubtree name="AutomationProperties">
-					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/ShowPresentationButton/AutomationProperties/Name">
+					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/ShowPresentationButton/AutomationProperties/Name">
 						<Candidate type="String">
 							<Value>Press to start media presentation</Value>
 						</Candidate>
@@ -1051,13 +1028,13 @@
 				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 			<ResourceMapSubtree name="SmallTextButton">
-				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/SmallTextButton/Label">
+				<NamedResource name="Label" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/SmallTextButton/Label">
 					<Candidate type="String">
 						<Value>small text</Value>
 					</Candidate>
 				</NamedResource>
 				<ResourceMapSubtree name="AutomationProperties">
-					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTipsMessenger/Resources/SmallTextButton/AutomationProperties/Name">
+					<NamedResource name="Name" uri="ms-resource://52729AluminiumTech.LinusForumTips/Resources/SmallTextButton/AutomationProperties/Name">
 						<Candidate type="String">
 							<Value>Press to set small size on text</Value>
 						</Candidate>

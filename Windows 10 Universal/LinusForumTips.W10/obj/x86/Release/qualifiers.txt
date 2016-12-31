@@ -1,1 +1,7 @@
 Scale=100
+Scale=125
+Scale=150
+Scale=200
+Scale=400
+TargetSize=16
+TargetSize=48

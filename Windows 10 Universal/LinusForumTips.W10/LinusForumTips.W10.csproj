@@ -21,8 +21,8 @@
     <RestorePackages>true</RestorePackages>
     <UapDefaultAssetScale>100</UapDefaultAssetScale>
     <UseDotNetNativeSharedAssemblyFrameworkPackage>True</UseDotNetNativeSharedAssemblyFrameworkPackage>
-    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
-    <AppxPackageDir>D:\Downloads\LFT 1.7.4.0\</AppxPackageDir>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>D:\Downloads\LFT 1.7.6.0\</AppxPackageDir>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
     <PackageCertificateThumbprint>73EC9007C032541C424F30D93ABCD57ABF0C476B</PackageCertificateThumbprint>

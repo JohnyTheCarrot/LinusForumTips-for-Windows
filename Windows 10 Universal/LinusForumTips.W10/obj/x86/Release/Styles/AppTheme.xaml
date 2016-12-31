@@ -22,9 +22,7 @@
     <SolidColorBrush x:Key="BoxBackground" Color="{StaticResource BoxBackgroundColor}"/>
     <SolidColorBrush x:Key="BoxForeground" Color="{StaticResource BoxForegroundColor}"/>
 
-    <SolidColorBrush x:Key="AppBackground" Color="{StaticResource AppBackgroundColor}"/>
-
-	<Style TargetType="TextBlock" x:Key="BaseTextStyle">
+    <Style TargetType="TextBlock" x:Key="BaseTextStyle">
         <Setter Property="FontFamily" Value="{StaticResource DefaultFontFamily}"/>
         <Setter Property="TextWrapping" Value="Wrap"/>
         <Setter Property="TextTrimming" Value="CharacterEllipsis"/>

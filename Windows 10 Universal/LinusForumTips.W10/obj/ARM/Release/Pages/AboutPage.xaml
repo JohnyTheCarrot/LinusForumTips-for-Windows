@@ -7,7 +7,7 @@
     xmlns:was_controls="using:AppStudio.Uwp.Controls"
     DataContext="{Binding RelativeSource={RelativeSource Self}}"
     mc:Ignorable="d">
-    <Grid Background="{StaticResource AppBackground}">
+    <Grid>
         <ScrollViewer>
             <StackPanel Margin="24,32,24,8">
                 <TextBlock x:ConnectionId='2'
@@ -18,8 +18,9 @@
                 <TextBlock
                     Style="{StaticResource AppDescriptionsStyle}">
                     <Run x:Uid="AppVersion"/>
-                    <Run x:ConnectionId='10'                                             />
+                    <Run x:ConnectionId='11'                                             />
                 </TextBlock>
+                <TextBlock x:ConnectionId='3' Style="{StaticResource AppDescriptionsStyle}" Name="changelog"/>
                 <Viewbox
                     Margin="0,12,0,0"
                     HorizontalAlignment="Left"
@@ -32,36 +33,36 @@
                                 Opacity="0.5"
                                 Color="{StaticResource DescriptionForegroundColor}"/>
                         </Border.Background>
-                        <Image x:ConnectionId='9'                                            />
+                        <Image x:ConnectionId='10'                                            />
                     </Border>
                 </Viewbox>
                 <TextBlock
                     Margin="0,12,0,0"
                     Style="{StaticResource AppDescriptionsStyle}">
                     <Run x:Uid="DevelopedBy"/>
-                    <Run x:ConnectionId='8'                                            />
+                    <Run x:ConnectionId='9'                                            />
                 </TextBlock>
-                <TextBlock x:ConnectionId='3'
+                <TextBlock x:ConnectionId='4'
                     Margin="0,25,0,0"
                                                                
                     Style="{StaticResource AppDescriptionsStyle}"/>
-                <HyperlinkButton x:ConnectionId='4'
+                <HyperlinkButton x:ConnectionId='5'
                     x:Uid="PrivacyTermsButton"
                                                                     
                     Style="{StaticResource HyperlinkStyle}"/>
-                <HyperlinkButton x:ConnectionId='5'                    
+                <HyperlinkButton x:ConnectionId='6'                    
                         x:Uid="AboutViewMoreInformation"
                         Style="{StaticResource HyperlinkStyle}"
                                                                                                                                                                              
                                                                                              />
-                <StackPanel x:ConnectionId='6'
+                <StackPanel x:ConnectionId='7'
                                                                                                                                                 >
                     <TextBlock
 						x:Uid="AboutSectionLicenses"
 						Margin="0,25,0,0"
 						FontWeight="Bold"
 						Style="{StaticResource AppDescriptionsStyle}"/>
-                    <HyperlinkButton x:ConnectionId='7'
+                    <HyperlinkButton x:ConnectionId='8'
 						Content="Newtonsoft JSON"
 						                                                      
 						Style="{StaticResource HyperlinkStyle}"/>

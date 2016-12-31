@@ -118,7 +118,7 @@
             </Setter>
         </Style>
     </Page.Resources>
-    <Grid Background="{StaticResource AppBackground}">
+    <Grid>
 		<controls:ShellControl x:ConnectionId='2'
             x:Name="shell"
             Header="{Binding AppFrame.Content.ViewModel.Title}"
