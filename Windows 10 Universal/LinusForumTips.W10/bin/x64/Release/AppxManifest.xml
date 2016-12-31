@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="52729AluminiumTech.LinusForumTips" Publisher="CN=7597FB63-211E-47C3-95FB-0206DFA089D9" Version="1.7.6.0" ProcessorArchitecture="x64" />
+  <Identity Name="52729AluminiumTech.LinusForumTipsMessenger" Publisher="CN=7597FB63-211E-47C3-95FB-0206DFA089D9" Version="1.7.6.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="50ae11e2-7941-4891-b11a-28ce61fd273b" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Linus Forum Tips (Beta)</DisplayName>

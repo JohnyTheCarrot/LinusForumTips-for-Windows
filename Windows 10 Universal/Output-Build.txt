@@ -1,0 +1,35 @@
+﻿1>------ Build started: Project: LinusForumTips.W10, Configuration: Release ARM ------
+1>  LinusForumTips.W10 -> D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10.exe
+1>  Starting .NET Native compilation
+1>  Processing application code
+1>D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\Resources.System.Linq.Expressions.rd.xml(35): warning : ILTransform_0027: Method 'CreateLambda' within 'System.Linq.Expressions.Expression' could not be found.
+1>D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\Resources.System.Linq.Expressions.rd.xml(91): warning : ILTransform_0027: Method 'ParameterIsAssignable' within 'System.Linq.Expressions.Expression' could not be found.
+1>  Computing application closure and generating interop code
+1>  Generating serialization code
+1>  Compiling interop code
+1>  Cleaning up unreferenced code
+1>  Generating native code
+1>  Generating fixups for native code
+1>  LinusForumTips.W10 -> D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.7.6.0_ARM.appx
+1>  LinusForumTips.W10 -> D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\Upload\LinusForumTips.W10_1.7.6.0_ARM.appx
+1>  LinusForumTips.W10 -> D:\Downloads\LFT 1.7.6.0\LinusForumTips.W10_1.7.6.0_Test\LinusForumTips.W10_1.7.6.0_ARM.appxsym
+1>  LinusForumTips.W10 -> D:\Downloads\LFT 1.7.6.0\LinusForumTips.W10_1.7.6.0\LinusForumTips.W10_1.7.6.0_ARM.appxsym
+1>  LinusForumTips.W10 -> D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.7.6.0_scale-125.appx
+1>  LinusForumTips.W10 -> D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.7.6.0_scale-150.appx
+1>  LinusForumTips.W10 -> D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.7.6.0_scale-200.appx
+1>  LinusForumTips.W10 -> D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.7.6.0_scale-400.appx
+1>  LinusForumTips.W10 -> _scale-125.appx
+1>  LinusForumTips.W10 -> _scale-150.appx
+1>  LinusForumTips.W10 -> _scale-200.appx
+1>  LinusForumTips.W10 -> _scale-400.appx
+1>  LinusForumTips.W10 -> D:\Downloads\LFT 1.7.6.0\LinusForumTips.W10_1.7.6.0_Test\LinusForumTips.W10_1.7.6.0_x86_x64_arm.appxbundle
+1>  LinusForumTips.W10 -> D:\Downloads\LFT 1.7.6.0\LinusForumTips.W10_1.7.6.0\LinusForumTips.W10_1.7.6.0_x86_x64_arm.appxbundle
+1>  LinusForumTips.W10 -> D:\Downloads\LFT 1.7.6.0\LinusForumTips.W10_1.7.6.0_x86_x64_arm_bundle.appxupload
+1>  Your package has been successfully created.
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+A package has been successfully built for Release (x86).
+A package has been successfully built for Release (x64).
+A package has been successfully built for Release (ARM).
+========== Package: 3 succeeded, 0 failed ===========
+An app bundle has been successfully built for Release (x86), Release (x64), Release (ARM).
+========== App Bundle: 1 succeeded, 0 failed ===========
