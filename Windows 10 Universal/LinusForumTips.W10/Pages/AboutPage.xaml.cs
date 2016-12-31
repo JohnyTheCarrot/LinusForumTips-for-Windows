@@ -11,6 +11,8 @@ namespace LinusForumTips.Pages
             AboutThisAppModel = new AboutThisAppViewModel();
 
             this.InitializeComponent();
+
+            changelog.Text = "Added support for respecting native Windows 10 themes for apps.";
         }
 
         public AboutThisAppViewModel AboutThisAppModel { get; private set; }

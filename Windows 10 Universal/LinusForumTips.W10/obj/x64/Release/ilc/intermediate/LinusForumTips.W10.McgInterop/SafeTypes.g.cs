@@ -22947,65 +22947,6 @@ namespace Windows.UI.Xaml.Controls
 		}
 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		public static object GetAlignVerticalCenterWith(global::Windows.UI.Xaml.UIElement element)
-		{
-			object retval;
-			retval = __Factory_Windows_UI_Xaml_Controls__IRelativePanelStatics_GetAlignVerticalCenterWith(
-								"Windows.UI.Xaml.Controls.RelativePanel", 
-								element
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return retval;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		static object __Factory_Windows_UI_Xaml_Controls__IRelativePanelStatics_GetAlignVerticalCenterWith(
-					string typeName, 
-					global::Windows.UI.Xaml.UIElement element)
-		{
-			object __pRetVal;
-			__pRetVal = global::Windows.UI.Xaml.Controls.IRelativePanelStatics__Impl.StubClass.GetAlignVerticalCenterWith(
-								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
-													typeName, 
-													typeof(global::Windows.UI.Xaml.Controls.IRelativePanelStatics).TypeHandle
-												), 
-								element
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __pRetVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		public static void SetAlignVerticalCenterWith(
-					global::Windows.UI.Xaml.UIElement element, 
-					object value)
-		{
-			__Factory_Windows_UI_Xaml_Controls__IRelativePanelStatics_SetAlignVerticalCenterWith(
-								"Windows.UI.Xaml.Controls.RelativePanel", 
-								element, 
-								value
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		static void __Factory_Windows_UI_Xaml_Controls__IRelativePanelStatics_SetAlignVerticalCenterWith(
-					string typeName, 
-					global::Windows.UI.Xaml.UIElement element, 
-					object value)
-		{
-			global::Windows.UI.Xaml.Controls.IRelativePanelStatics__Impl.StubClass.SetAlignVerticalCenterWith(
-								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
-													typeName, 
-													typeof(global::Windows.UI.Xaml.Controls.IRelativePanelStatics).TypeHandle
-												), 
-								element, 
-								value
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		public static bool GetAlignLeftWithPanel(global::Windows.UI.Xaml.UIElement element)
 		{
 			bool retval;
@@ -23113,65 +23054,6 @@ namespace Windows.UI.Xaml.Controls
 					bool value)
 		{
 			global::Windows.UI.Xaml.Controls.IRelativePanelStatics__Impl.StubClass.SetAlignTopWithPanel(
-								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
-													typeName, 
-													typeof(global::Windows.UI.Xaml.Controls.IRelativePanelStatics).TypeHandle
-												), 
-								element, 
-								value
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		public static bool GetAlignHorizontalCenterWithPanel(global::Windows.UI.Xaml.UIElement element)
-		{
-			bool retval;
-			retval = __Factory_Windows_UI_Xaml_Controls__IRelativePanelStatics_GetAlignHorizontalCenterWithPanel(
-								"Windows.UI.Xaml.Controls.RelativePanel", 
-								element
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return retval;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		static bool __Factory_Windows_UI_Xaml_Controls__IRelativePanelStatics_GetAlignHorizontalCenterWithPanel(
-					string typeName, 
-					global::Windows.UI.Xaml.UIElement element)
-		{
-			bool __pRetVal;
-			__pRetVal = global::Windows.UI.Xaml.Controls.IRelativePanelStatics__Impl.StubClass.GetAlignHorizontalCenterWithPanel(
-								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
-													typeName, 
-													typeof(global::Windows.UI.Xaml.Controls.IRelativePanelStatics).TypeHandle
-												), 
-								element
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			return __pRetVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		public static void SetAlignHorizontalCenterWithPanel(
-					global::Windows.UI.Xaml.UIElement element, 
-					bool value)
-		{
-			__Factory_Windows_UI_Xaml_Controls__IRelativePanelStatics_SetAlignHorizontalCenterWithPanel(
-								"Windows.UI.Xaml.Controls.RelativePanel", 
-								element, 
-								value
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		static void __Factory_Windows_UI_Xaml_Controls__IRelativePanelStatics_SetAlignHorizontalCenterWithPanel(
-					string typeName, 
-					global::Windows.UI.Xaml.UIElement element, 
-					bool value)
-		{
-			global::Windows.UI.Xaml.Controls.IRelativePanelStatics__Impl.StubClass.SetAlignHorizontalCenterWithPanel(
 								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
 													typeName, 
 													typeof(global::Windows.UI.Xaml.Controls.IRelativePanelStatics).TypeHandle
@@ -31891,14 +31773,6 @@ namespace Windows.UI.Xaml.Controls
 					object value);
 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		object GetAlignVerticalCenterWith(global::Windows.UI.Xaml.UIElement element);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void SetAlignVerticalCenterWith(
-					global::Windows.UI.Xaml.UIElement element, 
-					object value);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		bool GetAlignLeftWithPanel(global::Windows.UI.Xaml.UIElement element);
 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
@@ -31911,14 +31785,6 @@ namespace Windows.UI.Xaml.Controls
 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		void SetAlignTopWithPanel(
-					global::Windows.UI.Xaml.UIElement element, 
-					bool value);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		bool GetAlignHorizontalCenterWithPanel(global::Windows.UI.Xaml.UIElement element);
-
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		void SetAlignHorizontalCenterWithPanel(
 					global::Windows.UI.Xaml.UIElement element, 
 					bool value);
 	}

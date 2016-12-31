@@ -1,2 +1,2 @@
-MainPackage=D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.7.4.0_ARM.appx
-SymbolPackage=D:\Downloads\LFT 1.7.3.0\LinusForumTips.W10_1.7.4.0_Test\LinusForumTips.W10_1.7.4.0_ARM.appxsym
+MainPackage=D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.7.5.0_ARM.appx
+SymbolPackage=D:\Downloads\LFT 1.7.4.0\LinusForumTips.W10_1.7.5.0_Test\LinusForumTips.W10_1.7.5.0_ARM.appxsym

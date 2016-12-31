@@ -156,7 +156,7 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[129];
+            _typeNameTable = new string[126];
             _typeNameTable[0] = "AppStudio.Uwp.Converters.BoolToVisibilityConverter";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "AppStudio.Uwp.Converters.StringVisibilityConverter";
@@ -184,110 +184,107 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
             _typeNameTable[24] = "AppStudio.Uwp.Controls.GifControl";
             _typeNameTable[25] = "LinusForumTips.Layouts.List.ListBigHorizontalCardBox";
             _typeNameTable[26] = "LinusForumTips.Layouts.List.ListBigHorizontalCard";
-            _typeNameTable[27] = "LinusForumTips.Layouts.List.MenuBig";
-            _typeNameTable[28] = "LinusForumTips.Layouts.List.ListBigVerticalCardBox";
-            _typeNameTable[29] = "LinusForumTips.Layouts.List.ListBigVerticalCard";
-            _typeNameTable[30] = "LinusForumTips.Layouts.List.ListContactCard";
-            _typeNameTable[31] = "LinusForumTips.Layouts.List.MenuMedium";
-            _typeNameTable[32] = "LinusForumTips.Layouts.List.ListPhoto";
-            _typeNameTable[33] = "LinusForumTips.Layouts.List.MenuSmall";
-            _typeNameTable[34] = "LinusForumTips.Layouts.List.ListTextCard";
-            _typeNameTable[35] = "LinusForumTips.Layouts.List.MenuText";
-            _typeNameTable[36] = "AppStudio.Uwp.Controls.Carousel";
-            _typeNameTable[37] = "Int32";
-            _typeNameTable[38] = "Windows.UI.Xaml.Visibility";
-            _typeNameTable[39] = "Windows.UI.Xaml.Media.AlignmentX";
-            _typeNameTable[40] = "AppStudio.Uwp.Controls.Indicator";
-            _typeNameTable[41] = "Windows.UI.Xaml.Controls.ListViewBase";
-            _typeNameTable[42] = "Windows.UI.Xaml.Controls.ItemsControl";
-            _typeNameTable[43] = "AppStudio.Uwp.Controls.ShapeMode";
-            _typeNameTable[44] = "System.Enum";
-            _typeNameTable[45] = "System.ValueType";
-            _typeNameTable[46] = "Windows.UI.Xaml.Media.Brush";
-            _typeNameTable[47] = "Windows.UI.Xaml.Style";
-            _typeNameTable[48] = "AppStudio.Uwp.Controls.Virtualbox";
-            _typeNameTable[49] = "Windows.UI.Xaml.Media.AlignmentY";
-            _typeNameTable[50] = "LinusForumTips.Layouts.List.CarouselBig";
-            _typeNameTable[51] = "AppStudio.Uwp.Controls.SliderView";
-            _typeNameTable[52] = "LinusForumTips.Layouts.List.CarouselMedium";
-            _typeNameTable[53] = "AppStudio.Uwp.Controls.SplitterCard";
-            _typeNameTable[54] = "Char";
-            _typeNameTable[55] = "Windows.UI.Xaml.TextAlignment";
-            _typeNameTable[56] = "LinusForumTips.Layouts.List.ListGroupedHome";
-            _typeNameTable[57] = "AppStudio.Uwp.Controls.Pivorama";
-            _typeNameTable[58] = "LinusForumTips.Layouts.List.ListGrouped";
-            _typeNameTable[59] = "AppStudio.Uwp.Controls.HtmlBlock";
-            _typeNameTable[60] = "AppStudio.Uwp.Controls.DocumentStyle";
-            _typeNameTable[61] = "LinusForumTips.Layouts.List.HtmlSection";
-            _typeNameTable[62] = "LinusForumTips.Layouts.Detail.BaseDetailLayout";
-            _typeNameTable[63] = "LinusForumTips.ViewModels.DetailViewModel";
-            _typeNameTable[64] = "LinusForumTips.ViewModels.PageViewModelBase";
-            _typeNameTable[65] = "AppStudio.Uwp.ObservableBase";
-            _typeNameTable[66] = "LinusForumTips.Layouts.Detail.MultiColumnDetailLayout";
-            _typeNameTable[67] = "LinusForumTips.Layouts.Detail.PhotoDetailLayout";
-            _typeNameTable[68] = "LinusForumTips.Layouts.Detail.TextDetailLayout";
-            _typeNameTable[69] = "LinusForumTips.Layouts.Detail.YouTubeDetailLayout";
-            _typeNameTable[70] = "LinusForumTips.Layouts.Detail.RelatedContentDetailLayout";
-            _typeNameTable[71] = "LinusForumTips.Layouts.Controls.DataUpdateInformationControl";
-            _typeNameTable[72] = "LinusForumTips.Layouts.Controls.SectionListItemHeader";
-            _typeNameTable[73] = "LinusForumTips.Layouts.Controls.HeroImage";
-            _typeNameTable[74] = "AppStudio.Uwp.Controls.ShellControl";
-            _typeNameTable[75] = "System.Collections.Generic.IEnumerable`1<AppStudio.Uwp.Controls.NavigationItem>";
-            _typeNameTable[76] = "Windows.UI.Xaml.Controls.SplitViewDisplayMode";
-            _typeNameTable[77] = "Windows.UI.Xaml.VerticalAlignment";
-            _typeNameTable[78] = "Windows.UI.Xaml.Controls.CommandBar";
-            _typeNameTable[79] = "Windows.UI.Xaml.UIElement";
-            _typeNameTable[80] = "AppStudio.Uwp.Actions.ActionsCommandBar";
-            _typeNameTable[81] = "System.Collections.Generic.List`1<AppStudio.Uwp.Actions.ActionInfo>";
-            _typeNameTable[82] = "AppStudio.Uwp.Actions.ActionInfo";
-            _typeNameTable[83] = "AppStudio.Uwp.Actions.ActionType";
-            _typeNameTable[84] = "AppStudio.Uwp.Controls.SectionList";
-            _typeNameTable[85] = "System.Collections.Generic.List`1<AppStudio.Uwp.Controls.SectionListItem>";
-            _typeNameTable[86] = "AppStudio.Uwp.Controls.SectionListItem";
-            _typeNameTable[87] = "LinusForumTips.Pages.HomePage";
-            _typeNameTable[88] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[89] = "LinusForumTips.ViewModels.MainViewModel";
-            _typeNameTable[90] = "AppStudio.Uwp.Controls.ErrorNotificationControl";
-            _typeNameTable[91] = "LinusForumTips.Pages.LinusTechTipsVideosListPage";
-            _typeNameTable[92] = "LinusForumTips.ViewModels.ListViewModel";
-            _typeNameTable[93] = "LinusForumTips.ViewModels.ListViewModelBase";
-            _typeNameTable[94] = "LinusForumTips.Pages.WanShowArchiveListPage";
-            _typeNameTable[95] = "LinusForumTips.Pages.TechquickieVideosListPage";
-            _typeNameTable[96] = "LinusForumTips.Pages.ChannelSuperFunVideosListPage";
-            _typeNameTable[97] = "LinusForumTips.Pages.BuildGuidesListPage";
-            _typeNameTable[98] = "LinusForumTips.Pages.BuildLogsListPage";
-            _typeNameTable[99] = "LinusForumTips.Pages.GuidesAndTutorialsListPage";
-            _typeNameTable[100] = "LinusForumTips.Pages.AboutPage";
-            _typeNameTable[101] = "LinusForumTips.ViewModels.AboutThisAppViewModel";
-            _typeNameTable[102] = "LinusForumTips.Pages.LinusTechTipsVideosDetailPage";
-            _typeNameTable[103] = "LinusForumTips.Pages.WanShowArchiveDetailPage";
-            _typeNameTable[104] = "LinusForumTips.Pages.TechquickieVideosDetailPage";
-            _typeNameTable[105] = "LinusForumTips.Pages.ChannelSuperFunVideosDetailPage";
-            _typeNameTable[106] = "LinusForumTips.Pages.BuildGuidesDetailPage";
-            _typeNameTable[107] = "LinusForumTips.Pages.BuildLogsDetailPage";
-            _typeNameTable[108] = "LinusForumTips.Pages.GuidesAndTutorialsDetailPage";
-            _typeNameTable[109] = "LinusForumTips.Pages.ShellPage";
-            _typeNameTable[110] = "Windows.UI.Xaml.Controls.Frame";
-            _typeNameTable[111] = "System.Collections.ObjectModel.ObservableCollection`1<AppStudio.Uwp.Controls.NavigationItem>";
-            _typeNameTable[112] = "System.Collections.ObjectModel.Collection`1<AppStudio.Uwp.Controls.NavigationItem>";
-            _typeNameTable[113] = "AppStudio.Uwp.Controls.NavigationItem";
-            _typeNameTable[114] = "Windows.UI.Xaml.Controls.IconElement";
-            _typeNameTable[115] = "System.Action`1<AppStudio.Uwp.Controls.NavigationItem>";
-            _typeNameTable[116] = "System.MulticastDelegate";
-            _typeNameTable[117] = "System.Delegate";
-            _typeNameTable[118] = "AppStudio.Uwp.Controls.ParagraphStyle";
-            _typeNameTable[119] = "AppStudio.Uwp.Controls.TextStyle";
-            _typeNameTable[120] = "AppStudio.Uwp.Controls.ContainerStyle";
-            _typeNameTable[121] = "AppStudio.Uwp.Controls.ListStyle";
-            _typeNameTable[122] = "AppStudio.Uwp.Controls.TableStyle";
-            _typeNameTable[123] = "AppStudio.Uwp.Controls.ImageStyle";
-            _typeNameTable[124] = "Windows.UI.Xaml.Media.FontFamily";
-            _typeNameTable[125] = "Windows.UI.Text.FontStyle";
-            _typeNameTable[126] = "Windows.UI.Text.FontWeight";
-            _typeNameTable[127] = "Windows.UI.Color";
-            _typeNameTable[128] = "Byte";
+            _typeNameTable[27] = "LinusForumTips.Layouts.List.ListBigVerticalCardBox";
+            _typeNameTable[28] = "LinusForumTips.Layouts.List.ListBigVerticalCard";
+            _typeNameTable[29] = "LinusForumTips.Layouts.List.ListContactCard";
+            _typeNameTable[30] = "LinusForumTips.Layouts.List.ListPhoto";
+            _typeNameTable[31] = "LinusForumTips.Layouts.List.ListTextCard";
+            _typeNameTable[32] = "LinusForumTips.Layouts.List.MenuText";
+            _typeNameTable[33] = "AppStudio.Uwp.Controls.Carousel";
+            _typeNameTable[34] = "Int32";
+            _typeNameTable[35] = "Windows.UI.Xaml.Visibility";
+            _typeNameTable[36] = "Windows.UI.Xaml.Media.AlignmentX";
+            _typeNameTable[37] = "AppStudio.Uwp.Controls.Indicator";
+            _typeNameTable[38] = "Windows.UI.Xaml.Controls.ListViewBase";
+            _typeNameTable[39] = "Windows.UI.Xaml.Controls.ItemsControl";
+            _typeNameTable[40] = "AppStudio.Uwp.Controls.ShapeMode";
+            _typeNameTable[41] = "System.Enum";
+            _typeNameTable[42] = "System.ValueType";
+            _typeNameTable[43] = "Windows.UI.Xaml.Media.Brush";
+            _typeNameTable[44] = "Windows.UI.Xaml.Style";
+            _typeNameTable[45] = "AppStudio.Uwp.Controls.Virtualbox";
+            _typeNameTable[46] = "Windows.UI.Xaml.Media.AlignmentY";
+            _typeNameTable[47] = "LinusForumTips.Layouts.List.CarouselBig";
+            _typeNameTable[48] = "AppStudio.Uwp.Controls.SliderView";
+            _typeNameTable[49] = "LinusForumTips.Layouts.List.CarouselMedium";
+            _typeNameTable[50] = "AppStudio.Uwp.Controls.SplitterCard";
+            _typeNameTable[51] = "Char";
+            _typeNameTable[52] = "Windows.UI.Xaml.TextAlignment";
+            _typeNameTable[53] = "LinusForumTips.Layouts.List.ListGroupedHome";
+            _typeNameTable[54] = "AppStudio.Uwp.Controls.Pivorama";
+            _typeNameTable[55] = "LinusForumTips.Layouts.List.ListGrouped";
+            _typeNameTable[56] = "AppStudio.Uwp.Controls.HtmlBlock";
+            _typeNameTable[57] = "AppStudio.Uwp.Controls.DocumentStyle";
+            _typeNameTable[58] = "LinusForumTips.Layouts.List.HtmlSection";
+            _typeNameTable[59] = "LinusForumTips.Layouts.Detail.BaseDetailLayout";
+            _typeNameTable[60] = "LinusForumTips.ViewModels.DetailViewModel";
+            _typeNameTable[61] = "LinusForumTips.ViewModels.PageViewModelBase";
+            _typeNameTable[62] = "AppStudio.Uwp.ObservableBase";
+            _typeNameTable[63] = "LinusForumTips.Layouts.Detail.MultiColumnDetailLayout";
+            _typeNameTable[64] = "LinusForumTips.Layouts.Detail.PhotoDetailLayout";
+            _typeNameTable[65] = "LinusForumTips.Layouts.Detail.TextDetailLayout";
+            _typeNameTable[66] = "LinusForumTips.Layouts.Detail.YouTubeDetailLayout";
+            _typeNameTable[67] = "LinusForumTips.Layouts.Detail.RelatedContentDetailLayout";
+            _typeNameTable[68] = "LinusForumTips.Layouts.Controls.DataUpdateInformationControl";
+            _typeNameTable[69] = "LinusForumTips.Layouts.Controls.SectionListItemHeader";
+            _typeNameTable[70] = "LinusForumTips.Layouts.Controls.HeroImage";
+            _typeNameTable[71] = "AppStudio.Uwp.Controls.ShellControl";
+            _typeNameTable[72] = "System.Collections.Generic.IEnumerable`1<AppStudio.Uwp.Controls.NavigationItem>";
+            _typeNameTable[73] = "Windows.UI.Xaml.Controls.SplitViewDisplayMode";
+            _typeNameTable[74] = "Windows.UI.Xaml.VerticalAlignment";
+            _typeNameTable[75] = "Windows.UI.Xaml.Controls.CommandBar";
+            _typeNameTable[76] = "Windows.UI.Xaml.UIElement";
+            _typeNameTable[77] = "AppStudio.Uwp.Actions.ActionsCommandBar";
+            _typeNameTable[78] = "System.Collections.Generic.List`1<AppStudio.Uwp.Actions.ActionInfo>";
+            _typeNameTable[79] = "AppStudio.Uwp.Actions.ActionInfo";
+            _typeNameTable[80] = "AppStudio.Uwp.Actions.ActionType";
+            _typeNameTable[81] = "AppStudio.Uwp.Controls.SectionList";
+            _typeNameTable[82] = "System.Collections.Generic.List`1<AppStudio.Uwp.Controls.SectionListItem>";
+            _typeNameTable[83] = "AppStudio.Uwp.Controls.SectionListItem";
+            _typeNameTable[84] = "LinusForumTips.Pages.HomePage";
+            _typeNameTable[85] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[86] = "LinusForumTips.ViewModels.MainViewModel";
+            _typeNameTable[87] = "AppStudio.Uwp.Controls.ErrorNotificationControl";
+            _typeNameTable[88] = "LinusForumTips.Pages.LinusTechTipsVideosListPage";
+            _typeNameTable[89] = "LinusForumTips.ViewModels.ListViewModel";
+            _typeNameTable[90] = "LinusForumTips.ViewModels.ListViewModelBase";
+            _typeNameTable[91] = "LinusForumTips.Pages.WanShowArchiveListPage";
+            _typeNameTable[92] = "LinusForumTips.Pages.TechquickieVideosListPage";
+            _typeNameTable[93] = "LinusForumTips.Pages.ChannelSuperFunVideosListPage";
+            _typeNameTable[94] = "LinusForumTips.Pages.BuildGuidesListPage";
+            _typeNameTable[95] = "LinusForumTips.Pages.BuildLogsListPage";
+            _typeNameTable[96] = "LinusForumTips.Pages.GuidesAndTutorialsListPage";
+            _typeNameTable[97] = "LinusForumTips.Pages.AboutPage";
+            _typeNameTable[98] = "LinusForumTips.ViewModels.AboutThisAppViewModel";
+            _typeNameTable[99] = "LinusForumTips.Pages.LinusTechTipsVideosDetailPage";
+            _typeNameTable[100] = "LinusForumTips.Pages.WanShowArchiveDetailPage";
+            _typeNameTable[101] = "LinusForumTips.Pages.TechquickieVideosDetailPage";
+            _typeNameTable[102] = "LinusForumTips.Pages.ChannelSuperFunVideosDetailPage";
+            _typeNameTable[103] = "LinusForumTips.Pages.BuildGuidesDetailPage";
+            _typeNameTable[104] = "LinusForumTips.Pages.BuildLogsDetailPage";
+            _typeNameTable[105] = "LinusForumTips.Pages.GuidesAndTutorialsDetailPage";
+            _typeNameTable[106] = "LinusForumTips.Pages.ShellPage";
+            _typeNameTable[107] = "Windows.UI.Xaml.Controls.Frame";
+            _typeNameTable[108] = "System.Collections.ObjectModel.ObservableCollection`1<AppStudio.Uwp.Controls.NavigationItem>";
+            _typeNameTable[109] = "System.Collections.ObjectModel.Collection`1<AppStudio.Uwp.Controls.NavigationItem>";
+            _typeNameTable[110] = "AppStudio.Uwp.Controls.NavigationItem";
+            _typeNameTable[111] = "Windows.UI.Xaml.Controls.IconElement";
+            _typeNameTable[112] = "System.Action`1<AppStudio.Uwp.Controls.NavigationItem>";
+            _typeNameTable[113] = "System.MulticastDelegate";
+            _typeNameTable[114] = "System.Delegate";
+            _typeNameTable[115] = "Windows.UI.Color";
+            _typeNameTable[116] = "Byte";
+            _typeNameTable[117] = "AppStudio.Uwp.Controls.ParagraphStyle";
+            _typeNameTable[118] = "AppStudio.Uwp.Controls.TextStyle";
+            _typeNameTable[119] = "AppStudio.Uwp.Controls.ContainerStyle";
+            _typeNameTable[120] = "AppStudio.Uwp.Controls.ListStyle";
+            _typeNameTable[121] = "AppStudio.Uwp.Controls.TableStyle";
+            _typeNameTable[122] = "AppStudio.Uwp.Controls.ImageStyle";
+            _typeNameTable[123] = "Windows.UI.Xaml.Media.FontFamily";
+            _typeNameTable[124] = "Windows.UI.Text.FontStyle";
+            _typeNameTable[125] = "Windows.UI.Text.FontWeight";
 
-            _typeTable = new global::System.Type[129];
+            _typeTable = new global::System.Type[126];
             _typeTable[0] = typeof(global::AppStudio.Uwp.Converters.BoolToVisibilityConverter);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::AppStudio.Uwp.Converters.StringVisibilityConverter);
@@ -315,108 +312,105 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
             _typeTable[24] = typeof(global::AppStudio.Uwp.Controls.GifControl);
             _typeTable[25] = typeof(global::LinusForumTips.Layouts.List.ListBigHorizontalCardBox);
             _typeTable[26] = typeof(global::LinusForumTips.Layouts.List.ListBigHorizontalCard);
-            _typeTable[27] = typeof(global::LinusForumTips.Layouts.List.MenuBig);
-            _typeTable[28] = typeof(global::LinusForumTips.Layouts.List.ListBigVerticalCardBox);
-            _typeTable[29] = typeof(global::LinusForumTips.Layouts.List.ListBigVerticalCard);
-            _typeTable[30] = typeof(global::LinusForumTips.Layouts.List.ListContactCard);
-            _typeTable[31] = typeof(global::LinusForumTips.Layouts.List.MenuMedium);
-            _typeTable[32] = typeof(global::LinusForumTips.Layouts.List.ListPhoto);
-            _typeTable[33] = typeof(global::LinusForumTips.Layouts.List.MenuSmall);
-            _typeTable[34] = typeof(global::LinusForumTips.Layouts.List.ListTextCard);
-            _typeTable[35] = typeof(global::LinusForumTips.Layouts.List.MenuText);
-            _typeTable[36] = typeof(global::AppStudio.Uwp.Controls.Carousel);
-            _typeTable[37] = typeof(global::System.Int32);
-            _typeTable[38] = typeof(global::Windows.UI.Xaml.Visibility);
-            _typeTable[39] = typeof(global::Windows.UI.Xaml.Media.AlignmentX);
-            _typeTable[40] = typeof(global::AppStudio.Uwp.Controls.Indicator);
-            _typeTable[41] = typeof(global::Windows.UI.Xaml.Controls.ListViewBase);
-            _typeTable[42] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
-            _typeTable[43] = typeof(global::AppStudio.Uwp.Controls.ShapeMode);
-            _typeTable[44] = typeof(global::System.Enum);
-            _typeTable[45] = typeof(global::System.ValueType);
-            _typeTable[46] = typeof(global::Windows.UI.Xaml.Media.Brush);
-            _typeTable[47] = typeof(global::Windows.UI.Xaml.Style);
-            _typeTable[48] = typeof(global::AppStudio.Uwp.Controls.Virtualbox);
-            _typeTable[49] = typeof(global::Windows.UI.Xaml.Media.AlignmentY);
-            _typeTable[50] = typeof(global::LinusForumTips.Layouts.List.CarouselBig);
-            _typeTable[51] = typeof(global::AppStudio.Uwp.Controls.SliderView);
-            _typeTable[52] = typeof(global::LinusForumTips.Layouts.List.CarouselMedium);
-            _typeTable[53] = typeof(global::AppStudio.Uwp.Controls.SplitterCard);
-            _typeTable[54] = typeof(global::System.Char);
-            _typeTable[55] = typeof(global::Windows.UI.Xaml.TextAlignment);
-            _typeTable[56] = typeof(global::LinusForumTips.Layouts.List.ListGroupedHome);
-            _typeTable[57] = typeof(global::AppStudio.Uwp.Controls.Pivorama);
-            _typeTable[58] = typeof(global::LinusForumTips.Layouts.List.ListGrouped);
-            _typeTable[59] = typeof(global::AppStudio.Uwp.Controls.HtmlBlock);
-            _typeTable[60] = typeof(global::AppStudio.Uwp.Controls.DocumentStyle);
-            _typeTable[61] = typeof(global::LinusForumTips.Layouts.List.HtmlSection);
-            _typeTable[62] = typeof(global::LinusForumTips.Layouts.Detail.BaseDetailLayout);
-            _typeTable[63] = typeof(global::LinusForumTips.ViewModels.DetailViewModel);
-            _typeTable[64] = typeof(global::LinusForumTips.ViewModels.PageViewModelBase);
-            _typeTable[65] = typeof(global::AppStudio.Uwp.ObservableBase);
-            _typeTable[66] = typeof(global::LinusForumTips.Layouts.Detail.MultiColumnDetailLayout);
-            _typeTable[67] = typeof(global::LinusForumTips.Layouts.Detail.PhotoDetailLayout);
-            _typeTable[68] = typeof(global::LinusForumTips.Layouts.Detail.TextDetailLayout);
-            _typeTable[69] = typeof(global::LinusForumTips.Layouts.Detail.YouTubeDetailLayout);
-            _typeTable[70] = typeof(global::LinusForumTips.Layouts.Detail.RelatedContentDetailLayout);
-            _typeTable[71] = typeof(global::LinusForumTips.Layouts.Controls.DataUpdateInformationControl);
-            _typeTable[72] = typeof(global::LinusForumTips.Layouts.Controls.SectionListItemHeader);
-            _typeTable[73] = typeof(global::LinusForumTips.Layouts.Controls.HeroImage);
-            _typeTable[74] = typeof(global::AppStudio.Uwp.Controls.ShellControl);
-            _typeTable[75] = typeof(global::System.Collections.Generic.IEnumerable<global::AppStudio.Uwp.Controls.NavigationItem>);
-            _typeTable[76] = typeof(global::Windows.UI.Xaml.Controls.SplitViewDisplayMode);
-            _typeTable[77] = typeof(global::Windows.UI.Xaml.VerticalAlignment);
-            _typeTable[78] = typeof(global::Windows.UI.Xaml.Controls.CommandBar);
-            _typeTable[79] = typeof(global::Windows.UI.Xaml.UIElement);
-            _typeTable[80] = typeof(global::AppStudio.Uwp.Actions.ActionsCommandBar);
-            _typeTable[81] = typeof(global::System.Collections.Generic.List<global::AppStudio.Uwp.Actions.ActionInfo>);
-            _typeTable[82] = typeof(global::AppStudio.Uwp.Actions.ActionInfo);
-            _typeTable[83] = typeof(global::AppStudio.Uwp.Actions.ActionType);
-            _typeTable[84] = typeof(global::AppStudio.Uwp.Controls.SectionList);
-            _typeTable[85] = typeof(global::System.Collections.Generic.List<global::AppStudio.Uwp.Controls.SectionListItem>);
-            _typeTable[86] = typeof(global::AppStudio.Uwp.Controls.SectionListItem);
-            _typeTable[87] = typeof(global::LinusForumTips.Pages.HomePage);
-            _typeTable[88] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[89] = typeof(global::LinusForumTips.ViewModels.MainViewModel);
-            _typeTable[90] = typeof(global::AppStudio.Uwp.Controls.ErrorNotificationControl);
-            _typeTable[91] = typeof(global::LinusForumTips.Pages.LinusTechTipsVideosListPage);
-            _typeTable[92] = typeof(global::LinusForumTips.ViewModels.ListViewModel);
-            _typeTable[93] = typeof(global::LinusForumTips.ViewModels.ListViewModelBase);
-            _typeTable[94] = typeof(global::LinusForumTips.Pages.WanShowArchiveListPage);
-            _typeTable[95] = typeof(global::LinusForumTips.Pages.TechquickieVideosListPage);
-            _typeTable[96] = typeof(global::LinusForumTips.Pages.ChannelSuperFunVideosListPage);
-            _typeTable[97] = typeof(global::LinusForumTips.Pages.BuildGuidesListPage);
-            _typeTable[98] = typeof(global::LinusForumTips.Pages.BuildLogsListPage);
-            _typeTable[99] = typeof(global::LinusForumTips.Pages.GuidesAndTutorialsListPage);
-            _typeTable[100] = typeof(global::LinusForumTips.Pages.AboutPage);
-            _typeTable[101] = typeof(global::LinusForumTips.ViewModels.AboutThisAppViewModel);
-            _typeTable[102] = typeof(global::LinusForumTips.Pages.LinusTechTipsVideosDetailPage);
-            _typeTable[103] = typeof(global::LinusForumTips.Pages.WanShowArchiveDetailPage);
-            _typeTable[104] = typeof(global::LinusForumTips.Pages.TechquickieVideosDetailPage);
-            _typeTable[105] = typeof(global::LinusForumTips.Pages.ChannelSuperFunVideosDetailPage);
-            _typeTable[106] = typeof(global::LinusForumTips.Pages.BuildGuidesDetailPage);
-            _typeTable[107] = typeof(global::LinusForumTips.Pages.BuildLogsDetailPage);
-            _typeTable[108] = typeof(global::LinusForumTips.Pages.GuidesAndTutorialsDetailPage);
-            _typeTable[109] = typeof(global::LinusForumTips.Pages.ShellPage);
-            _typeTable[110] = typeof(global::Windows.UI.Xaml.Controls.Frame);
-            _typeTable[111] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::AppStudio.Uwp.Controls.NavigationItem>);
-            _typeTable[112] = typeof(global::System.Collections.ObjectModel.Collection<global::AppStudio.Uwp.Controls.NavigationItem>);
-            _typeTable[113] = typeof(global::AppStudio.Uwp.Controls.NavigationItem);
-            _typeTable[114] = typeof(global::Windows.UI.Xaml.Controls.IconElement);
-            _typeTable[115] = typeof(global::System.Action<global::AppStudio.Uwp.Controls.NavigationItem>);
-            _typeTable[116] = typeof(global::System.MulticastDelegate);
-            _typeTable[117] = typeof(global::System.Delegate);
-            _typeTable[118] = typeof(global::AppStudio.Uwp.Controls.ParagraphStyle);
-            _typeTable[119] = typeof(global::AppStudio.Uwp.Controls.TextStyle);
-            _typeTable[120] = typeof(global::AppStudio.Uwp.Controls.ContainerStyle);
-            _typeTable[121] = typeof(global::AppStudio.Uwp.Controls.ListStyle);
-            _typeTable[122] = typeof(global::AppStudio.Uwp.Controls.TableStyle);
-            _typeTable[123] = typeof(global::AppStudio.Uwp.Controls.ImageStyle);
-            _typeTable[124] = typeof(global::Windows.UI.Xaml.Media.FontFamily);
-            _typeTable[125] = typeof(global::Windows.UI.Text.FontStyle);
-            _typeTable[126] = typeof(global::Windows.UI.Text.FontWeight);
-            _typeTable[127] = typeof(global::Windows.UI.Color);
-            _typeTable[128] = typeof(global::System.Byte);
+            _typeTable[27] = typeof(global::LinusForumTips.Layouts.List.ListBigVerticalCardBox);
+            _typeTable[28] = typeof(global::LinusForumTips.Layouts.List.ListBigVerticalCard);
+            _typeTable[29] = typeof(global::LinusForumTips.Layouts.List.ListContactCard);
+            _typeTable[30] = typeof(global::LinusForumTips.Layouts.List.ListPhoto);
+            _typeTable[31] = typeof(global::LinusForumTips.Layouts.List.ListTextCard);
+            _typeTable[32] = typeof(global::LinusForumTips.Layouts.List.MenuText);
+            _typeTable[33] = typeof(global::AppStudio.Uwp.Controls.Carousel);
+            _typeTable[34] = typeof(global::System.Int32);
+            _typeTable[35] = typeof(global::Windows.UI.Xaml.Visibility);
+            _typeTable[36] = typeof(global::Windows.UI.Xaml.Media.AlignmentX);
+            _typeTable[37] = typeof(global::AppStudio.Uwp.Controls.Indicator);
+            _typeTable[38] = typeof(global::Windows.UI.Xaml.Controls.ListViewBase);
+            _typeTable[39] = typeof(global::Windows.UI.Xaml.Controls.ItemsControl);
+            _typeTable[40] = typeof(global::AppStudio.Uwp.Controls.ShapeMode);
+            _typeTable[41] = typeof(global::System.Enum);
+            _typeTable[42] = typeof(global::System.ValueType);
+            _typeTable[43] = typeof(global::Windows.UI.Xaml.Media.Brush);
+            _typeTable[44] = typeof(global::Windows.UI.Xaml.Style);
+            _typeTable[45] = typeof(global::AppStudio.Uwp.Controls.Virtualbox);
+            _typeTable[46] = typeof(global::Windows.UI.Xaml.Media.AlignmentY);
+            _typeTable[47] = typeof(global::LinusForumTips.Layouts.List.CarouselBig);
+            _typeTable[48] = typeof(global::AppStudio.Uwp.Controls.SliderView);
+            _typeTable[49] = typeof(global::LinusForumTips.Layouts.List.CarouselMedium);
+            _typeTable[50] = typeof(global::AppStudio.Uwp.Controls.SplitterCard);
+            _typeTable[51] = typeof(global::System.Char);
+            _typeTable[52] = typeof(global::Windows.UI.Xaml.TextAlignment);
+            _typeTable[53] = typeof(global::LinusForumTips.Layouts.List.ListGroupedHome);
+            _typeTable[54] = typeof(global::AppStudio.Uwp.Controls.Pivorama);
+            _typeTable[55] = typeof(global::LinusForumTips.Layouts.List.ListGrouped);
+            _typeTable[56] = typeof(global::AppStudio.Uwp.Controls.HtmlBlock);
+            _typeTable[57] = typeof(global::AppStudio.Uwp.Controls.DocumentStyle);
+            _typeTable[58] = typeof(global::LinusForumTips.Layouts.List.HtmlSection);
+            _typeTable[59] = typeof(global::LinusForumTips.Layouts.Detail.BaseDetailLayout);
+            _typeTable[60] = typeof(global::LinusForumTips.ViewModels.DetailViewModel);
+            _typeTable[61] = typeof(global::LinusForumTips.ViewModels.PageViewModelBase);
+            _typeTable[62] = typeof(global::AppStudio.Uwp.ObservableBase);
+            _typeTable[63] = typeof(global::LinusForumTips.Layouts.Detail.MultiColumnDetailLayout);
+            _typeTable[64] = typeof(global::LinusForumTips.Layouts.Detail.PhotoDetailLayout);
+            _typeTable[65] = typeof(global::LinusForumTips.Layouts.Detail.TextDetailLayout);
+            _typeTable[66] = typeof(global::LinusForumTips.Layouts.Detail.YouTubeDetailLayout);
+            _typeTable[67] = typeof(global::LinusForumTips.Layouts.Detail.RelatedContentDetailLayout);
+            _typeTable[68] = typeof(global::LinusForumTips.Layouts.Controls.DataUpdateInformationControl);
+            _typeTable[69] = typeof(global::LinusForumTips.Layouts.Controls.SectionListItemHeader);
+            _typeTable[70] = typeof(global::LinusForumTips.Layouts.Controls.HeroImage);
+            _typeTable[71] = typeof(global::AppStudio.Uwp.Controls.ShellControl);
+            _typeTable[72] = typeof(global::System.Collections.Generic.IEnumerable<global::AppStudio.Uwp.Controls.NavigationItem>);
+            _typeTable[73] = typeof(global::Windows.UI.Xaml.Controls.SplitViewDisplayMode);
+            _typeTable[74] = typeof(global::Windows.UI.Xaml.VerticalAlignment);
+            _typeTable[75] = typeof(global::Windows.UI.Xaml.Controls.CommandBar);
+            _typeTable[76] = typeof(global::Windows.UI.Xaml.UIElement);
+            _typeTable[77] = typeof(global::AppStudio.Uwp.Actions.ActionsCommandBar);
+            _typeTable[78] = typeof(global::System.Collections.Generic.List<global::AppStudio.Uwp.Actions.ActionInfo>);
+            _typeTable[79] = typeof(global::AppStudio.Uwp.Actions.ActionInfo);
+            _typeTable[80] = typeof(global::AppStudio.Uwp.Actions.ActionType);
+            _typeTable[81] = typeof(global::AppStudio.Uwp.Controls.SectionList);
+            _typeTable[82] = typeof(global::System.Collections.Generic.List<global::AppStudio.Uwp.Controls.SectionListItem>);
+            _typeTable[83] = typeof(global::AppStudio.Uwp.Controls.SectionListItem);
+            _typeTable[84] = typeof(global::LinusForumTips.Pages.HomePage);
+            _typeTable[85] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[86] = typeof(global::LinusForumTips.ViewModels.MainViewModel);
+            _typeTable[87] = typeof(global::AppStudio.Uwp.Controls.ErrorNotificationControl);
+            _typeTable[88] = typeof(global::LinusForumTips.Pages.LinusTechTipsVideosListPage);
+            _typeTable[89] = typeof(global::LinusForumTips.ViewModels.ListViewModel);
+            _typeTable[90] = typeof(global::LinusForumTips.ViewModels.ListViewModelBase);
+            _typeTable[91] = typeof(global::LinusForumTips.Pages.WanShowArchiveListPage);
+            _typeTable[92] = typeof(global::LinusForumTips.Pages.TechquickieVideosListPage);
+            _typeTable[93] = typeof(global::LinusForumTips.Pages.ChannelSuperFunVideosListPage);
+            _typeTable[94] = typeof(global::LinusForumTips.Pages.BuildGuidesListPage);
+            _typeTable[95] = typeof(global::LinusForumTips.Pages.BuildLogsListPage);
+            _typeTable[96] = typeof(global::LinusForumTips.Pages.GuidesAndTutorialsListPage);
+            _typeTable[97] = typeof(global::LinusForumTips.Pages.AboutPage);
+            _typeTable[98] = typeof(global::LinusForumTips.ViewModels.AboutThisAppViewModel);
+            _typeTable[99] = typeof(global::LinusForumTips.Pages.LinusTechTipsVideosDetailPage);
+            _typeTable[100] = typeof(global::LinusForumTips.Pages.WanShowArchiveDetailPage);
+            _typeTable[101] = typeof(global::LinusForumTips.Pages.TechquickieVideosDetailPage);
+            _typeTable[102] = typeof(global::LinusForumTips.Pages.ChannelSuperFunVideosDetailPage);
+            _typeTable[103] = typeof(global::LinusForumTips.Pages.BuildGuidesDetailPage);
+            _typeTable[104] = typeof(global::LinusForumTips.Pages.BuildLogsDetailPage);
+            _typeTable[105] = typeof(global::LinusForumTips.Pages.GuidesAndTutorialsDetailPage);
+            _typeTable[106] = typeof(global::LinusForumTips.Pages.ShellPage);
+            _typeTable[107] = typeof(global::Windows.UI.Xaml.Controls.Frame);
+            _typeTable[108] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::AppStudio.Uwp.Controls.NavigationItem>);
+            _typeTable[109] = typeof(global::System.Collections.ObjectModel.Collection<global::AppStudio.Uwp.Controls.NavigationItem>);
+            _typeTable[110] = typeof(global::AppStudio.Uwp.Controls.NavigationItem);
+            _typeTable[111] = typeof(global::Windows.UI.Xaml.Controls.IconElement);
+            _typeTable[112] = typeof(global::System.Action<global::AppStudio.Uwp.Controls.NavigationItem>);
+            _typeTable[113] = typeof(global::System.MulticastDelegate);
+            _typeTable[114] = typeof(global::System.Delegate);
+            _typeTable[115] = typeof(global::Windows.UI.Color);
+            _typeTable[116] = typeof(global::System.Byte);
+            _typeTable[117] = typeof(global::AppStudio.Uwp.Controls.ParagraphStyle);
+            _typeTable[118] = typeof(global::AppStudio.Uwp.Controls.TextStyle);
+            _typeTable[119] = typeof(global::AppStudio.Uwp.Controls.ContainerStyle);
+            _typeTable[120] = typeof(global::AppStudio.Uwp.Controls.ListStyle);
+            _typeTable[121] = typeof(global::AppStudio.Uwp.Controls.TableStyle);
+            _typeTable[122] = typeof(global::AppStudio.Uwp.Controls.ImageStyle);
+            _typeTable[123] = typeof(global::Windows.UI.Xaml.Media.FontFamily);
+            _typeTable[124] = typeof(global::Windows.UI.Text.FontStyle);
+            _typeTable[125] = typeof(global::Windows.UI.Text.FontWeight);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -463,89 +457,86 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
         private object Activate_24_GifControl() { return new global::AppStudio.Uwp.Controls.GifControl(); }
         private object Activate_25_ListBigHorizontalCardBox() { return new global::LinusForumTips.Layouts.List.ListBigHorizontalCardBox(); }
         private object Activate_26_ListBigHorizontalCard() { return new global::LinusForumTips.Layouts.List.ListBigHorizontalCard(); }
-        private object Activate_27_MenuBig() { return new global::LinusForumTips.Layouts.List.MenuBig(); }
-        private object Activate_28_ListBigVerticalCardBox() { return new global::LinusForumTips.Layouts.List.ListBigVerticalCardBox(); }
-        private object Activate_29_ListBigVerticalCard() { return new global::LinusForumTips.Layouts.List.ListBigVerticalCard(); }
-        private object Activate_30_ListContactCard() { return new global::LinusForumTips.Layouts.List.ListContactCard(); }
-        private object Activate_31_MenuMedium() { return new global::LinusForumTips.Layouts.List.MenuMedium(); }
-        private object Activate_32_ListPhoto() { return new global::LinusForumTips.Layouts.List.ListPhoto(); }
-        private object Activate_33_MenuSmall() { return new global::LinusForumTips.Layouts.List.MenuSmall(); }
-        private object Activate_34_ListTextCard() { return new global::LinusForumTips.Layouts.List.ListTextCard(); }
-        private object Activate_35_MenuText() { return new global::LinusForumTips.Layouts.List.MenuText(); }
-        private object Activate_36_Carousel() { return new global::AppStudio.Uwp.Controls.Carousel(); }
-        private object Activate_40_Indicator() { return new global::AppStudio.Uwp.Controls.Indicator(); }
-        private object Activate_48_Virtualbox() { return new global::AppStudio.Uwp.Controls.Virtualbox(); }
-        private object Activate_50_CarouselBig() { return new global::LinusForumTips.Layouts.List.CarouselBig(); }
-        private object Activate_51_SliderView() { return new global::AppStudio.Uwp.Controls.SliderView(); }
-        private object Activate_52_CarouselMedium() { return new global::LinusForumTips.Layouts.List.CarouselMedium(); }
-        private object Activate_53_SplitterCard() { return new global::AppStudio.Uwp.Controls.SplitterCard(); }
-        private object Activate_56_ListGroupedHome() { return new global::LinusForumTips.Layouts.List.ListGroupedHome(); }
-        private object Activate_57_Pivorama() { return new global::AppStudio.Uwp.Controls.Pivorama(); }
-        private object Activate_58_ListGrouped() { return new global::LinusForumTips.Layouts.List.ListGrouped(); }
-        private object Activate_59_HtmlBlock() { return new global::AppStudio.Uwp.Controls.HtmlBlock(); }
-        private object Activate_60_DocumentStyle() { return new global::AppStudio.Uwp.Controls.DocumentStyle(); }
-        private object Activate_61_HtmlSection() { return new global::LinusForumTips.Layouts.List.HtmlSection(); }
-        private object Activate_66_MultiColumnDetailLayout() { return new global::LinusForumTips.Layouts.Detail.MultiColumnDetailLayout(); }
-        private object Activate_67_PhotoDetailLayout() { return new global::LinusForumTips.Layouts.Detail.PhotoDetailLayout(); }
-        private object Activate_68_TextDetailLayout() { return new global::LinusForumTips.Layouts.Detail.TextDetailLayout(); }
-        private object Activate_69_YouTubeDetailLayout() { return new global::LinusForumTips.Layouts.Detail.YouTubeDetailLayout(); }
-        private object Activate_70_RelatedContentDetailLayout() { return new global::LinusForumTips.Layouts.Detail.RelatedContentDetailLayout(); }
-        private object Activate_71_DataUpdateInformationControl() { return new global::LinusForumTips.Layouts.Controls.DataUpdateInformationControl(); }
-        private object Activate_72_SectionListItemHeader() { return new global::LinusForumTips.Layouts.Controls.SectionListItemHeader(); }
-        private object Activate_73_HeroImage() { return new global::LinusForumTips.Layouts.Controls.HeroImage(); }
-        private object Activate_74_ShellControl() { return new global::AppStudio.Uwp.Controls.ShellControl(); }
-        private object Activate_80_ActionsCommandBar() { return new global::AppStudio.Uwp.Actions.ActionsCommandBar(); }
-        private object Activate_81_List() { return new global::System.Collections.Generic.List<global::AppStudio.Uwp.Actions.ActionInfo>(); }
-        private object Activate_82_ActionInfo() { return new global::AppStudio.Uwp.Actions.ActionInfo(); }
-        private object Activate_84_SectionList() { return new global::AppStudio.Uwp.Controls.SectionList(); }
-        private object Activate_85_List() { return new global::System.Collections.Generic.List<global::AppStudio.Uwp.Controls.SectionListItem>(); }
-        private object Activate_86_SectionListItem() { return new global::AppStudio.Uwp.Controls.SectionListItem(); }
-        private object Activate_87_HomePage() { return new global::LinusForumTips.Pages.HomePage(); }
-        private object Activate_90_ErrorNotificationControl() { return new global::AppStudio.Uwp.Controls.ErrorNotificationControl(); }
-        private object Activate_91_LinusTechTipsVideosListPage() { return new global::LinusForumTips.Pages.LinusTechTipsVideosListPage(); }
-        private object Activate_94_WanShowArchiveListPage() { return new global::LinusForumTips.Pages.WanShowArchiveListPage(); }
-        private object Activate_95_TechquickieVideosListPage() { return new global::LinusForumTips.Pages.TechquickieVideosListPage(); }
-        private object Activate_96_ChannelSuperFunVideosListPage() { return new global::LinusForumTips.Pages.ChannelSuperFunVideosListPage(); }
-        private object Activate_97_BuildGuidesListPage() { return new global::LinusForumTips.Pages.BuildGuidesListPage(); }
-        private object Activate_98_BuildLogsListPage() { return new global::LinusForumTips.Pages.BuildLogsListPage(); }
-        private object Activate_99_GuidesAndTutorialsListPage() { return new global::LinusForumTips.Pages.GuidesAndTutorialsListPage(); }
-        private object Activate_100_AboutPage() { return new global::LinusForumTips.Pages.AboutPage(); }
-        private object Activate_101_AboutThisAppViewModel() { return new global::LinusForumTips.ViewModels.AboutThisAppViewModel(); }
-        private object Activate_102_LinusTechTipsVideosDetailPage() { return new global::LinusForumTips.Pages.LinusTechTipsVideosDetailPage(); }
-        private object Activate_103_WanShowArchiveDetailPage() { return new global::LinusForumTips.Pages.WanShowArchiveDetailPage(); }
-        private object Activate_104_TechquickieVideosDetailPage() { return new global::LinusForumTips.Pages.TechquickieVideosDetailPage(); }
-        private object Activate_105_ChannelSuperFunVideosDetailPage() { return new global::LinusForumTips.Pages.ChannelSuperFunVideosDetailPage(); }
-        private object Activate_106_BuildGuidesDetailPage() { return new global::LinusForumTips.Pages.BuildGuidesDetailPage(); }
-        private object Activate_107_BuildLogsDetailPage() { return new global::LinusForumTips.Pages.BuildLogsDetailPage(); }
-        private object Activate_108_GuidesAndTutorialsDetailPage() { return new global::LinusForumTips.Pages.GuidesAndTutorialsDetailPage(); }
-        private object Activate_109_ShellPage() { return new global::LinusForumTips.Pages.ShellPage(); }
-        private object Activate_111_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::AppStudio.Uwp.Controls.NavigationItem>(); }
-        private object Activate_112_Collection() { return new global::System.Collections.ObjectModel.Collection<global::AppStudio.Uwp.Controls.NavigationItem>(); }
-        private object Activate_118_ParagraphStyle() { return new global::AppStudio.Uwp.Controls.ParagraphStyle(); }
-        private object Activate_119_TextStyle() { return new global::AppStudio.Uwp.Controls.TextStyle(); }
-        private object Activate_120_ContainerStyle() { return new global::AppStudio.Uwp.Controls.ContainerStyle(); }
-        private object Activate_121_ListStyle() { return new global::AppStudio.Uwp.Controls.ListStyle(); }
-        private object Activate_122_TableStyle() { return new global::AppStudio.Uwp.Controls.TableStyle(); }
-        private object Activate_123_ImageStyle() { return new global::AppStudio.Uwp.Controls.ImageStyle(); }
-        private void VectorAdd_81_List(object instance, object item)
+        private object Activate_27_ListBigVerticalCardBox() { return new global::LinusForumTips.Layouts.List.ListBigVerticalCardBox(); }
+        private object Activate_28_ListBigVerticalCard() { return new global::LinusForumTips.Layouts.List.ListBigVerticalCard(); }
+        private object Activate_29_ListContactCard() { return new global::LinusForumTips.Layouts.List.ListContactCard(); }
+        private object Activate_30_ListPhoto() { return new global::LinusForumTips.Layouts.List.ListPhoto(); }
+        private object Activate_31_ListTextCard() { return new global::LinusForumTips.Layouts.List.ListTextCard(); }
+        private object Activate_32_MenuText() { return new global::LinusForumTips.Layouts.List.MenuText(); }
+        private object Activate_33_Carousel() { return new global::AppStudio.Uwp.Controls.Carousel(); }
+        private object Activate_37_Indicator() { return new global::AppStudio.Uwp.Controls.Indicator(); }
+        private object Activate_45_Virtualbox() { return new global::AppStudio.Uwp.Controls.Virtualbox(); }
+        private object Activate_47_CarouselBig() { return new global::LinusForumTips.Layouts.List.CarouselBig(); }
+        private object Activate_48_SliderView() { return new global::AppStudio.Uwp.Controls.SliderView(); }
+        private object Activate_49_CarouselMedium() { return new global::LinusForumTips.Layouts.List.CarouselMedium(); }
+        private object Activate_50_SplitterCard() { return new global::AppStudio.Uwp.Controls.SplitterCard(); }
+        private object Activate_53_ListGroupedHome() { return new global::LinusForumTips.Layouts.List.ListGroupedHome(); }
+        private object Activate_54_Pivorama() { return new global::AppStudio.Uwp.Controls.Pivorama(); }
+        private object Activate_55_ListGrouped() { return new global::LinusForumTips.Layouts.List.ListGrouped(); }
+        private object Activate_56_HtmlBlock() { return new global::AppStudio.Uwp.Controls.HtmlBlock(); }
+        private object Activate_57_DocumentStyle() { return new global::AppStudio.Uwp.Controls.DocumentStyle(); }
+        private object Activate_58_HtmlSection() { return new global::LinusForumTips.Layouts.List.HtmlSection(); }
+        private object Activate_63_MultiColumnDetailLayout() { return new global::LinusForumTips.Layouts.Detail.MultiColumnDetailLayout(); }
+        private object Activate_64_PhotoDetailLayout() { return new global::LinusForumTips.Layouts.Detail.PhotoDetailLayout(); }
+        private object Activate_65_TextDetailLayout() { return new global::LinusForumTips.Layouts.Detail.TextDetailLayout(); }
+        private object Activate_66_YouTubeDetailLayout() { return new global::LinusForumTips.Layouts.Detail.YouTubeDetailLayout(); }
+        private object Activate_67_RelatedContentDetailLayout() { return new global::LinusForumTips.Layouts.Detail.RelatedContentDetailLayout(); }
+        private object Activate_68_DataUpdateInformationControl() { return new global::LinusForumTips.Layouts.Controls.DataUpdateInformationControl(); }
+        private object Activate_69_SectionListItemHeader() { return new global::LinusForumTips.Layouts.Controls.SectionListItemHeader(); }
+        private object Activate_70_HeroImage() { return new global::LinusForumTips.Layouts.Controls.HeroImage(); }
+        private object Activate_71_ShellControl() { return new global::AppStudio.Uwp.Controls.ShellControl(); }
+        private object Activate_77_ActionsCommandBar() { return new global::AppStudio.Uwp.Actions.ActionsCommandBar(); }
+        private object Activate_78_List() { return new global::System.Collections.Generic.List<global::AppStudio.Uwp.Actions.ActionInfo>(); }
+        private object Activate_79_ActionInfo() { return new global::AppStudio.Uwp.Actions.ActionInfo(); }
+        private object Activate_81_SectionList() { return new global::AppStudio.Uwp.Controls.SectionList(); }
+        private object Activate_82_List() { return new global::System.Collections.Generic.List<global::AppStudio.Uwp.Controls.SectionListItem>(); }
+        private object Activate_83_SectionListItem() { return new global::AppStudio.Uwp.Controls.SectionListItem(); }
+        private object Activate_84_HomePage() { return new global::LinusForumTips.Pages.HomePage(); }
+        private object Activate_87_ErrorNotificationControl() { return new global::AppStudio.Uwp.Controls.ErrorNotificationControl(); }
+        private object Activate_88_LinusTechTipsVideosListPage() { return new global::LinusForumTips.Pages.LinusTechTipsVideosListPage(); }
+        private object Activate_91_WanShowArchiveListPage() { return new global::LinusForumTips.Pages.WanShowArchiveListPage(); }
+        private object Activate_92_TechquickieVideosListPage() { return new global::LinusForumTips.Pages.TechquickieVideosListPage(); }
+        private object Activate_93_ChannelSuperFunVideosListPage() { return new global::LinusForumTips.Pages.ChannelSuperFunVideosListPage(); }
+        private object Activate_94_BuildGuidesListPage() { return new global::LinusForumTips.Pages.BuildGuidesListPage(); }
+        private object Activate_95_BuildLogsListPage() { return new global::LinusForumTips.Pages.BuildLogsListPage(); }
+        private object Activate_96_GuidesAndTutorialsListPage() { return new global::LinusForumTips.Pages.GuidesAndTutorialsListPage(); }
+        private object Activate_97_AboutPage() { return new global::LinusForumTips.Pages.AboutPage(); }
+        private object Activate_98_AboutThisAppViewModel() { return new global::LinusForumTips.ViewModels.AboutThisAppViewModel(); }
+        private object Activate_99_LinusTechTipsVideosDetailPage() { return new global::LinusForumTips.Pages.LinusTechTipsVideosDetailPage(); }
+        private object Activate_100_WanShowArchiveDetailPage() { return new global::LinusForumTips.Pages.WanShowArchiveDetailPage(); }
+        private object Activate_101_TechquickieVideosDetailPage() { return new global::LinusForumTips.Pages.TechquickieVideosDetailPage(); }
+        private object Activate_102_ChannelSuperFunVideosDetailPage() { return new global::LinusForumTips.Pages.ChannelSuperFunVideosDetailPage(); }
+        private object Activate_103_BuildGuidesDetailPage() { return new global::LinusForumTips.Pages.BuildGuidesDetailPage(); }
+        private object Activate_104_BuildLogsDetailPage() { return new global::LinusForumTips.Pages.BuildLogsDetailPage(); }
+        private object Activate_105_GuidesAndTutorialsDetailPage() { return new global::LinusForumTips.Pages.GuidesAndTutorialsDetailPage(); }
+        private object Activate_106_ShellPage() { return new global::LinusForumTips.Pages.ShellPage(); }
+        private object Activate_108_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::AppStudio.Uwp.Controls.NavigationItem>(); }
+        private object Activate_109_Collection() { return new global::System.Collections.ObjectModel.Collection<global::AppStudio.Uwp.Controls.NavigationItem>(); }
+        private object Activate_117_ParagraphStyle() { return new global::AppStudio.Uwp.Controls.ParagraphStyle(); }
+        private object Activate_118_TextStyle() { return new global::AppStudio.Uwp.Controls.TextStyle(); }
+        private object Activate_119_ContainerStyle() { return new global::AppStudio.Uwp.Controls.ContainerStyle(); }
+        private object Activate_120_ListStyle() { return new global::AppStudio.Uwp.Controls.ListStyle(); }
+        private object Activate_121_TableStyle() { return new global::AppStudio.Uwp.Controls.TableStyle(); }
+        private object Activate_122_ImageStyle() { return new global::AppStudio.Uwp.Controls.ImageStyle(); }
+        private void VectorAdd_78_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::AppStudio.Uwp.Actions.ActionInfo>)instance;
             var newItem = (global::AppStudio.Uwp.Actions.ActionInfo)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_85_List(object instance, object item)
+        private void VectorAdd_82_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::AppStudio.Uwp.Controls.SectionListItem>)instance;
             var newItem = (global::AppStudio.Uwp.Controls.SectionListItem)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_111_ObservableCollection(object instance, object item)
+        private void VectorAdd_108_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::AppStudio.Uwp.Controls.NavigationItem>)instance;
             var newItem = (global::AppStudio.Uwp.Controls.NavigationItem)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_112_Collection(object instance, object item)
+        private void VectorAdd_109_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::AppStudio.Uwp.Controls.NavigationItem>)instance;
             var newItem = (global::AppStudio.Uwp.Controls.NavigationItem)item;
@@ -724,72 +715,51 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 27:   //  LinusForumTips.Layouts.List.MenuBig
+            case 27:   //  LinusForumTips.Layouts.List.ListBigVerticalCardBox
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_27_MenuBig;
+                userType.Activator = Activate_27_ListBigVerticalCardBox;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 28:   //  LinusForumTips.Layouts.List.ListBigVerticalCardBox
+            case 28:   //  LinusForumTips.Layouts.List.ListBigVerticalCard
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_28_ListBigVerticalCardBox;
+                userType.Activator = Activate_28_ListBigVerticalCard;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 29:   //  LinusForumTips.Layouts.List.ListBigVerticalCard
+            case 29:   //  LinusForumTips.Layouts.List.ListContactCard
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_29_ListBigVerticalCard;
+                userType.Activator = Activate_29_ListContactCard;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 30:   //  LinusForumTips.Layouts.List.ListContactCard
+            case 30:   //  LinusForumTips.Layouts.List.ListPhoto
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_30_ListContactCard;
+                userType.Activator = Activate_30_ListPhoto;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 31:   //  LinusForumTips.Layouts.List.MenuMedium
+            case 31:   //  LinusForumTips.Layouts.List.ListTextCard
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_31_MenuMedium;
+                userType.Activator = Activate_31_ListTextCard;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 32:   //  LinusForumTips.Layouts.List.ListPhoto
+            case 32:   //  LinusForumTips.Layouts.List.MenuText
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_32_ListPhoto;
+                userType.Activator = Activate_32_MenuText;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 33:   //  LinusForumTips.Layouts.List.MenuSmall
-                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_33_MenuSmall;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 34:   //  LinusForumTips.Layouts.List.ListTextCard
-                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_34_ListTextCard;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 35:   //  LinusForumTips.Layouts.List.MenuText
-                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_35_MenuText;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 36:   //  AppStudio.Uwp.Controls.Carousel
+            case 33:   //  AppStudio.Uwp.Controls.Carousel
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_36_Carousel;
+                userType.Activator = Activate_33_Carousel;
                 userType.AddMemberName("MaxItems");
                 userType.AddMemberName("GradientOpacity");
                 userType.AddMemberName("AspectRatio");
@@ -807,21 +777,21 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 37:   //  Int32
+            case 34:   //  Int32
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 38:   //  Windows.UI.Xaml.Visibility
+            case 35:   //  Windows.UI.Xaml.Visibility
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 39:   //  Windows.UI.Xaml.Media.AlignmentX
+            case 36:   //  Windows.UI.Xaml.Media.AlignmentX
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 40:   //  AppStudio.Uwp.Controls.Indicator
+            case 37:   //  AppStudio.Uwp.Controls.Indicator
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ListViewBase"));
-                userType.Activator = Activate_40_Indicator;
+                userType.Activator = Activate_37_Indicator;
                 userType.AddMemberName("ShapeMode");
                 userType.AddMemberName("SelectedBackground");
                 userType.AddMemberName("PressedBackground");
@@ -833,42 +803,42 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 41:   //  Windows.UI.Xaml.Controls.ListViewBase
+            case 38:   //  Windows.UI.Xaml.Controls.ListViewBase
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 42:   //  Windows.UI.Xaml.Controls.ItemsControl
+            case 39:   //  Windows.UI.Xaml.Controls.ItemsControl
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 43:   //  AppStudio.Uwp.Controls.ShapeMode
+            case 40:   //  AppStudio.Uwp.Controls.ShapeMode
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Rectangle", global::AppStudio.Uwp.Controls.ShapeMode.Rectangle);
                 userType.AddEnumValue("Ellipse", global::AppStudio.Uwp.Controls.ShapeMode.Ellipse);
                 xamlType = userType;
                 break;
 
-            case 44:   //  System.Enum
+            case 41:   //  System.Enum
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
-            case 45:   //  System.ValueType
+            case 42:   //  System.ValueType
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 46:   //  Windows.UI.Xaml.Media.Brush
+            case 43:   //  Windows.UI.Xaml.Media.Brush
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 47:   //  Windows.UI.Xaml.Style
+            case 44:   //  Windows.UI.Xaml.Style
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 48:   //  AppStudio.Uwp.Controls.Virtualbox
+            case 45:   //  AppStudio.Uwp.Controls.Virtualbox
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_48_Virtualbox;
+                userType.Activator = Activate_45_Virtualbox;
                 userType.AddMemberName("VirtualWidth");
                 userType.AddMemberName("VirtualHeight");
                 userType.AddMemberName("Stretch");
@@ -877,20 +847,20 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 49:   //  Windows.UI.Xaml.Media.AlignmentY
+            case 46:   //  Windows.UI.Xaml.Media.AlignmentY
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 50:   //  LinusForumTips.Layouts.List.CarouselBig
+            case 47:   //  LinusForumTips.Layouts.List.CarouselBig
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_50_CarouselBig;
+                userType.Activator = Activate_47_CarouselBig;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 51:   //  AppStudio.Uwp.Controls.SliderView
+            case 48:   //  AppStudio.Uwp.Controls.SliderView
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_51_SliderView;
+                userType.Activator = Activate_48_SliderView;
                 userType.AddMemberName("ItemWidth");
                 userType.AddMemberName("ItemsSource");
                 userType.AddMemberName("ItemClickCommand");
@@ -902,16 +872,16 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 52:   //  LinusForumTips.Layouts.List.CarouselMedium
+            case 49:   //  LinusForumTips.Layouts.List.CarouselMedium
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_52_CarouselMedium;
+                userType.Activator = Activate_49_CarouselMedium;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 53:   //  AppStudio.Uwp.Controls.SplitterCard
+            case 50:   //  AppStudio.Uwp.Controls.SplitterCard
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_53_SplitterCard;
+                userType.Activator = Activate_50_SplitterCard;
                 userType.AddMemberName("Text");
                 userType.AddMemberName("TextFontSize");
                 userType.AddMemberName("LineSpacing");
@@ -922,26 +892,26 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 54:   //  Char
+            case 51:   //  Char
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 55:   //  Windows.UI.Xaml.TextAlignment
+            case 52:   //  Windows.UI.Xaml.TextAlignment
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 56:   //  LinusForumTips.Layouts.List.ListGroupedHome
+            case 53:   //  LinusForumTips.Layouts.List.ListGroupedHome
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_56_ListGroupedHome;
+                userType.Activator = Activate_53_ListGroupedHome;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 57:   //  AppStudio.Uwp.Controls.Pivorama
+            case 54:   //  AppStudio.Uwp.Controls.Pivorama
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_57_Pivorama;
+                userType.Activator = Activate_54_Pivorama;
                 userType.AddMemberName("ItemsSource");
                 userType.AddMemberName("ItemWidth");
                 userType.AddMemberName("FitToScreen");
@@ -955,24 +925,24 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 58:   //  LinusForumTips.Layouts.List.ListGrouped
+            case 55:   //  LinusForumTips.Layouts.List.ListGrouped
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.List.ListLayoutBase"));
-                userType.Activator = Activate_58_ListGrouped;
+                userType.Activator = Activate_55_ListGrouped;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 59:   //  AppStudio.Uwp.Controls.HtmlBlock
+            case 56:   //  AppStudio.Uwp.Controls.HtmlBlock
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_59_HtmlBlock;
+                userType.Activator = Activate_56_HtmlBlock;
                 userType.AddMemberName("Source");
                 userType.AddMemberName("DocumentStyle");
                 xamlType = userType;
                 break;
 
-            case 60:   //  AppStudio.Uwp.Controls.DocumentStyle
+            case 57:   //  AppStudio.Uwp.Controls.DocumentStyle
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_60_DocumentStyle;
+                userType.Activator = Activate_57_DocumentStyle;
                 userType.AddMemberName("P");
                 userType.AddMemberName("Ul");
                 userType.AddMemberName("H1");
@@ -1017,9 +987,9 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 61:   //  LinusForumTips.Layouts.List.HtmlSection
+            case 58:   //  LinusForumTips.Layouts.List.HtmlSection
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_61_HtmlSection;
+                userType.Activator = Activate_58_HtmlSection;
                 userType.AddMemberName("HtmlContent");
                 userType.AddMemberName("Header");
                 userType.AddMemberName("HeaderTemplate");
@@ -1027,72 +997,72 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 62:   //  LinusForumTips.Layouts.Detail.BaseDetailLayout
+            case 59:   //  LinusForumTips.Layouts.Detail.BaseDetailLayout
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 63:   //  LinusForumTips.ViewModels.DetailViewModel
+            case 60:   //  LinusForumTips.ViewModels.DetailViewModel
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.ViewModels.PageViewModelBase"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 64:   //  LinusForumTips.ViewModels.PageViewModelBase
+            case 61:   //  LinusForumTips.ViewModels.PageViewModelBase
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.Uwp.ObservableBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 65:   //  AppStudio.Uwp.ObservableBase
+            case 62:   //  AppStudio.Uwp.ObservableBase
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 66:   //  LinusForumTips.Layouts.Detail.MultiColumnDetailLayout
+            case 63:   //  LinusForumTips.Layouts.Detail.MultiColumnDetailLayout
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.Detail.BaseDetailLayout"));
-                userType.Activator = Activate_66_MultiColumnDetailLayout;
+                userType.Activator = Activate_63_MultiColumnDetailLayout;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 67:   //  LinusForumTips.Layouts.Detail.PhotoDetailLayout
+            case 64:   //  LinusForumTips.Layouts.Detail.PhotoDetailLayout
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.Detail.BaseDetailLayout"));
-                userType.Activator = Activate_67_PhotoDetailLayout;
+                userType.Activator = Activate_64_PhotoDetailLayout;
                 userType.AddMemberName("MaxW");
                 userType.AddMemberName("MaxH");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 68:   //  LinusForumTips.Layouts.Detail.TextDetailLayout
+            case 65:   //  LinusForumTips.Layouts.Detail.TextDetailLayout
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.Detail.BaseDetailLayout"));
-                userType.Activator = Activate_68_TextDetailLayout;
+                userType.Activator = Activate_65_TextDetailLayout;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 69:   //  LinusForumTips.Layouts.Detail.YouTubeDetailLayout
+            case 66:   //  LinusForumTips.Layouts.Detail.YouTubeDetailLayout
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.Detail.BaseDetailLayout"));
-                userType.Activator = Activate_69_YouTubeDetailLayout;
+                userType.Activator = Activate_66_YouTubeDetailLayout;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 70:   //  LinusForumTips.Layouts.Detail.RelatedContentDetailLayout
+            case 67:   //  LinusForumTips.Layouts.Detail.RelatedContentDetailLayout
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.Layouts.Detail.BaseDetailLayout"));
-                userType.Activator = Activate_70_RelatedContentDetailLayout;
+                userType.Activator = Activate_67_RelatedContentDetailLayout;
                 userType.AddMemberName("RelatedContentTemplate");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 71:   //  LinusForumTips.Layouts.Controls.DataUpdateInformationControl
+            case 68:   //  LinusForumTips.Layouts.Controls.DataUpdateInformationControl
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_71_DataUpdateInformationControl;
+                userType.Activator = Activate_68_DataUpdateInformationControl;
                 userType.AddMemberName("LastUpdateDateTime");
                 userType.AddMemberName("HasLocalData");
                 userType.AddMemberName("Color");
@@ -1101,17 +1071,17 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 72:   //  LinusForumTips.Layouts.Controls.SectionListItemHeader
+            case 69:   //  LinusForumTips.Layouts.Controls.SectionListItemHeader
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_72_SectionListItemHeader;
+                userType.Activator = Activate_69_SectionListItemHeader;
                 userType.AddMemberName("Title");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 73:   //  LinusForumTips.Layouts.Controls.HeroImage
+            case 70:   //  LinusForumTips.Layouts.Controls.HeroImage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_73_HeroImage;
+                userType.Activator = Activate_70_HeroImage;
                 userType.AddMemberName("Image");
                 userType.AddMemberName("MobileImage");
                 userType.AddMemberName("Source");
@@ -1119,9 +1089,9 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 74:   //  AppStudio.Uwp.Controls.ShellControl
+            case 71:   //  AppStudio.Uwp.Controls.ShellControl
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_74_ShellControl;
+                userType.Activator = Activate_71_ShellControl;
                 userType.AddMemberName("NavigationItems");
                 userType.AddMemberName("Header");
                 userType.AddMemberName("HeaderTemplate");
@@ -1146,47 +1116,47 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 75:   //  System.Collections.Generic.IEnumerable`1<AppStudio.Uwp.Controls.NavigationItem>
+            case 72:   //  System.Collections.Generic.IEnumerable`1<AppStudio.Uwp.Controls.NavigationItem>
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 76:   //  Windows.UI.Xaml.Controls.SplitViewDisplayMode
+            case 73:   //  Windows.UI.Xaml.Controls.SplitViewDisplayMode
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 77:   //  Windows.UI.Xaml.VerticalAlignment
+            case 74:   //  Windows.UI.Xaml.VerticalAlignment
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 78:   //  Windows.UI.Xaml.Controls.CommandBar
+            case 75:   //  Windows.UI.Xaml.Controls.CommandBar
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 79:   //  Windows.UI.Xaml.UIElement
+            case 76:   //  Windows.UI.Xaml.UIElement
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 80:   //  AppStudio.Uwp.Actions.ActionsCommandBar
+            case 77:   //  AppStudio.Uwp.Actions.ActionsCommandBar
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.CommandBar"));
-                userType.Activator = Activate_80_ActionsCommandBar;
+                userType.Activator = Activate_77_ActionsCommandBar;
                 userType.AddMemberName("IsVisible");
                 userType.AddMemberName("ActionsSource");
                 userType.AddMemberName("HideOnLandscape");
                 xamlType = userType;
                 break;
 
-            case 81:   //  System.Collections.Generic.List`1<AppStudio.Uwp.Actions.ActionInfo>
+            case 78:   //  System.Collections.Generic.List`1<AppStudio.Uwp.Actions.ActionInfo>
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_81_List;
+                userType.CollectionAdd = VectorAdd_78_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 82:   //  AppStudio.Uwp.Actions.ActionInfo
+            case 79:   //  AppStudio.Uwp.Actions.ActionInfo
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_82_ActionInfo;
+                userType.Activator = Activate_79_ActionInfo;
                 userType.AddMemberName("Name");
                 userType.AddMemberName("Text");
                 userType.AddMemberName("Style");
@@ -1196,16 +1166,16 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 83:   //  AppStudio.Uwp.Actions.ActionType
+            case 80:   //  AppStudio.Uwp.Actions.ActionType
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Primary", global::AppStudio.Uwp.Actions.ActionType.Primary);
                 userType.AddEnumValue("Secondary", global::AppStudio.Uwp.Actions.ActionType.Secondary);
                 xamlType = userType;
                 break;
 
-            case 84:   //  AppStudio.Uwp.Controls.SectionList
+            case 81:   //  AppStudio.Uwp.Controls.SectionList
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_84_SectionList;
+                userType.Activator = Activate_81_SectionList;
                 userType.SetContentPropertyName("AppStudio.Uwp.Controls.SectionList.Sections");
                 userType.AddMemberName("Sections");
                 userType.AddMemberName("ErrorColor");
@@ -1219,16 +1189,16 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 85:   //  System.Collections.Generic.List`1<AppStudio.Uwp.Controls.SectionListItem>
+            case 82:   //  System.Collections.Generic.List`1<AppStudio.Uwp.Controls.SectionListItem>
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_85_List;
+                userType.CollectionAdd = VectorAdd_82_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 86:   //  AppStudio.Uwp.Controls.SectionListItem
+            case 83:   //  AppStudio.Uwp.Controls.SectionListItem
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_86_SectionListItem;
+                userType.Activator = Activate_83_SectionListItem;
                 userType.SetContentPropertyName("AppStudio.Uwp.Controls.SectionListItem.ContentTemplate");
                 userType.AddMemberName("ContentTemplate");
                 userType.AddMemberName("HeaderLinkClickCommand");
@@ -1245,28 +1215,28 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 87:   //  LinusForumTips.Pages.HomePage
+            case 84:   //  LinusForumTips.Pages.HomePage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_87_HomePage;
+                userType.Activator = Activate_84_HomePage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 88:   //  Windows.UI.Xaml.Controls.Page
+            case 85:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 89:   //  LinusForumTips.ViewModels.MainViewModel
+            case 86:   //  LinusForumTips.ViewModels.MainViewModel
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.ViewModels.PageViewModelBase"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 90:   //  AppStudio.Uwp.Controls.ErrorNotificationControl
+            case 87:   //  AppStudio.Uwp.Controls.ErrorNotificationControl
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Control"));
-                userType.Activator = Activate_90_ErrorNotificationControl;
+                userType.Activator = Activate_87_ErrorNotificationControl;
                 userType.AddMemberName("ErrorColor");
                 userType.AddMemberName("ErrorVisibility");
                 userType.AddMemberName("CloseCommand");
@@ -1274,149 +1244,149 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 91:   //  LinusForumTips.Pages.LinusTechTipsVideosListPage
+            case 88:   //  LinusForumTips.Pages.LinusTechTipsVideosListPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_91_LinusTechTipsVideosListPage;
+                userType.Activator = Activate_88_LinusTechTipsVideosListPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 92:   //  LinusForumTips.ViewModels.ListViewModel
+            case 89:   //  LinusForumTips.ViewModels.ListViewModel
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.ViewModels.ListViewModelBase"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 93:   //  LinusForumTips.ViewModels.ListViewModelBase
+            case 90:   //  LinusForumTips.ViewModels.ListViewModelBase
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.ViewModels.PageViewModelBase"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 94:   //  LinusForumTips.Pages.WanShowArchiveListPage
+            case 91:   //  LinusForumTips.Pages.WanShowArchiveListPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_94_WanShowArchiveListPage;
+                userType.Activator = Activate_91_WanShowArchiveListPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 95:   //  LinusForumTips.Pages.TechquickieVideosListPage
+            case 92:   //  LinusForumTips.Pages.TechquickieVideosListPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_95_TechquickieVideosListPage;
+                userType.Activator = Activate_92_TechquickieVideosListPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 96:   //  LinusForumTips.Pages.ChannelSuperFunVideosListPage
+            case 93:   //  LinusForumTips.Pages.ChannelSuperFunVideosListPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_96_ChannelSuperFunVideosListPage;
+                userType.Activator = Activate_93_ChannelSuperFunVideosListPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 97:   //  LinusForumTips.Pages.BuildGuidesListPage
+            case 94:   //  LinusForumTips.Pages.BuildGuidesListPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_97_BuildGuidesListPage;
+                userType.Activator = Activate_94_BuildGuidesListPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 98:   //  LinusForumTips.Pages.BuildLogsListPage
+            case 95:   //  LinusForumTips.Pages.BuildLogsListPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_98_BuildLogsListPage;
+                userType.Activator = Activate_95_BuildLogsListPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 99:   //  LinusForumTips.Pages.GuidesAndTutorialsListPage
+            case 96:   //  LinusForumTips.Pages.GuidesAndTutorialsListPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_99_GuidesAndTutorialsListPage;
+                userType.Activator = Activate_96_GuidesAndTutorialsListPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 100:   //  LinusForumTips.Pages.AboutPage
+            case 97:   //  LinusForumTips.Pages.AboutPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_100_AboutPage;
+                userType.Activator = Activate_97_AboutPage;
                 userType.AddMemberName("AboutThisAppModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 101:   //  LinusForumTips.ViewModels.AboutThisAppViewModel
+            case 98:   //  LinusForumTips.ViewModels.AboutThisAppViewModel
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("LinusForumTips.ViewModels.PageViewModelBase"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 102:   //  LinusForumTips.Pages.LinusTechTipsVideosDetailPage
+            case 99:   //  LinusForumTips.Pages.LinusTechTipsVideosDetailPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_102_LinusTechTipsVideosDetailPage;
+                userType.Activator = Activate_99_LinusTechTipsVideosDetailPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 103:   //  LinusForumTips.Pages.WanShowArchiveDetailPage
+            case 100:   //  LinusForumTips.Pages.WanShowArchiveDetailPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_103_WanShowArchiveDetailPage;
+                userType.Activator = Activate_100_WanShowArchiveDetailPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 104:   //  LinusForumTips.Pages.TechquickieVideosDetailPage
+            case 101:   //  LinusForumTips.Pages.TechquickieVideosDetailPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_104_TechquickieVideosDetailPage;
+                userType.Activator = Activate_101_TechquickieVideosDetailPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 105:   //  LinusForumTips.Pages.ChannelSuperFunVideosDetailPage
+            case 102:   //  LinusForumTips.Pages.ChannelSuperFunVideosDetailPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_105_ChannelSuperFunVideosDetailPage;
+                userType.Activator = Activate_102_ChannelSuperFunVideosDetailPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 106:   //  LinusForumTips.Pages.BuildGuidesDetailPage
+            case 103:   //  LinusForumTips.Pages.BuildGuidesDetailPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_106_BuildGuidesDetailPage;
+                userType.Activator = Activate_103_BuildGuidesDetailPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 107:   //  LinusForumTips.Pages.BuildLogsDetailPage
+            case 104:   //  LinusForumTips.Pages.BuildLogsDetailPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_107_BuildLogsDetailPage;
+                userType.Activator = Activate_104_BuildLogsDetailPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 108:   //  LinusForumTips.Pages.GuidesAndTutorialsDetailPage
+            case 105:   //  LinusForumTips.Pages.GuidesAndTutorialsDetailPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_108_GuidesAndTutorialsDetailPage;
+                userType.Activator = Activate_105_GuidesAndTutorialsDetailPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 109:   //  LinusForumTips.Pages.ShellPage
+            case 106:   //  LinusForumTips.Pages.ShellPage
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_109_ShellPage;
+                userType.Activator = Activate_106_ShellPage;
                 userType.AddMemberName("ShellControl");
                 userType.AddMemberName("AppFrame");
                 userType.AddMemberName("SupportFullScreen");
@@ -1425,25 +1395,25 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 110:   //  Windows.UI.Xaml.Controls.Frame
+            case 107:   //  Windows.UI.Xaml.Controls.Frame
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 111:   //  System.Collections.ObjectModel.ObservableCollection`1<AppStudio.Uwp.Controls.NavigationItem>
+            case 108:   //  System.Collections.ObjectModel.ObservableCollection`1<AppStudio.Uwp.Controls.NavigationItem>
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<AppStudio.Uwp.Controls.NavigationItem>"));
-                userType.CollectionAdd = VectorAdd_111_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_108_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 112:   //  System.Collections.ObjectModel.Collection`1<AppStudio.Uwp.Controls.NavigationItem>
+            case 109:   //  System.Collections.ObjectModel.Collection`1<AppStudio.Uwp.Controls.NavigationItem>
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_112_Collection;
-                userType.CollectionAdd = VectorAdd_112_Collection;
+                userType.Activator = Activate_109_Collection;
+                userType.CollectionAdd = VectorAdd_109_Collection;
                 xamlType = userType;
                 break;
 
-            case 113:   //  AppStudio.Uwp.Controls.NavigationItem
+            case 110:   //  AppStudio.Uwp.Controls.NavigationItem
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("IsSeparator");
                 userType.AddMemberName("ID");
@@ -1458,90 +1428,27 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 114:   //  Windows.UI.Xaml.Controls.IconElement
+            case 111:   //  Windows.UI.Xaml.Controls.IconElement
                 xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 115:   //  System.Action`1<AppStudio.Uwp.Controls.NavigationItem>
+            case 112:   //  System.Action`1<AppStudio.Uwp.Controls.NavigationItem>
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.MulticastDelegate"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 116:   //  System.MulticastDelegate
+            case 113:   //  System.MulticastDelegate
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Delegate"));
                 xamlType = userType;
                 break;
 
-            case 117:   //  System.Delegate
+            case 114:   //  System.Delegate
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 118:   //  AppStudio.Uwp.Controls.ParagraphStyle
-                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.Uwp.Controls.TextStyle"));
-                userType.Activator = Activate_118_ParagraphStyle;
-                userType.AddMemberName("Margin");
-                xamlType = userType;
-                break;
-
-            case 119:   //  AppStudio.Uwp.Controls.TextStyle
-                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_119_TextStyle;
-                userType.AddMemberName("FontSizeRatio");
-                userType.AddMemberName("Foreground");
-                userType.AddMemberName("FontFamily");
-                userType.AddMemberName("FontStyle");
-                userType.AddMemberName("FontWeight");
-                xamlType = userType;
-                break;
-
-            case 120:   //  AppStudio.Uwp.Controls.ContainerStyle
-                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_120_ContainerStyle;
-                userType.AddMemberName("Margin");
-                userType.AddMemberName("Padding");
-                xamlType = userType;
-                break;
-
-            case 121:   //  AppStudio.Uwp.Controls.ListStyle
-                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.Uwp.Controls.ParagraphStyle"));
-                userType.Activator = Activate_121_ListStyle;
-                userType.AddMemberName("Bullet");
-                xamlType = userType;
-                break;
-
-            case 122:   //  AppStudio.Uwp.Controls.TableStyle
-                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.Uwp.Controls.ContainerStyle"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 123:   //  AppStudio.Uwp.Controls.ImageStyle
-                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 124:   //  Windows.UI.Xaml.Media.FontFamily
-                xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 125:   //  Windows.UI.Text.FontStyle
-                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.AddEnumValue("Normal", global::Windows.UI.Text.FontStyle.Normal);
-                userType.AddEnumValue("Oblique", global::Windows.UI.Text.FontStyle.Oblique);
-                userType.AddEnumValue("Italic", global::Windows.UI.Text.FontStyle.Italic);
-                xamlType = userType;
-                break;
-
-            case 126:   //  Windows.UI.Text.FontWeight
-                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 127:   //  Windows.UI.Color
+            case 115:   //  Windows.UI.Color
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.AddMemberName("A");
                 userType.AddMemberName("B");
@@ -1550,7 +1457,70 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 128:   //  Byte
+            case 116:   //  Byte
+                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 117:   //  AppStudio.Uwp.Controls.ParagraphStyle
+                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.Uwp.Controls.TextStyle"));
+                userType.Activator = Activate_117_ParagraphStyle;
+                userType.AddMemberName("Margin");
+                xamlType = userType;
+                break;
+
+            case 118:   //  AppStudio.Uwp.Controls.TextStyle
+                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_118_TextStyle;
+                userType.AddMemberName("FontSizeRatio");
+                userType.AddMemberName("Foreground");
+                userType.AddMemberName("FontFamily");
+                userType.AddMemberName("FontStyle");
+                userType.AddMemberName("FontWeight");
+                xamlType = userType;
+                break;
+
+            case 119:   //  AppStudio.Uwp.Controls.ContainerStyle
+                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_119_ContainerStyle;
+                userType.AddMemberName("Margin");
+                userType.AddMemberName("Padding");
+                xamlType = userType;
+                break;
+
+            case 120:   //  AppStudio.Uwp.Controls.ListStyle
+                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.Uwp.Controls.ParagraphStyle"));
+                userType.Activator = Activate_120_ListStyle;
+                userType.AddMemberName("Bullet");
+                xamlType = userType;
+                break;
+
+            case 121:   //  AppStudio.Uwp.Controls.TableStyle
+                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("AppStudio.Uwp.Controls.ContainerStyle"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 122:   //  AppStudio.Uwp.Controls.ImageStyle
+                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 123:   //  Windows.UI.Xaml.Media.FontFamily
+                xamlType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 124:   //  Windows.UI.Text.FontStyle
+                userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Normal", global::Windows.UI.Text.FontStyle.Normal);
+                userType.AddEnumValue("Oblique", global::Windows.UI.Text.FontStyle.Oblique);
+                userType.AddEnumValue("Italic", global::Windows.UI.Text.FontStyle.Italic);
+                xamlType = userType;
+                break;
+
+            case 125:   //  Windows.UI.Text.FontWeight
                 userType = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
@@ -3332,545 +3302,545 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
             var that = (global::AppStudio.Uwp.Controls.NavigationItem)instance;
             that.OnClick = (global::System.Action<global::AppStudio.Uwp.Controls.NavigationItem>)Value;
         }
-        private object get_178_DocumentStyle_P(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.P;
-        }
-        private void set_178_DocumentStyle_P(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.P = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
-        }
-        private object get_179_DocumentStyle_Ul(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Ul;
-        }
-        private void set_179_DocumentStyle_Ul(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Ul = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_180_DocumentStyle_H1(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.H1;
-        }
-        private void set_180_DocumentStyle_H1(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.H1 = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
-        }
-        private object get_181_DocumentStyle_H2(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.H2;
-        }
-        private void set_181_DocumentStyle_H2(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.H2 = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
-        }
-        private object get_182_DocumentStyle_A(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.A;
-        }
-        private void set_182_DocumentStyle_A(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.A = (global::AppStudio.Uwp.Controls.TextStyle)Value;
-        }
-        private object get_183_DocumentStyle_Li(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Li;
-        }
-        private void set_183_DocumentStyle_Li(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Li = (global::AppStudio.Uwp.Controls.ListStyle)Value;
-        }
-        private object get_184_DocumentStyle_Time(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Time;
-        }
-        private void set_184_DocumentStyle_Time(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Time = (global::AppStudio.Uwp.Controls.TextStyle)Value;
-        }
-        private object get_185_DocumentStyle_Section(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Section;
-        }
-        private void set_185_DocumentStyle_Section(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Section = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_186_DocumentStyle_Article(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Article;
-        }
-        private void set_186_DocumentStyle_Article(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Article = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_187_DocumentStyle_Header(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Header;
-        }
-        private void set_187_DocumentStyle_Header(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Header = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_188_DocumentStyle_Footer(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Footer;
-        }
-        private void set_188_DocumentStyle_Footer(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Footer = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_189_DocumentStyle_Main(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Main;
-        }
-        private void set_189_DocumentStyle_Main(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Main = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_190_DocumentStyle_Figure(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Figure;
-        }
-        private void set_190_DocumentStyle_Figure(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Figure = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_191_DocumentStyle_Details(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Details;
-        }
-        private void set_191_DocumentStyle_Details(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Details = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_192_DocumentStyle_Summary(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Summary;
-        }
-        private void set_192_DocumentStyle_Summary(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Summary = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_193_DocumentStyle_Div(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Div;
-        }
-        private void set_193_DocumentStyle_Div(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Div = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_194_DocumentStyle_Ol(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Ol;
-        }
-        private void set_194_DocumentStyle_Ol(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Ol = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_195_DocumentStyle_Dl(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Dl;
-        }
-        private void set_195_DocumentStyle_Dl(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Dl = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_196_DocumentStyle_Td(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Td;
-        }
-        private void set_196_DocumentStyle_Td(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Td = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
-        }
-        private object get_197_DocumentStyle_Table(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Table;
-        }
-        private void set_197_DocumentStyle_Table(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Table = (global::AppStudio.Uwp.Controls.TableStyle)Value;
-        }
-        private object get_198_DocumentStyle_Img(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Img;
-        }
-        private void set_198_DocumentStyle_Img(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Img = (global::AppStudio.Uwp.Controls.ImageStyle)Value;
-        }
-        private object get_199_DocumentStyle_YouTube(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.YouTube;
-        }
-        private void set_199_DocumentStyle_YouTube(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.YouTube = (global::AppStudio.Uwp.Controls.ImageStyle)Value;
-        }
-        private object get_200_DocumentStyle_Channel9(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Channel9;
-        }
-        private void set_200_DocumentStyle_Channel9(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Channel9 = (global::AppStudio.Uwp.Controls.ImageStyle)Value;
-        }
-        private object get_201_DocumentStyle_H3(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.H3;
-        }
-        private void set_201_DocumentStyle_H3(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.H3 = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
-        }
-        private object get_202_DocumentStyle_H4(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.H4;
-        }
-        private void set_202_DocumentStyle_H4(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.H4 = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
-        }
-        private object get_203_DocumentStyle_H5(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.H5;
-        }
-        private void set_203_DocumentStyle_H5(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.H5 = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
-        }
-        private object get_204_DocumentStyle_H6(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.H6;
-        }
-        private void set_204_DocumentStyle_H6(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.H6 = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
-        }
-        private object get_205_DocumentStyle_BlockQuote(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.BlockQuote;
-        }
-        private void set_205_DocumentStyle_BlockQuote(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.BlockQuote = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
-        }
-        private object get_206_DocumentStyle_Pre(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Pre;
-        }
-        private void set_206_DocumentStyle_Pre(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Pre = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
-        }
-        private object get_207_DocumentStyle_FigCaption(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.FigCaption;
-        }
-        private void set_207_DocumentStyle_FigCaption(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.FigCaption = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
-        }
-        private object get_208_DocumentStyle_Dt(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Dt;
-        }
-        private void set_208_DocumentStyle_Dt(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Dt = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
-        }
-        private object get_209_DocumentStyle_Dd(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Dd;
-        }
-        private void set_209_DocumentStyle_Dd(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Dd = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
-        }
-        private object get_210_DocumentStyle_Span(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Span;
-        }
-        private void set_210_DocumentStyle_Span(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Span = (global::AppStudio.Uwp.Controls.TextStyle)Value;
-        }
-        private object get_211_DocumentStyle_Label(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Label;
-        }
-        private void set_211_DocumentStyle_Label(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Label = (global::AppStudio.Uwp.Controls.TextStyle)Value;
-        }
-        private object get_212_DocumentStyle_Q(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Q;
-        }
-        private void set_212_DocumentStyle_Q(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Q = (global::AppStudio.Uwp.Controls.TextStyle)Value;
-        }
-        private object get_213_DocumentStyle_Cite(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Cite;
-        }
-        private void set_213_DocumentStyle_Cite(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Cite = (global::AppStudio.Uwp.Controls.TextStyle)Value;
-        }
-        private object get_214_DocumentStyle_I(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.I;
-        }
-        private void set_214_DocumentStyle_I(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.I = (global::AppStudio.Uwp.Controls.TextStyle)Value;
-        }
-        private object get_215_DocumentStyle_Em(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Em;
-        }
-        private void set_215_DocumentStyle_Em(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Em = (global::AppStudio.Uwp.Controls.TextStyle)Value;
-        }
-        private object get_216_DocumentStyle_Mark(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Mark;
-        }
-        private void set_216_DocumentStyle_Mark(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Mark = (global::AppStudio.Uwp.Controls.TextStyle)Value;
-        }
-        private object get_217_DocumentStyle_Code(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Code;
-        }
-        private void set_217_DocumentStyle_Code(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Code = (global::AppStudio.Uwp.Controls.TextStyle)Value;
-        }
-        private object get_218_DocumentStyle_Strong(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            return that.Strong;
-        }
-        private void set_218_DocumentStyle_Strong(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
-            that.Strong = (global::AppStudio.Uwp.Controls.TextStyle)Value;
-        }
-        private object get_219_ParagraphStyle_Margin(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.ParagraphStyle)instance;
-            return that.Margin;
-        }
-        private void set_219_ParagraphStyle_Margin(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.ParagraphStyle)instance;
-            that.Margin = (global::Windows.UI.Xaml.Thickness)Value;
-        }
-        private object get_220_TextStyle_FontSizeRatio(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
-            return that.FontSizeRatio;
-        }
-        private void set_220_TextStyle_FontSizeRatio(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
-            that.FontSizeRatio = (global::System.String)Value;
-        }
-        private object get_221_TextStyle_Foreground(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
-            return that.Foreground;
-        }
-        private void set_221_TextStyle_Foreground(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
-            that.Foreground = (global::Windows.UI.Xaml.Media.Brush)Value;
-        }
-        private object get_222_TextStyle_FontFamily(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
-            return that.FontFamily;
-        }
-        private void set_222_TextStyle_FontFamily(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
-            that.FontFamily = (global::Windows.UI.Xaml.Media.FontFamily)Value;
-        }
-        private object get_223_TextStyle_FontStyle(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
-            return that.FontStyle;
-        }
-        private void set_223_TextStyle_FontStyle(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
-            that.FontStyle = (global::Windows.UI.Text.FontStyle)Value;
-        }
-        private object get_224_TextStyle_FontWeight(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
-            return that.FontWeight;
-        }
-        private void set_224_TextStyle_FontWeight(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
-            that.FontWeight = (global::Windows.UI.Text.FontWeight)Value;
-        }
-        private object get_225_ContainerStyle_Margin(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.ContainerStyle)instance;
-            return that.Margin;
-        }
-        private void set_225_ContainerStyle_Margin(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.ContainerStyle)instance;
-            that.Margin = (global::Windows.UI.Xaml.Thickness)Value;
-        }
-        private object get_226_ContainerStyle_Padding(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.ContainerStyle)instance;
-            return that.Padding;
-        }
-        private void set_226_ContainerStyle_Padding(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.ContainerStyle)instance;
-            that.Padding = (global::Windows.UI.Xaml.Thickness)Value;
-        }
-        private object get_227_ListStyle_Bullet(object instance)
-        {
-            var that = (global::AppStudio.Uwp.Controls.ListStyle)instance;
-            return that.Bullet;
-        }
-        private void set_227_ListStyle_Bullet(object instance, object Value)
-        {
-            var that = (global::AppStudio.Uwp.Controls.ListStyle)instance;
-            that.Bullet = (global::System.String)Value;
-        }
-        private object get_228_Color_A(object instance)
+        private object get_178_Color_A(object instance)
         {
             var that = (global::Windows.UI.Color)instance;
             return that.A;
         }
-        private void set_228_Color_A(object instance, object Value)
+        private void set_178_Color_A(object instance, object Value)
         {
             var that = (global::Windows.UI.Color)instance;
             that.A = (global::System.Byte)Value;
         }
-        private object get_229_Color_B(object instance)
+        private object get_179_Color_B(object instance)
         {
             var that = (global::Windows.UI.Color)instance;
             return that.B;
         }
-        private void set_229_Color_B(object instance, object Value)
+        private void set_179_Color_B(object instance, object Value)
         {
             var that = (global::Windows.UI.Color)instance;
             that.B = (global::System.Byte)Value;
         }
-        private object get_230_Color_G(object instance)
+        private object get_180_Color_G(object instance)
         {
             var that = (global::Windows.UI.Color)instance;
             return that.G;
         }
-        private void set_230_Color_G(object instance, object Value)
+        private void set_180_Color_G(object instance, object Value)
         {
             var that = (global::Windows.UI.Color)instance;
             that.G = (global::System.Byte)Value;
         }
-        private object get_231_Color_R(object instance)
+        private object get_181_Color_R(object instance)
         {
             var that = (global::Windows.UI.Color)instance;
             return that.R;
         }
-        private void set_231_Color_R(object instance, object Value)
+        private void set_181_Color_R(object instance, object Value)
         {
             var that = (global::Windows.UI.Color)instance;
             that.R = (global::System.Byte)Value;
+        }
+        private object get_182_DocumentStyle_P(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.P;
+        }
+        private void set_182_DocumentStyle_P(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.P = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
+        }
+        private object get_183_DocumentStyle_Ul(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Ul;
+        }
+        private void set_183_DocumentStyle_Ul(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Ul = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_184_DocumentStyle_H1(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.H1;
+        }
+        private void set_184_DocumentStyle_H1(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.H1 = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
+        }
+        private object get_185_DocumentStyle_H2(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.H2;
+        }
+        private void set_185_DocumentStyle_H2(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.H2 = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
+        }
+        private object get_186_DocumentStyle_A(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.A;
+        }
+        private void set_186_DocumentStyle_A(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.A = (global::AppStudio.Uwp.Controls.TextStyle)Value;
+        }
+        private object get_187_DocumentStyle_Li(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Li;
+        }
+        private void set_187_DocumentStyle_Li(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Li = (global::AppStudio.Uwp.Controls.ListStyle)Value;
+        }
+        private object get_188_DocumentStyle_Time(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Time;
+        }
+        private void set_188_DocumentStyle_Time(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Time = (global::AppStudio.Uwp.Controls.TextStyle)Value;
+        }
+        private object get_189_DocumentStyle_Section(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Section;
+        }
+        private void set_189_DocumentStyle_Section(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Section = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_190_DocumentStyle_Article(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Article;
+        }
+        private void set_190_DocumentStyle_Article(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Article = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_191_DocumentStyle_Header(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Header;
+        }
+        private void set_191_DocumentStyle_Header(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Header = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_192_DocumentStyle_Footer(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Footer;
+        }
+        private void set_192_DocumentStyle_Footer(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Footer = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_193_DocumentStyle_Main(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Main;
+        }
+        private void set_193_DocumentStyle_Main(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Main = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_194_DocumentStyle_Figure(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Figure;
+        }
+        private void set_194_DocumentStyle_Figure(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Figure = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_195_DocumentStyle_Details(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Details;
+        }
+        private void set_195_DocumentStyle_Details(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Details = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_196_DocumentStyle_Summary(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Summary;
+        }
+        private void set_196_DocumentStyle_Summary(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Summary = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_197_DocumentStyle_Div(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Div;
+        }
+        private void set_197_DocumentStyle_Div(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Div = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_198_DocumentStyle_Ol(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Ol;
+        }
+        private void set_198_DocumentStyle_Ol(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Ol = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_199_DocumentStyle_Dl(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Dl;
+        }
+        private void set_199_DocumentStyle_Dl(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Dl = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_200_DocumentStyle_Td(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Td;
+        }
+        private void set_200_DocumentStyle_Td(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Td = (global::AppStudio.Uwp.Controls.ContainerStyle)Value;
+        }
+        private object get_201_DocumentStyle_Table(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Table;
+        }
+        private void set_201_DocumentStyle_Table(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Table = (global::AppStudio.Uwp.Controls.TableStyle)Value;
+        }
+        private object get_202_DocumentStyle_Img(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Img;
+        }
+        private void set_202_DocumentStyle_Img(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Img = (global::AppStudio.Uwp.Controls.ImageStyle)Value;
+        }
+        private object get_203_DocumentStyle_YouTube(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.YouTube;
+        }
+        private void set_203_DocumentStyle_YouTube(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.YouTube = (global::AppStudio.Uwp.Controls.ImageStyle)Value;
+        }
+        private object get_204_DocumentStyle_Channel9(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Channel9;
+        }
+        private void set_204_DocumentStyle_Channel9(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Channel9 = (global::AppStudio.Uwp.Controls.ImageStyle)Value;
+        }
+        private object get_205_DocumentStyle_H3(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.H3;
+        }
+        private void set_205_DocumentStyle_H3(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.H3 = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
+        }
+        private object get_206_DocumentStyle_H4(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.H4;
+        }
+        private void set_206_DocumentStyle_H4(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.H4 = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
+        }
+        private object get_207_DocumentStyle_H5(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.H5;
+        }
+        private void set_207_DocumentStyle_H5(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.H5 = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
+        }
+        private object get_208_DocumentStyle_H6(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.H6;
+        }
+        private void set_208_DocumentStyle_H6(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.H6 = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
+        }
+        private object get_209_DocumentStyle_BlockQuote(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.BlockQuote;
+        }
+        private void set_209_DocumentStyle_BlockQuote(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.BlockQuote = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
+        }
+        private object get_210_DocumentStyle_Pre(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Pre;
+        }
+        private void set_210_DocumentStyle_Pre(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Pre = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
+        }
+        private object get_211_DocumentStyle_FigCaption(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.FigCaption;
+        }
+        private void set_211_DocumentStyle_FigCaption(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.FigCaption = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
+        }
+        private object get_212_DocumentStyle_Dt(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Dt;
+        }
+        private void set_212_DocumentStyle_Dt(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Dt = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
+        }
+        private object get_213_DocumentStyle_Dd(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Dd;
+        }
+        private void set_213_DocumentStyle_Dd(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Dd = (global::AppStudio.Uwp.Controls.ParagraphStyle)Value;
+        }
+        private object get_214_DocumentStyle_Span(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Span;
+        }
+        private void set_214_DocumentStyle_Span(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Span = (global::AppStudio.Uwp.Controls.TextStyle)Value;
+        }
+        private object get_215_DocumentStyle_Label(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Label;
+        }
+        private void set_215_DocumentStyle_Label(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Label = (global::AppStudio.Uwp.Controls.TextStyle)Value;
+        }
+        private object get_216_DocumentStyle_Q(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Q;
+        }
+        private void set_216_DocumentStyle_Q(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Q = (global::AppStudio.Uwp.Controls.TextStyle)Value;
+        }
+        private object get_217_DocumentStyle_Cite(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Cite;
+        }
+        private void set_217_DocumentStyle_Cite(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Cite = (global::AppStudio.Uwp.Controls.TextStyle)Value;
+        }
+        private object get_218_DocumentStyle_I(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.I;
+        }
+        private void set_218_DocumentStyle_I(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.I = (global::AppStudio.Uwp.Controls.TextStyle)Value;
+        }
+        private object get_219_DocumentStyle_Em(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Em;
+        }
+        private void set_219_DocumentStyle_Em(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Em = (global::AppStudio.Uwp.Controls.TextStyle)Value;
+        }
+        private object get_220_DocumentStyle_Mark(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Mark;
+        }
+        private void set_220_DocumentStyle_Mark(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Mark = (global::AppStudio.Uwp.Controls.TextStyle)Value;
+        }
+        private object get_221_DocumentStyle_Code(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Code;
+        }
+        private void set_221_DocumentStyle_Code(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Code = (global::AppStudio.Uwp.Controls.TextStyle)Value;
+        }
+        private object get_222_DocumentStyle_Strong(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            return that.Strong;
+        }
+        private void set_222_DocumentStyle_Strong(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.DocumentStyle)instance;
+            that.Strong = (global::AppStudio.Uwp.Controls.TextStyle)Value;
+        }
+        private object get_223_ParagraphStyle_Margin(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.ParagraphStyle)instance;
+            return that.Margin;
+        }
+        private void set_223_ParagraphStyle_Margin(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.ParagraphStyle)instance;
+            that.Margin = (global::Windows.UI.Xaml.Thickness)Value;
+        }
+        private object get_224_TextStyle_FontSizeRatio(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
+            return that.FontSizeRatio;
+        }
+        private void set_224_TextStyle_FontSizeRatio(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
+            that.FontSizeRatio = (global::System.String)Value;
+        }
+        private object get_225_TextStyle_Foreground(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
+            return that.Foreground;
+        }
+        private void set_225_TextStyle_Foreground(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
+            that.Foreground = (global::Windows.UI.Xaml.Media.Brush)Value;
+        }
+        private object get_226_TextStyle_FontFamily(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
+            return that.FontFamily;
+        }
+        private void set_226_TextStyle_FontFamily(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
+            that.FontFamily = (global::Windows.UI.Xaml.Media.FontFamily)Value;
+        }
+        private object get_227_TextStyle_FontStyle(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
+            return that.FontStyle;
+        }
+        private void set_227_TextStyle_FontStyle(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
+            that.FontStyle = (global::Windows.UI.Text.FontStyle)Value;
+        }
+        private object get_228_TextStyle_FontWeight(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
+            return that.FontWeight;
+        }
+        private void set_228_TextStyle_FontWeight(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.TextStyle)instance;
+            that.FontWeight = (global::Windows.UI.Text.FontWeight)Value;
+        }
+        private object get_229_ContainerStyle_Margin(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.ContainerStyle)instance;
+            return that.Margin;
+        }
+        private void set_229_ContainerStyle_Margin(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.ContainerStyle)instance;
+            that.Margin = (global::Windows.UI.Xaml.Thickness)Value;
+        }
+        private object get_230_ContainerStyle_Padding(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.ContainerStyle)instance;
+            return that.Padding;
+        }
+        private void set_230_ContainerStyle_Padding(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.ContainerStyle)instance;
+            that.Padding = (global::Windows.UI.Xaml.Thickness)Value;
+        }
+        private object get_231_ListStyle_Bullet(object instance)
+        {
+            var that = (global::AppStudio.Uwp.Controls.ListStyle)instance;
+            return that.Bullet;
+        }
+        private void set_231_ListStyle_Bullet(object instance, object Value)
+        {
+            var that = (global::AppStudio.Uwp.Controls.ListStyle)instance;
+            that.Bullet = (global::System.String)Value;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -5089,338 +5059,338 @@ namespace LinusForumTips.LinusForumTips_W10_XamlTypeInfo
                 xamlMember.Getter = get_177_NavigationItem_OnClick;
                 xamlMember.Setter = set_177_NavigationItem_OnClick;
                 break;
+            case "Windows.UI.Color.A":
+                userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "A", "Byte");
+                xamlMember.Getter = get_178_Color_A;
+                xamlMember.Setter = set_178_Color_A;
+                break;
+            case "Windows.UI.Color.B":
+                userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "B", "Byte");
+                xamlMember.Getter = get_179_Color_B;
+                xamlMember.Setter = set_179_Color_B;
+                break;
+            case "Windows.UI.Color.G":
+                userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "G", "Byte");
+                xamlMember.Getter = get_180_Color_G;
+                xamlMember.Setter = set_180_Color_G;
+                break;
+            case "Windows.UI.Color.R":
+                userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
+                xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "R", "Byte");
+                xamlMember.Getter = get_181_Color_R;
+                xamlMember.Setter = set_181_Color_R;
+                break;
             case "AppStudio.Uwp.Controls.DocumentStyle.P":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "P", "AppStudio.Uwp.Controls.ParagraphStyle");
-                xamlMember.Getter = get_178_DocumentStyle_P;
-                xamlMember.Setter = set_178_DocumentStyle_P;
+                xamlMember.Getter = get_182_DocumentStyle_P;
+                xamlMember.Setter = set_182_DocumentStyle_P;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Ul":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Ul", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_179_DocumentStyle_Ul;
-                xamlMember.Setter = set_179_DocumentStyle_Ul;
+                xamlMember.Getter = get_183_DocumentStyle_Ul;
+                xamlMember.Setter = set_183_DocumentStyle_Ul;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.H1":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "H1", "AppStudio.Uwp.Controls.ParagraphStyle");
-                xamlMember.Getter = get_180_DocumentStyle_H1;
-                xamlMember.Setter = set_180_DocumentStyle_H1;
+                xamlMember.Getter = get_184_DocumentStyle_H1;
+                xamlMember.Setter = set_184_DocumentStyle_H1;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.H2":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "H2", "AppStudio.Uwp.Controls.ParagraphStyle");
-                xamlMember.Getter = get_181_DocumentStyle_H2;
-                xamlMember.Setter = set_181_DocumentStyle_H2;
+                xamlMember.Getter = get_185_DocumentStyle_H2;
+                xamlMember.Setter = set_185_DocumentStyle_H2;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.A":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "A", "AppStudio.Uwp.Controls.TextStyle");
-                xamlMember.Getter = get_182_DocumentStyle_A;
-                xamlMember.Setter = set_182_DocumentStyle_A;
+                xamlMember.Getter = get_186_DocumentStyle_A;
+                xamlMember.Setter = set_186_DocumentStyle_A;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Li":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Li", "AppStudio.Uwp.Controls.ListStyle");
-                xamlMember.Getter = get_183_DocumentStyle_Li;
-                xamlMember.Setter = set_183_DocumentStyle_Li;
+                xamlMember.Getter = get_187_DocumentStyle_Li;
+                xamlMember.Setter = set_187_DocumentStyle_Li;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Time":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Time", "AppStudio.Uwp.Controls.TextStyle");
-                xamlMember.Getter = get_184_DocumentStyle_Time;
-                xamlMember.Setter = set_184_DocumentStyle_Time;
+                xamlMember.Getter = get_188_DocumentStyle_Time;
+                xamlMember.Setter = set_188_DocumentStyle_Time;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Section":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Section", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_185_DocumentStyle_Section;
-                xamlMember.Setter = set_185_DocumentStyle_Section;
+                xamlMember.Getter = get_189_DocumentStyle_Section;
+                xamlMember.Setter = set_189_DocumentStyle_Section;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Article":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Article", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_186_DocumentStyle_Article;
-                xamlMember.Setter = set_186_DocumentStyle_Article;
+                xamlMember.Getter = get_190_DocumentStyle_Article;
+                xamlMember.Setter = set_190_DocumentStyle_Article;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Header":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Header", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_187_DocumentStyle_Header;
-                xamlMember.Setter = set_187_DocumentStyle_Header;
+                xamlMember.Getter = get_191_DocumentStyle_Header;
+                xamlMember.Setter = set_191_DocumentStyle_Header;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Footer":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Footer", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_188_DocumentStyle_Footer;
-                xamlMember.Setter = set_188_DocumentStyle_Footer;
+                xamlMember.Getter = get_192_DocumentStyle_Footer;
+                xamlMember.Setter = set_192_DocumentStyle_Footer;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Main":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Main", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_189_DocumentStyle_Main;
-                xamlMember.Setter = set_189_DocumentStyle_Main;
+                xamlMember.Getter = get_193_DocumentStyle_Main;
+                xamlMember.Setter = set_193_DocumentStyle_Main;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Figure":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Figure", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_190_DocumentStyle_Figure;
-                xamlMember.Setter = set_190_DocumentStyle_Figure;
+                xamlMember.Getter = get_194_DocumentStyle_Figure;
+                xamlMember.Setter = set_194_DocumentStyle_Figure;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Details":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Details", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_191_DocumentStyle_Details;
-                xamlMember.Setter = set_191_DocumentStyle_Details;
+                xamlMember.Getter = get_195_DocumentStyle_Details;
+                xamlMember.Setter = set_195_DocumentStyle_Details;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Summary":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Summary", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_192_DocumentStyle_Summary;
-                xamlMember.Setter = set_192_DocumentStyle_Summary;
+                xamlMember.Getter = get_196_DocumentStyle_Summary;
+                xamlMember.Setter = set_196_DocumentStyle_Summary;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Div":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Div", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_193_DocumentStyle_Div;
-                xamlMember.Setter = set_193_DocumentStyle_Div;
+                xamlMember.Getter = get_197_DocumentStyle_Div;
+                xamlMember.Setter = set_197_DocumentStyle_Div;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Ol":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Ol", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_194_DocumentStyle_Ol;
-                xamlMember.Setter = set_194_DocumentStyle_Ol;
+                xamlMember.Getter = get_198_DocumentStyle_Ol;
+                xamlMember.Setter = set_198_DocumentStyle_Ol;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Dl":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Dl", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_195_DocumentStyle_Dl;
-                xamlMember.Setter = set_195_DocumentStyle_Dl;
+                xamlMember.Getter = get_199_DocumentStyle_Dl;
+                xamlMember.Setter = set_199_DocumentStyle_Dl;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Td":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Td", "AppStudio.Uwp.Controls.ContainerStyle");
-                xamlMember.Getter = get_196_DocumentStyle_Td;
-                xamlMember.Setter = set_196_DocumentStyle_Td;
+                xamlMember.Getter = get_200_DocumentStyle_Td;
+                xamlMember.Setter = set_200_DocumentStyle_Td;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Table":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Table", "AppStudio.Uwp.Controls.TableStyle");
-                xamlMember.Getter = get_197_DocumentStyle_Table;
-                xamlMember.Setter = set_197_DocumentStyle_Table;
+                xamlMember.Getter = get_201_DocumentStyle_Table;
+                xamlMember.Setter = set_201_DocumentStyle_Table;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Img":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Img", "AppStudio.Uwp.Controls.ImageStyle");
-                xamlMember.Getter = get_198_DocumentStyle_Img;
-                xamlMember.Setter = set_198_DocumentStyle_Img;
+                xamlMember.Getter = get_202_DocumentStyle_Img;
+                xamlMember.Setter = set_202_DocumentStyle_Img;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.YouTube":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "YouTube", "AppStudio.Uwp.Controls.ImageStyle");
-                xamlMember.Getter = get_199_DocumentStyle_YouTube;
-                xamlMember.Setter = set_199_DocumentStyle_YouTube;
+                xamlMember.Getter = get_203_DocumentStyle_YouTube;
+                xamlMember.Setter = set_203_DocumentStyle_YouTube;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Channel9":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Channel9", "AppStudio.Uwp.Controls.ImageStyle");
-                xamlMember.Getter = get_200_DocumentStyle_Channel9;
-                xamlMember.Setter = set_200_DocumentStyle_Channel9;
+                xamlMember.Getter = get_204_DocumentStyle_Channel9;
+                xamlMember.Setter = set_204_DocumentStyle_Channel9;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.H3":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "H3", "AppStudio.Uwp.Controls.ParagraphStyle");
-                xamlMember.Getter = get_201_DocumentStyle_H3;
-                xamlMember.Setter = set_201_DocumentStyle_H3;
+                xamlMember.Getter = get_205_DocumentStyle_H3;
+                xamlMember.Setter = set_205_DocumentStyle_H3;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.H4":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "H4", "AppStudio.Uwp.Controls.ParagraphStyle");
-                xamlMember.Getter = get_202_DocumentStyle_H4;
-                xamlMember.Setter = set_202_DocumentStyle_H4;
+                xamlMember.Getter = get_206_DocumentStyle_H4;
+                xamlMember.Setter = set_206_DocumentStyle_H4;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.H5":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "H5", "AppStudio.Uwp.Controls.ParagraphStyle");
-                xamlMember.Getter = get_203_DocumentStyle_H5;
-                xamlMember.Setter = set_203_DocumentStyle_H5;
+                xamlMember.Getter = get_207_DocumentStyle_H5;
+                xamlMember.Setter = set_207_DocumentStyle_H5;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.H6":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "H6", "AppStudio.Uwp.Controls.ParagraphStyle");
-                xamlMember.Getter = get_204_DocumentStyle_H6;
-                xamlMember.Setter = set_204_DocumentStyle_H6;
+                xamlMember.Getter = get_208_DocumentStyle_H6;
+                xamlMember.Setter = set_208_DocumentStyle_H6;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.BlockQuote":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "BlockQuote", "AppStudio.Uwp.Controls.ParagraphStyle");
-                xamlMember.Getter = get_205_DocumentStyle_BlockQuote;
-                xamlMember.Setter = set_205_DocumentStyle_BlockQuote;
+                xamlMember.Getter = get_209_DocumentStyle_BlockQuote;
+                xamlMember.Setter = set_209_DocumentStyle_BlockQuote;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Pre":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Pre", "AppStudio.Uwp.Controls.ParagraphStyle");
-                xamlMember.Getter = get_206_DocumentStyle_Pre;
-                xamlMember.Setter = set_206_DocumentStyle_Pre;
+                xamlMember.Getter = get_210_DocumentStyle_Pre;
+                xamlMember.Setter = set_210_DocumentStyle_Pre;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.FigCaption":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "FigCaption", "AppStudio.Uwp.Controls.ParagraphStyle");
-                xamlMember.Getter = get_207_DocumentStyle_FigCaption;
-                xamlMember.Setter = set_207_DocumentStyle_FigCaption;
+                xamlMember.Getter = get_211_DocumentStyle_FigCaption;
+                xamlMember.Setter = set_211_DocumentStyle_FigCaption;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Dt":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Dt", "AppStudio.Uwp.Controls.ParagraphStyle");
-                xamlMember.Getter = get_208_DocumentStyle_Dt;
-                xamlMember.Setter = set_208_DocumentStyle_Dt;
+                xamlMember.Getter = get_212_DocumentStyle_Dt;
+                xamlMember.Setter = set_212_DocumentStyle_Dt;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Dd":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Dd", "AppStudio.Uwp.Controls.ParagraphStyle");
-                xamlMember.Getter = get_209_DocumentStyle_Dd;
-                xamlMember.Setter = set_209_DocumentStyle_Dd;
+                xamlMember.Getter = get_213_DocumentStyle_Dd;
+                xamlMember.Setter = set_213_DocumentStyle_Dd;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Span":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Span", "AppStudio.Uwp.Controls.TextStyle");
-                xamlMember.Getter = get_210_DocumentStyle_Span;
-                xamlMember.Setter = set_210_DocumentStyle_Span;
+                xamlMember.Getter = get_214_DocumentStyle_Span;
+                xamlMember.Setter = set_214_DocumentStyle_Span;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Label":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Label", "AppStudio.Uwp.Controls.TextStyle");
-                xamlMember.Getter = get_211_DocumentStyle_Label;
-                xamlMember.Setter = set_211_DocumentStyle_Label;
+                xamlMember.Getter = get_215_DocumentStyle_Label;
+                xamlMember.Setter = set_215_DocumentStyle_Label;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Q":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Q", "AppStudio.Uwp.Controls.TextStyle");
-                xamlMember.Getter = get_212_DocumentStyle_Q;
-                xamlMember.Setter = set_212_DocumentStyle_Q;
+                xamlMember.Getter = get_216_DocumentStyle_Q;
+                xamlMember.Setter = set_216_DocumentStyle_Q;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Cite":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Cite", "AppStudio.Uwp.Controls.TextStyle");
-                xamlMember.Getter = get_213_DocumentStyle_Cite;
-                xamlMember.Setter = set_213_DocumentStyle_Cite;
+                xamlMember.Getter = get_217_DocumentStyle_Cite;
+                xamlMember.Setter = set_217_DocumentStyle_Cite;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.I":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "I", "AppStudio.Uwp.Controls.TextStyle");
-                xamlMember.Getter = get_214_DocumentStyle_I;
-                xamlMember.Setter = set_214_DocumentStyle_I;
+                xamlMember.Getter = get_218_DocumentStyle_I;
+                xamlMember.Setter = set_218_DocumentStyle_I;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Em":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Em", "AppStudio.Uwp.Controls.TextStyle");
-                xamlMember.Getter = get_215_DocumentStyle_Em;
-                xamlMember.Setter = set_215_DocumentStyle_Em;
+                xamlMember.Getter = get_219_DocumentStyle_Em;
+                xamlMember.Setter = set_219_DocumentStyle_Em;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Mark":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Mark", "AppStudio.Uwp.Controls.TextStyle");
-                xamlMember.Getter = get_216_DocumentStyle_Mark;
-                xamlMember.Setter = set_216_DocumentStyle_Mark;
+                xamlMember.Getter = get_220_DocumentStyle_Mark;
+                xamlMember.Setter = set_220_DocumentStyle_Mark;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Code":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Code", "AppStudio.Uwp.Controls.TextStyle");
-                xamlMember.Getter = get_217_DocumentStyle_Code;
-                xamlMember.Setter = set_217_DocumentStyle_Code;
+                xamlMember.Getter = get_221_DocumentStyle_Code;
+                xamlMember.Setter = set_221_DocumentStyle_Code;
                 break;
             case "AppStudio.Uwp.Controls.DocumentStyle.Strong":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.DocumentStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Strong", "AppStudio.Uwp.Controls.TextStyle");
-                xamlMember.Getter = get_218_DocumentStyle_Strong;
-                xamlMember.Setter = set_218_DocumentStyle_Strong;
+                xamlMember.Getter = get_222_DocumentStyle_Strong;
+                xamlMember.Setter = set_222_DocumentStyle_Strong;
                 break;
             case "AppStudio.Uwp.Controls.ParagraphStyle.Margin":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.ParagraphStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Margin", "Windows.UI.Xaml.Thickness");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_219_ParagraphStyle_Margin;
-                xamlMember.Setter = set_219_ParagraphStyle_Margin;
+                xamlMember.Getter = get_223_ParagraphStyle_Margin;
+                xamlMember.Setter = set_223_ParagraphStyle_Margin;
                 break;
             case "AppStudio.Uwp.Controls.TextStyle.FontSizeRatio":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.TextStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "FontSizeRatio", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_220_TextStyle_FontSizeRatio;
-                xamlMember.Setter = set_220_TextStyle_FontSizeRatio;
+                xamlMember.Getter = get_224_TextStyle_FontSizeRatio;
+                xamlMember.Setter = set_224_TextStyle_FontSizeRatio;
                 break;
             case "AppStudio.Uwp.Controls.TextStyle.Foreground":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.TextStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Foreground", "Windows.UI.Xaml.Media.Brush");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_221_TextStyle_Foreground;
-                xamlMember.Setter = set_221_TextStyle_Foreground;
+                xamlMember.Getter = get_225_TextStyle_Foreground;
+                xamlMember.Setter = set_225_TextStyle_Foreground;
                 break;
             case "AppStudio.Uwp.Controls.TextStyle.FontFamily":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.TextStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "FontFamily", "Windows.UI.Xaml.Media.FontFamily");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_222_TextStyle_FontFamily;
-                xamlMember.Setter = set_222_TextStyle_FontFamily;
+                xamlMember.Getter = get_226_TextStyle_FontFamily;
+                xamlMember.Setter = set_226_TextStyle_FontFamily;
                 break;
             case "AppStudio.Uwp.Controls.TextStyle.FontStyle":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.TextStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "FontStyle", "Windows.UI.Text.FontStyle");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_223_TextStyle_FontStyle;
-                xamlMember.Setter = set_223_TextStyle_FontStyle;
+                xamlMember.Getter = get_227_TextStyle_FontStyle;
+                xamlMember.Setter = set_227_TextStyle_FontStyle;
                 break;
             case "AppStudio.Uwp.Controls.TextStyle.FontWeight":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.TextStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "FontWeight", "Windows.UI.Text.FontWeight");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_224_TextStyle_FontWeight;
-                xamlMember.Setter = set_224_TextStyle_FontWeight;
+                xamlMember.Getter = get_228_TextStyle_FontWeight;
+                xamlMember.Setter = set_228_TextStyle_FontWeight;
                 break;
             case "AppStudio.Uwp.Controls.ContainerStyle.Margin":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.ContainerStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Margin", "Windows.UI.Xaml.Thickness");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_225_ContainerStyle_Margin;
-                xamlMember.Setter = set_225_ContainerStyle_Margin;
+                xamlMember.Getter = get_229_ContainerStyle_Margin;
+                xamlMember.Setter = set_229_ContainerStyle_Margin;
                 break;
             case "AppStudio.Uwp.Controls.ContainerStyle.Padding":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.ContainerStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Padding", "Windows.UI.Xaml.Thickness");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_226_ContainerStyle_Padding;
-                xamlMember.Setter = set_226_ContainerStyle_Padding;
+                xamlMember.Getter = get_230_ContainerStyle_Padding;
+                xamlMember.Setter = set_230_ContainerStyle_Padding;
                 break;
             case "AppStudio.Uwp.Controls.ListStyle.Bullet":
                 userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("AppStudio.Uwp.Controls.ListStyle");
                 xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "Bullet", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_227_ListStyle_Bullet;
-                xamlMember.Setter = set_227_ListStyle_Bullet;
-                break;
-            case "Windows.UI.Color.A":
-                userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
-                xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "A", "Byte");
-                xamlMember.Getter = get_228_Color_A;
-                xamlMember.Setter = set_228_Color_A;
-                break;
-            case "Windows.UI.Color.B":
-                userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
-                xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "B", "Byte");
-                xamlMember.Getter = get_229_Color_B;
-                xamlMember.Setter = set_229_Color_B;
-                break;
-            case "Windows.UI.Color.G":
-                userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
-                xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "G", "Byte");
-                xamlMember.Getter = get_230_Color_G;
-                xamlMember.Setter = set_230_Color_G;
-                break;
-            case "Windows.UI.Color.R":
-                userType = (global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
-                xamlMember = new global::LinusForumTips.LinusForumTips_W10_XamlTypeInfo.XamlMember(this, "R", "Byte");
-                xamlMember.Getter = get_231_Color_R;
-                xamlMember.Setter = set_231_Color_R;
+                xamlMember.Getter = get_231_ListStyle_Bullet;
+                xamlMember.Setter = set_231_ListStyle_Bullet;
                 break;
             }
             return xamlMember;

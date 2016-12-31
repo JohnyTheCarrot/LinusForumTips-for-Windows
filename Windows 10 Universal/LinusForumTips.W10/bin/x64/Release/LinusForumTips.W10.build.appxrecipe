@@ -28,9 +28,6 @@
     <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\ilc\Assets\ApplicationLogo.png">
       <PackagePath>Assets\ApplicationLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\ilc\Assets\Design\DarkGray.png">
-      <PackagePath>Assets\Design\DarkGray.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\ilc\Assets\Design\DesignData.json">
       <PackagePath>Assets\Design\DesignData.json</PackagePath>
     </AppxPackagedFile>
@@ -45,12 +42,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\ilc\Assets\Design\DetailDesignData.json">
       <PackagePath>Assets\Design\DetailDesignData.json</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\ilc\Assets\Design\LightGray.png">
-      <PackagePath>Assets\Design\LightGray.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\ilc\Assets\Design\MediumGray.png">
-      <PackagePath>Assets\Design\MediumGray.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\ilc\Assets\RelatedContentVBP.json">
       <PackagePath>Assets\RelatedContentVBP.json</PackagePath>

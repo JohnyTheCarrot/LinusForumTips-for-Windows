@@ -358,18 +358,17 @@
     <Language Code="zu-za" InMinimumRequirementSet="true" />
   </SupportedLocales>
   <ProductReservedInfo>
-    <MainPackageIdentityName>52729AluminiumTech.LinusForumTips</MainPackageIdentityName>
+    <MainPackageIdentityName>52729AluminiumTech.LinusForumTipsMessenger</MainPackageIdentityName>
     <ReservedNames>
-      <ReservedName>Linus Forum Tips</ReservedName>
+      <ReservedName>Linus Forum Tips (Beta)</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames>
     <MainPackageIdentityName>52729AluminiumTech.MyIonicTimetable</MainPackageIdentityName>
     <MainPackageIdentityName>52729AluminiumTech.LithiumBrowser</MainPackageIdentityName>
-    <MainPackageIdentityName>52729AluminiumTech.AluminiumTech</MainPackageIdentityName>
     <MainPackageIdentityName>52729AluminiumTech.AntVenomforWindows</MainPackageIdentityName>
     <MainPackageIdentityName>52729AluminiumTech.LearnFusion360</MainPackageIdentityName>
-    <MainPackageIdentityName>52729AluminiumTech.LinusForumTipsMessenger</MainPackageIdentityName>
+    <MainPackageIdentityName>52729AluminiumTech.LinusForumTips</MainPackageIdentityName>
   </AccountPackageIdentityNames>
-  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9NBLGGH4R4W0" />
+  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9NBLGGH4X41X" />
 </StoreAssociation>

@@ -7,7 +7,7 @@
     xmlns:was_controls="using:AppStudio.Uwp.Controls"
     DataContext="{Binding RelativeSource={RelativeSource Self}}"
     mc:Ignorable="d">
-    <Grid Background="{StaticResource AppBackground}">
+    <Grid>
         <ScrollViewer>
             <StackPanel Margin="24,32,24,8">
                 <TextBlock
@@ -20,6 +20,7 @@
                     <Run x:Uid="AppVersion"/>
                     <Run Text="{x:Bind AboutThisAppModel.AppVersion}"/>
                 </TextBlock>
+                <TextBlock Style="{StaticResource AppDescriptionsStyle}" Name="changelog"/>
                 <Viewbox
                     Margin="0,12,0,0"
                     HorizontalAlignment="Left"
