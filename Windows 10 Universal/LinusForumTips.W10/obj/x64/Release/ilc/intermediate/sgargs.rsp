@@ -5,6 +5,6 @@
 /ref:"D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\ilc\in\\"
 /ref:"D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\ilc\in\\"
 /ref:"D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\ilc\in\\"
-/ref:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\x64\ilc\lib\Private\\"
+/ref:"C:\Program Files (x86)\MSBuild\15.0\.Net\.NetNative\15.0.24208\x64\ilc\lib\Private\\"
 /ref:"D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\ilc\in\WinMetadata\\"
 /ca:System.Private.CoreLib

@@ -20,7 +20,7 @@ Layouts\List\ListGroupedHome.xbf
 Layouts\List\ListPhoto.xbf
 Layouts\List\ListTextCard.xbf
 Layouts\List\MenuText.xbf
-Pages\AboutPage.xbf
+Pages\about.xbf
 Pages\BuildGuidesDetailPage.xbf
 Pages\BuildGuidesListPage.xbf
 Pages\BuildLogsDetailPage.xbf

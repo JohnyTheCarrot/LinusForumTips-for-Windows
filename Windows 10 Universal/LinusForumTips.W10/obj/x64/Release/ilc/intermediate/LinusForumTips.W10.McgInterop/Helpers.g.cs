@@ -1263,7 +1263,7 @@ namespace McgInterop
 		internal static int StdCall__int__(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::Windows.UI.Xaml.CornerRadius arg0)
+					global::Windows.UI.Xaml.Media.Animation.KeyTime arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -1272,7 +1272,7 @@ namespace McgInterop
 		internal static int StdCall__int__(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::Windows.UI.Xaml.Media.Animation.KeyTime arg0)
+					global::Windows.UI.Xaml.CornerRadius arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;

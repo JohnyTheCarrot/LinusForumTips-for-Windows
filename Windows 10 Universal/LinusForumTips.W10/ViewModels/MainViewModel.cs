@@ -39,6 +39,7 @@ namespace LinusForumTips.ViewModels
             BuildLogs = ViewModelFactory.NewList(new BuildLogsSection(), visibleItems);
             GuidesAndTutorials = ViewModelFactory.NewList(new GuidesAndTutorialsSection(), visibleItems);
 
+
             if (GetViewModels().Any(vm => !vm.HasLocalData))
             {
                 Actions.Add(new ActionInfo

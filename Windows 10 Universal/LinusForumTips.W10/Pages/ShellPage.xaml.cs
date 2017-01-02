@@ -148,12 +148,12 @@ namespace LinusForumTips.Pages
 
             NavigationItems.Add(NavigationItem.Separator);
 
-            NavigationItems.Add(AppNavigation.NodeFromControl(
+            NavigationItems.Add(AppNavigation.NodeFromAction(
 				"About",
                 "NavigationPaneAbout".StringResource(),
-                new AboutPage(),
+                AppNavigation.ActionFromPage("AboutPage"),
                 AppNavigation.IconFromImage(new Uri("ms-appx:///Assets/about.png"))));
-        }        
+        }       
         #endregion        
 
 		private void OnSizeChanged(object sender, SizeChangedEventArgs e)

@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="52729AluminiumTech.LinusForumTipsMessenger" Publisher="CN=7597FB63-211E-47C3-95FB-0206DFA089D9" Version="1.7.6.0" ProcessorArchitecture="x64" />
+  <Identity Name="52729AluminiumTech.LinusForumTipsMessenger" Publisher="CN=7597FB63-211E-47C3-95FB-0206DFA089D9" Version="1.7.7.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="50ae11e2-7941-4891-b11a-28ce61fd273b" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Linus Forum Tips (Beta)</DisplayName>
@@ -23,6 +23,7 @@
   <Applications>
     <Application Id="App" Executable="LinusForumTips.W10.exe" EntryPoint="LinusForumTips.App">
       <uap:VisualElements DisplayName="Linus Forum Tips (Beta)" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Experience Linus Tech Tips unlike ever before with the unofficial Linus Tech Tips app for Windows 10." BackgroundColor="transparent">
+        <uap:LockScreen Notification="badgeAndTileText" BadgeLogo="Assets\BadgeLogo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#333232" />
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\Square310x310Logo.png" Square71x71Logo="Assets\Square71x71Logo.png">
           <uap:TileUpdate Recurrence="halfHour" UriTemplate="http://ds.winappstudio.com/api/tile10?config=VQIAAB~LCAAAAAAABACNkTFPwzAQhf~LZw8JKkXN1haEEJQWEtQBMZj0mli1nehiV42i/HfOcSKYAGXxvXv3vrPTsdsma2tgyZzTcV2ZoyxY0rEXB9iGDstLYQyohvEgk/QkjWsyyMtM1l7f4gEwTDsUVlbGhwzqivxRT5als~UjUDVfLG5mpGSgayUseGsmFTwL7XE7gBNFrlCYgzS0TUSryYas7eig7j1WjsjJe8dS9/mj2oMsSsuSOIo84WJTK/LTlHOnQIOxweq7nk17WxIpOJNWAaXvUdQsOQrVAGcbaei6QDPGKUW1uIx1zD3cj0ze1La~mnG2VLIweoj1t3/QooCQ0PO/0Rbdr~Trb3KwjuD4f~AQN7boBTGnDYbyDRUt8Qq6OsNGYCHNRFhjVQ9vuD0D0r8Yzjslcgiwq77/GL7~CxhzXfpVAgAA" />
@@ -45,16 +46,16 @@
   </Capabilities>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
-    <build:Item Name="VisualStudio" Version="14.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
+    <build:Item Name="VisualStudio" Version="15.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2017 RC" />
     <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25431.1" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.26004.1" />
     <build:Item Name="ProjectGUID" Value="{A827A894-416A-46DC-83E2-B8E7B4678261}" />
-    <build:Item Name="ilc.exe" Version="1.4.24208.01 built by: PROJECTNGDR2" />
+    <build:Item Name="ilc.exe" Version="1.4.24208.05 built by: PROJECTNGDR2" />
     <build:Item Name="OptimizingToolset" Value="ilc.exe" />
     <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True" />
     <build:Item Name="UniversalGenericsOptOut" Value="false" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25527.1" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.26004.1" />
     <build:Item Name="WindowsMobile" Version="10.0.14393.0" />
     <build:Item Name="MakePri.exe" Version="10.0.14393.33 (rs1_release_sec.160727-1952)" />
   </build:Metadata>
