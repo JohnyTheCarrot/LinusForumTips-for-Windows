@@ -196,7 +196,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Pages\about.xaml">
+    <Page Include="Pages\About.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -357,8 +357,8 @@
     <Compile Include="Layouts\Controls\HeroImage.xaml.cs">
       <DependentUpon>HeroImage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\about.xaml.cs">
-      <DependentUpon>about.xaml</DependentUpon>
+    <Compile Include="Pages\About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
