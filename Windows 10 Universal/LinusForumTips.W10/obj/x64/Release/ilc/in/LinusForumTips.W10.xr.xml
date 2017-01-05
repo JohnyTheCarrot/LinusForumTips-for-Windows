@@ -85,11 +85,6 @@
     <RootPropertyPathName Name="ShowInfoCommand" />
     <RootPropertyPathName Name="ApplyFontSizeCommand" />
     <RootPropertyPathName Name="Share" />
-    <RootPropertyPathName Name="Caption" />
-    <RootPropertyPathName Name="Image" />
-    <RootPropertyPathName Name="Icon" />
-    <RootPropertyPathName Name="AppFrame" />
-    <RootPropertyPathName Name="NavigationItems" />
     <RootPropertyPathName Name="CommandBarTemplateSettings" />
     <RootPropertyPathName Name="NegativeOverflowContentHeight" />
     <RootPropertyPathName Name="ContentHeight" />
@@ -447,8 +442,6 @@
       <RootProperty Name="Y2" />
       <RootProperty Name="Style" />
       <RootProperty Name="MaxWidth" />
-      <RootProperty Name="Stretch" />
-      <RootProperty Name="Stroke" />
     </RootType>
     <RootType FullName="LinusForumTips.Layouts.Detail.MultiColumnDetailLayout" />
     <RootType FullName="Windows.UI.Xaml.Controls.FlipView">
@@ -494,28 +487,16 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Content" />
       <RootProperty Name="DataContext" />
-      <RootProperty Name="Resources" />
-      <RootEvent Name="KeyUp" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="LinusForumTips.Pages.about" />
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
+    <RootType FullName="LinusForumTips.Pages.About" />
     <RootType FullName="AppStudio.Uwp.Controls.ShellControl">
-      <RootProperty Name="Header" />
-      <RootProperty Name="NavigationItems" />
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="HeaderBackground" />
-      <RootProperty Name="HeaderForeground" />
-      <RootProperty Name="HeaderTemplate" />
-      <RootProperty Name="NavigationForeground" />
-      <RootProperty Name="SeparatorStyle" />
-      <RootProperty Name="NavigationBackground" />
-      <RootProperty Name="HamburgerBackground" />
-      <RootProperty Name="HamburgerBorderBrush" />
-      <RootProperty Name="HamburgerForeground" />
-      <RootProperty Name="NavigationItemTemplate" />
-      <RootProperty Name="NavigationSubItemTemplate" />
-      <RootProperty Name="ListViewItemContainerStyle" />
-      <RootProperty Name="Content" />
       <RootMethod Name="GetCommandBar" />
       <RootMethod Name="SetCommandBar" />
     </RootType>
@@ -580,89 +561,56 @@
     <RootType FullName="LinusForumTips.Pages.BuildGuidesDetailPage" />
     <RootType FullName="LinusForumTips.Pages.BuildLogsDetailPage" />
     <RootType FullName="LinusForumTips.Pages.GuidesAndTutorialsDetailPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="ContentTemplate" />
-      <RootProperty Name="ContentTransitions" />
-      <RootProperty Name="HorizontalContentAlignment" />
-      <RootProperty Name="VerticalContentAlignment" />
-      <RootProperty Name="IsTabStop" />
-      <RootProperty Name="Padding" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="MinHeight" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Control">
-      <RootProperty Name="IsTabStop" />
-      <RootProperty Name="Template" />
-      <RootProperty Name="FontFamily" />
-      <RootProperty Name="FontSize" />
+    <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
       <RootProperty Name="Background" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="TabNavigation" />
-      <RootProperty Name="Padding" />
-      <RootProperty Name="HorizontalContentAlignment" />
-      <RootProperty Name="VerticalContentAlignment" />
-      <RootProperty Name="FontStyle" />
-      <RootProperty Name="BorderThickness" />
-      <RootProperty Name="FontWeight" />
-      <RootProperty Name="UseSystemFocusVisuals" />
-      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="OpenPaneLength" />
+      <RootProperty Name="CompactPaneLength" />
+      <RootProperty Name="DisplayMode" />
+      <RootProperty Name="IsPaneOpen" />
+      <RootProperty Name="PaneBackground" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Pane" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem" />
-    <RootType FullName="Windows.UI.Xaml.UIElement">
-      <RootProperty Name="IsHoldingEnabled" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
-      <RootProperty Name="TargetType" />
-      <RootProperty Name="Template" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter">
-      <RootProperty Name="ContentTransitions" />
-      <RootProperty Name="SelectionCheckMarkVisualEnabled" />
-      <RootProperty Name="CheckBrush" />
-      <RootProperty Name="CheckBoxBrush" />
-      <RootProperty Name="DragBackground" />
-      <RootProperty Name="DragForeground" />
-      <RootProperty Name="FocusBorderBrush" />
-      <RootProperty Name="FocusSecondaryBorderBrush" />
-      <RootProperty Name="PlaceholderBackground" />
-      <RootProperty Name="PointerOverForeground" />
-      <RootProperty Name="SelectedForeground" />
-      <RootProperty Name="DisabledOpacity" />
-      <RootProperty Name="DragOpacity" />
-      <RootProperty Name="ReorderHintOffset" />
-      <RootProperty Name="HorizontalContentAlignment" />
-      <RootProperty Name="VerticalContentAlignment" />
-      <RootProperty Name="ContentMargin" />
-      <RootProperty Name="CheckMode" />
-      <RootProperty Name="SelectedBackground" />
-      <RootProperty Name="SelectedPressedBackground" />
-      <RootProperty Name="SelectedPointerOverBackground" />
-      <RootProperty Name="PointerOverBackground" />
-      <RootProperty Name="PressedBackground" />
-    </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
-      <RootMethod Name="GetToolTip" />
-      <RootMethod Name="SetToolTip" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="LinusForumTips.Pages.ShellPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
+      <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="ContentTransitions" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="Padding" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.SymbolIcon">
       <RootProperty Name="Symbol" />
     </RootType>
     <RootType FullName="Windows.UI.Color" />
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontStyle" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="UseSystemFocusVisuals" />
+      <RootProperty Name="Template" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="BorderBrush" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Shapes.Shape">
       <RootProperty Name="Stretch" />
       <RootProperty Name="Stroke" />
@@ -711,10 +659,19 @@
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="ItemContainerStyle" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
+      <RootMethod Name="GetToolTip" />
+      <RootMethod Name="SetToolTip" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="TargetType" />
+      <RootProperty Name="Template" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
       <RootMethod Name="GetAccessibilityView" />
       <RootMethod Name="SetAccessibilityView" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.Storyboard">
       <RootProperty Name="Children" />
       <RootMethod Name="GetTargetName" />

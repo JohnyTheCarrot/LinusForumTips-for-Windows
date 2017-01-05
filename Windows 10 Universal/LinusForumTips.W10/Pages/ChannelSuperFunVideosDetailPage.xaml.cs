@@ -26,7 +26,7 @@ namespace LinusForumTips.Pages
 
         public ChannelSuperFunVideosDetailPage()
         {
-            ViewModel = ViewModelFactory.NewDetail(new ChannelSuperFunVideosSection());
+     ///       ViewModel = ViewModelFactory.NewDetail(new ChannelSuperFunVideosSection());
 			this.ViewModel.ShowInfo = false;
             this.InitializeComponent();
 			commandBar.DataContext = ViewModel;

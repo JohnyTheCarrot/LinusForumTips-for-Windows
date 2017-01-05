@@ -32,8 +32,8 @@ namespace LinusForumTips.Pages
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-			ShellPage.Current.ShellControl.SelectItem("d6dd521d-7ebf-474f-9578-547618d29d8b");
-			ShellPage.Current.ShellControl.SetCommandBar(commandBar);
+//			ShellPage.Current.ShellControl.SelectItem("d6dd521d-7ebf-474f-9578-547618d29d8b");
+	//		ShellPage.Current.ShellControl.SetCommandBar(commandBar);
 			if (e.NavigationMode == NavigationMode.New)
             {			
 				await this.ViewModel.LoadDataAsync();

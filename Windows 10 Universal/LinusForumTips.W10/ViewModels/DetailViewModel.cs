@@ -90,87 +90,85 @@ namespace LinusForumTips.ViewModels
             ApplicationData.Current.LocalSettings.Values["DescriptionFontSize"] = fontsize;
         }
 
-
-        #region Events
-
         private void OnEnterFullScreen(object sender, EventArgs e)
         {
             _showInfoLastValue = this.ShowInfo;
             ShowInfo = false;
         }
-
-        public class DetailViewModel<TSchema> : DetailViewModel where TSchema : SchemaBase
-        {
-            private Section<TSchema> _section;
-
-            public DetailViewModel(Section<TSchema> section) : base(section.DetailPage.Title, section.Name)
-            {
-                _section = section;
-            }
-
-            public override async Task LoadStateAsync(NavDetailParameter detailParameter)
-            {
-                try
+        /*
+                public class DetailViewModel<TSchema> : DetailViewModel where TSchema : SchemaBase
                 {
-                    HasLoadDataErrors = false;
-                    IsBusy = true;
-
-                    if (detailParameter != null)
+                    public DetailViewModel(Section<TSchema> section) : base(section.DetailPage.Title, section.Name)
                     {
-                        //avoid warning
-                        await Task.Run(() => { });
-
-                        ParseItems(detailParameter.Items.OfType<TSchema>(), detailParameter.SelectedId);
+                        _Section = section;
                     }
-                }
-                catch (Exception ex)
-                {
-                    HasLoadDataErrors = true;
-                    Debug.WriteLine(ex.ToString());
-                }
-                finally
-                {
-                    IsBusy = false;
-                }
-            }
 
-            private void ParseItems(IEnumerable<TSchema> items, string selectedId)
-            {
-                foreach (var item in items)
-                {
-                    var composedItem = new ComposedItemViewModel
+                    public override async Task LoadStateAsync(NavDetailParameter detailParameter)
                     {
-                        Id = item._id
-                    };
-
-                    foreach (var binding in _section.DetailPage.LayoutBindings)
-                    {
-                        var parsedItem = new ItemViewModel
+                        try
                         {
-                            Id = item._id
-                        };
-                        binding(parsedItem, item);
+                            HasLoadDataErrors = false;
+                            IsBusy = true;
 
-                        composedItem.Add(parsedItem);
+                            if (detailParameter != null)
+                            {
+                                //avoid warning
+                                await Task.Run(() => { });
+
+                                ParseItems(detailParameter.Items.OfType<TSchema>(), detailParameter.SelectedId);
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            HasLoadDataErrors = true;
+                            Debug.WriteLine(ex.ToString());
+                        }
+                        finally
+                        {
+                            IsBusy = false;
+                        }
                     }
 
-                    composedItem.Actions = _section.DetailPage.Actions
-                                                                .Select(a => new ActionInfo
-                                                                {
-                                                                    Command = a.Command,
-                                                                    CommandParameter = a.CommandParameter(item),
-                                                                    Style = a.Style,
-                                                                    Text = a.Text,
-                                                                    ActionType = ActionType.Primary
-                                                                })
-                                                                .ToList();
+                    private void ParseItems(IEnumerable<TSchema> items, string selectedId)
+                    {
+                        foreach (var item in items)
+                        {
+                            var composedItem = new ComposedItemViewModel
+                            {
+                                Id = item._id
+                            };
 
-                    Items.Add(composedItem);
-                }
-                if (!string.IsNullOrEmpty(selectedId))
-                {
+                            foreach (var binding in _section.DetailPage.LayoutBindings)
+                            {
+                                var parsedItem = new ItemViewModel
+                                {
+                                    Id = item._id
+                                };
+                                binding(parsedItem, item);
 
+                                composedItem.Add(parsedItem);
+                            }
+
+                            composedItem.Actions = _section.DetailPage.Actions
+                                                                        .Select(a => new ActionInfo
+                                                                        {
+                                                                            Command = a.Command,
+                                                                            CommandParameter = a.CommandParameter(item),
+                                                                            Style = a.Style,
+                                                                            Text = a.Text,
+                                                                            ActionType = ActionType.Primary
+                                                                        })
+                                                                        .ToList();
+
+                            Items.Add(composedItem);
+                        }
+                        if (!string.IsNullOrEmpty(selectedId))
+                        {
+
+                        }
+                    }
                 }
-            }
-        }
+            
+            */
     }
+}

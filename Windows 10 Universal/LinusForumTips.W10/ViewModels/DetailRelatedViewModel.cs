@@ -11,14 +11,15 @@ using LinusForumTips.Navigation;
 
 namespace LinusForumTips.ViewModels
 {
-    class DetailRelatedViewModel<TSchema> : DetailViewModel<TSchema> where TSchema : SchemaBase
+    /*
+  //  class DetailRelatedViewModel<TSchema> : DetailViewModel<TSchema> where TSchema : SchemaBase
     {
 
         private ListViewModel _list;
         public ListViewModel List
         {
             get { return _list; }
-            set { SetProperty(ref _list, value); }
+     //       set { SetProperty(ref _list, value); }
         }
 
         private string _relatedContentStatus;
@@ -82,4 +83,5 @@ namespace LinusForumTips.ViewModels
             }
         }
     }
+    */
 }

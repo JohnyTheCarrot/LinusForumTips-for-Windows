@@ -26,7 +26,7 @@ namespace LinusForumTips.Pages
 
         public TechquickieVideosDetailPage()
         {
-            ViewModel = ViewModelFactory.NewDetail(new TechquickieVideosSection());
+     //       ViewModel = ViewModelFactory.NewDetail(new TechquickieVideosSection());
 			this.ViewModel.ShowInfo = false;
             this.InitializeComponent();
 			commandBar.DataContext = ViewModel;

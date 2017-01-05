@@ -20,7 +20,7 @@ Layouts\List\ListGroupedHome.xbf
 Layouts\List\ListPhoto.xbf
 Layouts\List\ListTextCard.xbf
 Layouts\List\MenuText.xbf
-Pages\about.xbf
+Pages\About.xbf
 Pages\BuildGuidesDetailPage.xbf
 Pages\BuildGuidesListPage.xbf
 Pages\BuildLogsDetailPage.xbf
@@ -41,7 +41,6 @@ Styles\AppBarButtons.xbf
 Styles\AppColors.xbf
 Styles\AppTheme.xbf
 Styles\ButtonStyles.xbf
-Styles\DefaultTheme.xbf
 Styles\DetailStyles.xbf
 Styles\FontSizes.xbf
 Styles\SectionListStyles.xbf

@@ -37,8 +37,8 @@ namespace LinusForumTips.Pages
         {
             await this.ViewModel.LoadDataAsync();
 			//Page cache requires set commandBar in code
-			ShellPage.Current.ShellControl.SetCommandBar(commandBar);
-            ShellPage.Current.ShellControl.SelectItem("Home");
+		//	ShellPage.Current.ShellControl.SetCommandBar(commandBar);
+      //      ShellPage.Current.ShellControl.SelectItem("Home");
         }
 
     }

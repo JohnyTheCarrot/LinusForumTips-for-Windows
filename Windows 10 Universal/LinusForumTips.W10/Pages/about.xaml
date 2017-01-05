@@ -12,7 +12,7 @@
         <TextBlock FontSize="16" Margin="10,73,10,529">Made using Newtonsoft JSON and UWP.</TextBlock>
         <TextBlock FontSize="14" Margin="10,111,-10,511">Open sourced under the LinusForumTips on GitHub at</TextBlock>
         <TextBlock FontSize="11" Margin="10,134,27,489">https://github.com/LinusForumTips/LinusForumTips-for-Windows</TextBlock>
-        <TextBlock FontSize="16" Margin="10,173,10,10" SelectionChanged="TextBlock_SelectionChanged">
+        <TextBlock FontSize="16" Margin="10,173,10,10">
             <Run FontWeight="Bold" FontSize="18" Text="Credits:"/>
             <LineBreak/>
             <Run Text=""/>

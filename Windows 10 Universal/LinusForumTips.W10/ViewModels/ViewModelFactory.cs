@@ -15,15 +15,15 @@ namespace LinusForumTips.ViewModels
             return new ListViewModel<TSchema>(section, visibleItems);
         }
 
-        public static DetailViewModel NewDetail<TSchema>(Section<TSchema> section) where TSchema : SchemaBase
-        {
-            return new DetailViewModel<TSchema>(section);
-        }
+ //       public static DetailViewModel NewDetail<TSchema>(Section<TSchema> section) where TSchema : SchemaBase
+    //    {
+   //         return new DetailViewModel<TSchema>(section);
+   //     }
 
-        public static DetailViewModel NewDetail<TSchema, TRelatedSchema>(Section<TSchema> section, Section<TRelatedSchema> relatedSection) where TSchema : SchemaBase where TRelatedSchema : SchemaBase
-        {
-            return new DetailRelatedViewModel<TSchema>(section, NewList(relatedSection));
-        }
+     //   public static DetailViewModel NewDetail<TSchema, TRelatedSchema>(Section<TSchema> section, Section<TRelatedSchema> relatedSection) where TSchema : SchemaBase where TRelatedSchema : SchemaBase
+     //   {
+  //          return new DetailRelatedViewModel<TSchema>(section, NewList(relatedSection));
+   //     }
 
         public static GroupedListViewModel NewListGrouped<TSchema>(Section<TSchema> section) where TSchema : SchemaBase
         {

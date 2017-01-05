@@ -26,7 +26,7 @@ namespace LinusForumTips.Pages
 
         public WanShowArchiveDetailPage()
         {
-            ViewModel = ViewModelFactory.NewDetail(new WanShowArchiveSection());
+      //      ViewModel = ViewModelFactory.NewDetail(new WanShowArchiveSection());
 			this.ViewModel.ShowInfo = false;
             this.InitializeComponent();
 			commandBar.DataContext = ViewModel;

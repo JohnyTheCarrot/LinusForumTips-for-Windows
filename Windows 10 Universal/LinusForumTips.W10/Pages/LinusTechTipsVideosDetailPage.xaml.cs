@@ -26,7 +26,7 @@ namespace LinusForumTips.Pages
 
         public LinusTechTipsVideosDetailPage()
         {
-            ViewModel = ViewModelFactory.NewDetail(new LinusTechTipsVideosSection());
+   //         ViewModel = ViewModelFactory.NewDetail(new LinusTechTipsVideosSection());
 			this.ViewModel.ShowInfo = false;
             this.InitializeComponent();
 			commandBar.DataContext = ViewModel;

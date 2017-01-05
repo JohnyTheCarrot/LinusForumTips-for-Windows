@@ -699,7 +699,6 @@ D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTi
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\Styles\AppBarButtons.xbf
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\Styles\AppTheme.xbf
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\Styles\ButtonStyles.xbf
-D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\Styles\DefaultTheme.xbf
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\Styles\FontSizes.xbf
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\Styles\SectionListStyles.xbf
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\x64\Release\Styles\DetailStyles.xbf
@@ -987,7 +986,6 @@ D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTi
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\AppBarButtons.xaml
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\AppTheme.xaml
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\ButtonStyles.xaml
-D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\DefaultTheme.xaml
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\FontSizes.xaml
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\SectionListStyles.xaml
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\DetailStyles.xaml
@@ -1032,7 +1030,6 @@ D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTi
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\AppBarButtons.xbf
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\AppTheme.xbf
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\ButtonStyles.xbf
-D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\DefaultTheme.xbf
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\FontSizes.xbf
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\SectionListStyles.xbf
 D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\obj\x64\Release\Styles\DetailStyles.xbf

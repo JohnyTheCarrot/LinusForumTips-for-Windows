@@ -35,7 +35,7 @@ namespace LinusForumTips.Pages
             {
                 SystemNavigationManager.GetForCurrentView().BackRequested += ((sender, e) =>
                 {
-                    if (SupportFullScreen// && ShellControl.IsFullScreen)
+                    if (SupportFullScreen) // && ShellControl.IsFullScreen)
                     {
                         e.Handled = true;
                        // ShellControl.ExitFullScreen();
