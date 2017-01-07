@@ -21962,10 +21962,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "d:\\documents\\visual studio 2017\\Projects\\Linus Forum Tips\\Linus Forum Tips.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\LinusForumTips-for-Windows\\Windows 10 Universal\\Linus Forum Tips.csproj",
       "projectName": "Linus Forum Tips",
-      "projectPath": "d:\\documents\\visual studio 2017\\Projects\\Linus Forum Tips\\Linus Forum Tips.csproj",
-      "projectJsonPath": "d:\\documents\\visual studio 2017\\Projects\\Linus Forum Tips\\project.json",
+      "projectPath": "D:\\Documents\\GitHub\\LinusForumTips-for-Windows\\Windows 10 Universal\\Linus Forum Tips.csproj",
+      "projectJsonPath": "D:\\Documents\\GitHub\\LinusForumTips-for-Windows\\Windows 10 Universal\\project.json",
       "outputType": "UAP"
     },
     "dependencies": {

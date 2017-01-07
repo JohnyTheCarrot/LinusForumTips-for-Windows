@@ -10,31 +10,31 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>9f93fc8c-39fd-44de-8553-fe48773d9f7f</PackageIdentityName>
     <PackageIdentityPublisher>CN=alast</PackageIdentityPublisher>
-    <IntermediateOutputPath>d:\documents\visual studio 2017\Projects\Linus Forum Tips\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>55656352B3B1BCA9CB8EF752AF94FE81B8227D3670C21BAD9A5ABB6F0B87376C</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>9f93fc8c-39fd-44de-8553-fe48773d9f7f_1.0.0.0_x64__zaejav8337sac</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>67225E870BAB545C0956C7DEAE3A652FEB2A9D62C3757005DE4BCD33ABCC98D5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9f93fc8c-39fd-44de-8553-fe48773d9f7f_2.0.0.0_x64__zaejav8337sac</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>9f93fc8c-39fd-44de-8553-fe48773d9f7f_zaejav8337sac!App</RegisteredUserModeAppID>
     <RegisteredPackageID>9f93fc8c-39fd-44de-8553-fe48773d9f7f</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=alast</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>2.0.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-07T05:52:51.480</Modified>
+      <Modified>2017-01-07T12:39:07.171</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\bin\x64\Debug\Linus Forum Tips.exe">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\bin\x64\Debug\Linus Forum Tips.exe">
       <PackagePath>entrypoint\Linus Forum Tips.exe</PackagePath>
-      <Modified>2017-01-07T05:52:48.054</Modified>
+      <Modified>2017-01-07T12:39:06.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alast\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -492,60 +492,235 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T15:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-01-07T01:10:47.862</Modified>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square310x310Logo.scale-125.png">
+      <PackagePath>Assets\Square310x310Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square310x310Logo.scale-150.png">
+      <PackagePath>Assets\Square310x310Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square310x310Logo.scale-200.png">
+      <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square310x310Logo.scale-400.png">
+      <PackagePath>Assets\Square310x310Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.397</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.472</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square71x71Logo.scale-125.png">
+      <PackagePath>Assets\Square71x71Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.507</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square71x71Logo.scale-150.png">
+      <PackagePath>Assets\Square71x71Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square71x71Logo.scale-200.png">
+      <PackagePath>Assets\Square71x71Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square71x71Logo.scale-400.png">
+      <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.341</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.425</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.247</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2017-01-07T02:51:14.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2017-01-01T11:20:02.498</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-01T11:20:02.520</Modified>
+      <Modified>2017-01-07T02:51:14.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-01T11:20:02.521</Modified>
+      <Modified>2017-01-07T02:51:14.360</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-01T11:20:02.521</Modified>
+      <Modified>2017-01-07T02:51:14.498</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-01T11:20:02.526</Modified>
+      <Modified>2017-01-07T02:51:14.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-01T11:20:02.527</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-01T11:20:02.528</Modified>
+      <Modified>2017-01-07T02:51:14.627</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\bin\x64\Debug\Linus Forum Tips.xr.xml">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2017-01-07T01:10:47.862</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\bin\x64\Debug\Linus Forum Tips.xr.xml">
       <PackagePath>Linus Forum Tips.xr.xml</PackagePath>
-      <Modified>2017-01-07T05:52:47.851</Modified>
+      <Modified>2017-01-07T12:27:57.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-01-01T11:23:52.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-07T05:52:51.086</Modified>
+      <Modified>2017-01-07T12:38:18.543</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="d:\documents\visual studio 2017\Projects\Linus Forum Tips\bin\x64\Debug\Core\Linus Forum Tips.exe">
+    <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\bin\x64\Debug\Core\Linus Forum Tips.exe">
       <PackagePath>Linus Forum Tips.exe</PackagePath>
-      <Modified>2017-01-07T05:52:51.468</Modified>
+      <Modified>2017-01-07T12:39:07.162</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
