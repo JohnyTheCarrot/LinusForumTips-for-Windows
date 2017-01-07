@@ -1,6 +1,0 @@
-MainPackage=D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.7.6.0_ARM.appx
-SymbolPackage=D:\Downloads\LFT 1.7.6.0\LinusForumTips.W10_1.7.6.0_Test\LinusForumTips.W10_1.7.6.0_ARM.appxsym
-ResourcePack=D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.7.6.0_scale-125.appx
-ResourcePack=D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.7.6.0_scale-150.appx
-ResourcePack=D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.7.6.0_scale-200.appx
-ResourcePack=D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\LinusForumTips.W10\bin\ARM\Release\LinusForumTips.W10_1.7.6.0_scale-400.appx
