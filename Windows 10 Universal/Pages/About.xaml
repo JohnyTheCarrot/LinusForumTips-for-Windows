@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="Linus_Forum_Tips.Pages.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Linus_Forum_Tips.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <TextBlock Margin="10,10,-10,668" FontSize="48">About</TextBlock>
+        <TextBlock Margin="10,84,-10,644" FontSize="16">Made using Newtonsoft JSON.</TextBlock>
+        <TextBlock Margin="10,129,-10,585" FontSize="32">Credits</TextBlock>
+        <TextBlock Margin="10,188,10,273">
+            <Run FontSize="24" FontWeight="Bold" Text="Lead Programmer"/>
+            <LineBreak/>
+            <Run FontSize="24" FontWeight="Normal" Text="AluminiumTech"/>
+            <LineBreak/>
+            <LineBreak/>
+             <Run FontSize="24" FontWeight="Bold" Text="Graphics Design"/>
+            <LineBreak/>
+            <Run FontSize="24" FontWeight="Normal" Text="Piero Maddaleni"/>
+            <LineBreak/>
+            <LineBreak/>
+             <Run FontSize="24" FontWeight="Bold" Text="QA Testers"/>
+            <LineBreak/>
+            <Run FontSize="24" FontWeight="Normal" Text="Jonas Olsen"/>
+        </TextBlock>
+    </Grid>
+</Page>
