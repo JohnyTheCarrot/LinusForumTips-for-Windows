@@ -135,9 +135,6 @@
   <data name="AboutSectionLicensesDescription.Text" xml:space="preserve">
     <value>This app is developed using following open source software:</value>
   </data>
-  <data name="AdvertisementSection.Header" xml:space="preserve">
-    <value>Advertisement</value>
-  </data>
   <data name="AppVersion.Text" xml:space="preserve">
     <value>App version:</value>
   </data>
@@ -162,9 +159,6 @@
   <data name="NoConnectionAvailable.Text" xml:space="preserve">
     <value>The video cannot be shown because there is no connection available.</value>
   </data>
-  <data name="NormalTextButton.Label" xml:space="preserve">
-    <value>normal text</value>
-  </data>
   <data name="PrivacyButton.Label" xml:space="preserve">
     <value>privacy</value>
   </data>
@@ -179,9 +173,6 @@
   </data>
   <data name="ShareItemButton.Label" xml:space="preserve">
     <value>share</value>
-  </data>
-  <data name="SmallTextButton.Label" xml:space="preserve">
-    <value>small text</value>
   </data>
   <data name="SectionListItem.ErrorText" xml:space="preserve">
     <value>There was an unexpected error loading the section data. Try to refresh later.</value>
@@ -204,9 +195,6 @@
   <data name="FullScreenButton.AutomationProperties.Name" xml:space="preserve">
     <value>Press to start full screen mode</value>
   </data>
-  <data name="NormalTextButton.AutomationProperties.Name" xml:space="preserve">
-    <value>Press to set normal size on text</value>
-  </data>
   <data name="ShareItemButton.AutomationProperties.Name" xml:space="preserve">
     <value>Press to share</value>
   </data>
@@ -215,9 +203,6 @@
   </data>
   <data name="ShowPresentationButton.AutomationProperties.Name" xml:space="preserve">
     <value>Press to start media presentation</value>
-  </data>
-  <data name="SmallTextButton.AutomationProperties.Name" xml:space="preserve">
-    <value>Press to set small size on text</value>
   </data>
   <data name="NavigationPageButton.AutomationProperties.Name" xml:space="preserve">
     <value>Application navigation panel</value>
@@ -281,9 +266,6 @@
   </data>
   <data name="AboutViewMoreInformation.Content" xml:space="preserve">
     <value>View more information</value>
-  </data>
-  <data name="AboutPoweredBy.Text" xml:space="preserve">
-    <value>Powered by</value>
   </data>
   <data name="LoadMoreButton.Content" xml:space="preserve">
     <value>Load more</value>

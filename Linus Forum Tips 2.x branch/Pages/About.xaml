@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid>
 
         <TextBlock Margin="10,10,-10,668" FontSize="48">About</TextBlock>
         <TextBlock Margin="10,84,-10,644" FontSize="16">Made using Newtonsoft JSON.</TextBlock>
@@ -27,23 +27,6 @@
                      <Run FontSize="14" FontWeight="Bold">This app is open source under the Linus Forum Tips license at... </Run>
             <LineBreak/>
           <Run FontSize="13" FontWeight="Normal">https://www.github.com/LinusForumTips/LinusForumTips-for-Windows</Run>
-        </TextBlock>
-        
-        <TextBlock Margin="10,338,-10,376" FontSize="32">Credits</TextBlock>
-        <TextBlock Margin="10,397,20,125">
-            <Run FontSize="24" FontWeight="Bold" Text="Lead Programmer"/>
-            <LineBreak/>
-            <Run FontSize="24" FontWeight="Normal" Text="AluminiumTech"/>
-            <LineBreak/>
-            <LineBreak/>
-             <Run FontSize="24" FontWeight="Bold" Text="Graphics Design"/>
-            <LineBreak/>
-            <Run FontSize="24" FontWeight="Normal" Text="Piero Maddaleni"/>
-            <LineBreak/>
-            <LineBreak/>
-             <Run FontSize="24" FontWeight="Bold" Text="QA Testers"/>
-            <LineBreak/>
-            <Run FontSize="24" FontWeight="Normal" Text="Jonas Olsen"/>
         </TextBlock>
     </Grid>
 </Page>

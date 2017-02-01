@@ -44,33 +44,11 @@
                     Command="{Binding Source={StaticResource ActionCommands}, Path=Share}"
                     Foreground="{StaticResource AppBarForeground}"
                     Style="{StaticResource WasAppBarButtonStyle}"/>
-             
-                <AppBarButton
-                    x:Uid="SmallTextButton"
-                    Command="{Binding ApplyFontSizeCommand}"
-                    CommandParameter="DescriptionTextSizeSmall"
-                    Foreground="{StaticResource AppBarForeground}"
-                    Style="{StaticResource WasAppBarButtonStyle}">
-                </AppBarButton>
-                <AppBarButton
-                    x:Uid="NormalTextButton"
-                    Command="{Binding ApplyFontSizeCommand}"
-                    CommandParameter="DescriptionTextSizeNormal"
-                    Foreground="{StaticResource AppBarForeground}"
-                    Style="{StaticResource WasAppBarButtonStyle}">
-                </AppBarButton>
-                <AppBarButton
-                    x:Uid="BigTextButton"
-                    Command="{Binding ApplyFontSizeCommand}"
-                    CommandParameter="DescriptionTextSizeLarge"
-                    Foreground="{StaticResource AppBarForeground}"
-                    Style="{StaticResource WasAppBarButtonStyle}">
-                </AppBarButton>
             </was_actions:ActionsCommandBar.SecondaryCommands>
         </was_actions:ActionsCommandBar>
     </was_controls:ShellControl.CommandBar>
     
-    <Grid Background="{StaticResource AppBackground}">
+    <Grid>
         <layouts:YouTubeDetailLayout ViewModel="{x:Bind ViewModel}" />
     </Grid>
 </Page>

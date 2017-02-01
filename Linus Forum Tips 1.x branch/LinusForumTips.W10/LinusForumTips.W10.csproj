@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
-
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -12,7 +11,7 @@
     <AssemblyName>LinusForumTips.W10</AssemblyName>
     <DefaultLanguage>en-us</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
@@ -20,10 +19,15 @@
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <NuGetPackageImportStamp />
     <RestorePackages>true</RestorePackages>
-	<UapDefaultAssetScale>100</UapDefaultAssetScale>	
-	<UseDotNetNativeSharedAssemblyFrameworkPackage>True</UseDotNetNativeSharedAssemblyFrameworkPackage>
+    <UapDefaultAssetScale>100</UapDefaultAssetScale>
+    <UseDotNetNativeSharedAssemblyFrameworkPackage>True</UseDotNetNativeSharedAssemblyFrameworkPackage>
+    <PackageCertificateThumbprint>5B19E6BF6A5A4328F1523F8E32A671C1C982EE46</PackageCertificateThumbprint>
+    <PackageCertificateKeyFile>LinusForumTips.W10_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>D:\Desktop\LFT 1.7.7\</AppxPackageDir>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
   </PropertyGroup>
-
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
     <OutputPath>bin\ARM\Debug\</OutputPath>
@@ -93,7 +97,6 @@
     <Prefer32Bit>true</Prefer32Bit>
     <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
@@ -103,13 +106,11 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
-
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
   </ItemGroup>
-
   <ItemGroup>
     <Page Include="Layouts\List\ListBigHorizontalCardBox.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -308,7 +309,6 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-
   <ItemGroup>
     <Compile Include="Layouts\List\ListBigHorizontalCardBox.xaml.cs">
       <DependentUpon>ListBigHorizontalCardBox.xaml</DependentUpon>
@@ -434,11 +434,10 @@
       <DependentUpon>ShellPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
-
   <ItemGroup>
+    <None Include="LinusForumTips.W10_StoreKey.pfx" />
     <None Include="project.json" />
   </ItemGroup>
-
   <ItemGroup>
     <Compile Include="Sections\_ActionConfig.cs" />
     <Compile Include="Sections\_PageConfig.cs" />
@@ -446,7 +445,6 @@
     <Compile Include="DesignTime\DesignViewModel.cs" />
     <Compile Include="Layouts\List\ListLayoutBase.cs" />
     <Compile Include="Services\DeviceFamilyService.cs" />
-    <Compile Include="ViewModels\AdvertisingViewModel.cs" />
     <Compile Include="ViewModels\GroupedItemViewModel.cs" />
     <Compile Include="Services\RoamingService.cs" />
     <Compile Include="Extensions\DateTimeExtensions.cs" />
@@ -484,58 +482,79 @@
     <Compile Include="Sections\BuildLogsSection.cs" />
     <Compile Include="Sections\GuidesAndTutorialsSection.cs" />
   </ItemGroup>
-
   <ItemGroup>
-        <Content Include="Layouts\Detail\MulticolumnLayout.json" />
-          <Content Include="Layouts\Detail\TextDetailLayout.json" />
-          <Content Include="Layouts\List\Breakpoints.Large.ContactCard.json" />
-          <Content Include="Layouts\List\Breakpoints.Large.json" />
-          <Content Include="Layouts\List\Breakpoints.Large.ListBigHorizontalCard.json" />
-          <Content Include="Layouts\List\Breakpoints.Large.ListBigHorizontalCardBox.json" />
-          <Content Include="Layouts\List\Breakpoints.Medium.json" />
-          <Content Include="Layouts\List\Breakpoints.Medium.ListBigVerticalCard.json" />
-          <Content Include="Layouts\List\Breakpoints.Medium.ListBigVerticalCardBox.json" />
-          <Content Include="Layouts\List\Breakpoints.Medium.MenuBig.json" />
-          <Content Include="Layouts\List\Breakpoints.Medium.MenuMedium.json" />
-          <Content Include="Layouts\List\Breakpoints.Medium.MenuSmall.json" />
-          <Content Include="Layouts\List\Breakpoints.Medium.MenuText.json" />
-          <Content Include="Layouts\List\Breakpoints.Medium.Photo.json" />
-          <Content Include="Layouts\List\Breakpoints.Medium.ListTextCard.json" />
-          <Content Include="Layouts\List\Breakpoints.ListGrouped.json" />
-          <Content Include="Layouts\List\Breakpoints.Large.ListBigHorizontalCardGroupedHome.json" />
-          <Content Include="Assets\Design\DesignData.json" />
-          <Content Include="Assets\Design\DesignDataHtml.json" />
-          <Content Include="Assets\Design\DesignDataMenu.json" />
-          <Content Include="Assets\Design\DesignDataTD.json" />
-          <Content Include="Assets\Design\DetailDesignData.json" />
-          <Content Include="Assets\Design\DarkGray.png" />
-          <Content Include="Assets\Design\LightGray.png" />
-          <Content Include="Assets\Design\MediumGray.png" />
-          <Content Include="Assets\about.png" />
-          <Content Include="Assets\RelatedContentVBP.json" />
-          <Content Include="Properties\Default.rd.xml" />
-          <Content Include="Assets\ApplicationLogo.png" />
-          <Content Include="Assets\SplashScreen.scale-100.png" />
-          <Content Include="Assets\Square150x150Logo.scale-100.png" />
-          <Content Include="Assets\Square310x310Logo.scale-100.png" />
-          <Content Include="Assets\Square44x44Logo.scale-100.png" />
-          <Content Include="Assets\Square71x71Logo.scale-100.png" />
-          <Content Include="Assets\StoreLogo.scale-100.png" />
-          <Content Include="Assets\Wide310x150Logo.scale-100.png" />
-    </ItemGroup>
-
+    <Content Include="Assets\BadgeLogo.scale-100.png" />
+    <Content Include="Assets\BadgeLogo.scale-125.png" />
+    <Content Include="Assets\BadgeLogo.scale-200.png" />
+    <Content Include="Assets\BadgeLogo.scale-400.png" />
+    <Content Include="Assets\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Square310x310Logo.scale-125.png" />
+    <Content Include="Assets\Square310x310Logo.scale-150.png" />
+    <Content Include="Assets\Square310x310Logo.scale-200.png" />
+    <Content Include="Assets\Square310x310Logo.scale-400.png" />
+    <Content Include="Assets\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square71x71Logo.scale-150.png" />
+    <Content Include="Assets\StoreLogo.scale-125.png" />
+    <Content Include="Assets\StoreLogo.scale-150.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="Layouts\Detail\MulticolumnLayout.json" />
+    <Content Include="Layouts\Detail\TextDetailLayout.json" />
+    <Content Include="Layouts\List\Breakpoints.Large.ContactCard.json" />
+    <Content Include="Layouts\List\Breakpoints.Large.json" />
+    <Content Include="Layouts\List\Breakpoints.Large.ListBigHorizontalCard.json" />
+    <Content Include="Layouts\List\Breakpoints.Large.ListBigHorizontalCardBox.json" />
+    <Content Include="Layouts\List\Breakpoints.Medium.json" />
+    <Content Include="Layouts\List\Breakpoints.Medium.ListBigVerticalCard.json" />
+    <Content Include="Layouts\List\Breakpoints.Medium.ListBigVerticalCardBox.json" />
+    <Content Include="Layouts\List\Breakpoints.Medium.MenuBig.json" />
+    <Content Include="Layouts\List\Breakpoints.Medium.MenuMedium.json" />
+    <Content Include="Layouts\List\Breakpoints.Medium.MenuSmall.json" />
+    <Content Include="Layouts\List\Breakpoints.Medium.MenuText.json" />
+    <Content Include="Layouts\List\Breakpoints.Medium.Photo.json" />
+    <Content Include="Layouts\List\Breakpoints.Medium.ListTextCard.json" />
+    <Content Include="Layouts\List\Breakpoints.ListGrouped.json" />
+    <Content Include="Layouts\List\Breakpoints.Large.ListBigHorizontalCardGroupedHome.json" />
+    <Content Include="Assets\Design\DesignData.json" />
+    <Content Include="Assets\Design\DesignDataHtml.json" />
+    <Content Include="Assets\Design\DesignDataMenu.json" />
+    <Content Include="Assets\Design\DesignDataTD.json" />
+    <Content Include="Assets\Design\DetailDesignData.json" />
+    <Content Include="Assets\Design\DarkGray.png" />
+    <Content Include="Assets\Design\LightGray.png" />
+    <Content Include="Assets\Design\MediumGray.png" />
+    <Content Include="Assets\about.png" />
+    <Content Include="Assets\RelatedContentVBP.json" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\ApplicationLogo.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square71x71Logo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+  </ItemGroup>
   <ItemGroup>
     <PRIResource Include="Strings\Resources.resw" />
   </ItemGroup>
-   <ItemGroup>
-    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <SDKReference Include="WindowsMobile, Version=10.0.10586.0">
+  <ItemGroup>
+    <SDKReference Include="WindowsMobile, Version=10.0.14393.0">
       <Name>Windows Mobile Extensions for the UWP</Name>
     </SDKReference>
   </ItemGroup>
-   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
-
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
 </Project>

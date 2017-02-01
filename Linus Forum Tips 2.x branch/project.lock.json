@@ -21962,11 +21962,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Documents\\GitHub\\LinusForumTips-for-Windows\\Windows 10 Universal\\Linus Forum Tips.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\LinusForumTips-for-Windows\\Linus Forum Tips 2.x branch\\Linus Forum Tips.csproj",
       "projectName": "Linus Forum Tips",
-      "projectPath": "D:\\Documents\\GitHub\\LinusForumTips-for-Windows\\Windows 10 Universal\\Linus Forum Tips.csproj",
-      "projectJsonPath": "D:\\Documents\\GitHub\\LinusForumTips-for-Windows\\Windows 10 Universal\\project.json",
-      "outputType": "UAP"
+      "projectPath": "D:\\Documents\\GitHub\\LinusForumTips-for-Windows\\Linus Forum Tips 2.x branch\\Linus Forum Tips.csproj",
+      "projectJsonPath": "D:\\Documents\\GitHub\\LinusForumTips-for-Windows\\Linus Forum Tips 2.x branch\\project.json",
+      "projectStyle": "ProjectJson"
     },
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2"

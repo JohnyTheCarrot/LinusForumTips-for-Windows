@@ -27,7 +27,7 @@
 		</was_actions:ActionsCommandBar>
     </was_controls:ShellControl.CommandBar>
 
-    <Grid Background="{StaticResource AppBackground}">
+    <Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>
 			<RowDefinition Height="*"/>

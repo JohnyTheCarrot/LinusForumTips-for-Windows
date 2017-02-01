@@ -132,15 +132,17 @@ namespace Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
+            _typeNameTable = new string[4];
             _typeNameTable[0] = "Linus_Forum_Tips.Pages.About";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "Linus_Forum_Tips.Pages.Home";
 
-            _typeTable = new global::System.Type[3];
+            _typeTable = new global::System.Type[4];
             _typeTable[0] = typeof(global::Linus_Forum_Tips.Pages.About);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::Linus_Forum_Tips.Pages.Home);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -176,6 +178,7 @@ namespace Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo
         }
 
         private object Activate_0_About() { return new global::Linus_Forum_Tips.Pages.About(); }
+        private object Activate_3_Home() { return new global::Linus_Forum_Tips.Pages.Home(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -200,6 +203,13 @@ namespace Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  Linus_Forum_Tips.Pages.Home
+                userType = new global::Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_Home;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;

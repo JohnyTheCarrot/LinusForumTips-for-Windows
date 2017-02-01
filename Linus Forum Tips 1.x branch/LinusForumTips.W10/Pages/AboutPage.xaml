@@ -7,7 +7,7 @@
     xmlns:was_controls="using:AppStudio.Uwp.Controls"
     DataContext="{Binding RelativeSource={RelativeSource Self}}"
     mc:Ignorable="d">
-    <Grid Background="{StaticResource AppBackground}">
+    <Grid Background="Black">
         <ScrollViewer>
             <StackPanel Margin="24,32,24,8">
                 <TextBlock
@@ -82,19 +82,8 @@
 						x:Uid="AboutCapabilityTileUpdater"
 						Margin="0,12,0,0"
 						Style="{StaticResource AppDescriptionsStyle}"/>
-					<StackPanel Margin="0,12,0,0" Orientation="Horizontal">
-						<TextBlock
-							x:Uid="AboutPoweredBy"
-							FontSize="14"
-							VerticalAlignment="Center"
-							Style="{StaticResource AppDescriptionsStyle}" />
-						<HyperlinkButton
-							Margin="6,0,0,0"
-							Content="Windows App Studio"
-							VerticalAlignment="Center"
-							NavigateUri="{x:Bind AboutThisAppModel.WindowsAppStudioWeb}"
-							Style="{StaticResource HyperlinkStyle}"/>
-					</StackPanel>
+                    <StackPanel Margin="0,12,0,0" Orientation="Horizontal">
+                    </StackPanel>
 				</StackPanel>
 			</StackPanel>
         </ScrollViewer>

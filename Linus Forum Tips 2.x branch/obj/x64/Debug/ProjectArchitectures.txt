@@ -1,1 +1,1 @@
-D:\Documents\GitHub\LinusForumTips-for-Windows\Windows 10 Universal\Linus Forum Tips.csproj;x64
+D:\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\Linus Forum Tips.csproj;x64
