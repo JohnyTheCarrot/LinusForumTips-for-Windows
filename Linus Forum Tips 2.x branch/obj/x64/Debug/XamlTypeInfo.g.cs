@@ -132,17 +132,19 @@ namespace Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[5];
             _typeNameTable[0] = "Linus_Forum_Tips.Pages.About";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "Linus_Forum_Tips.Pages.Home";
+            _typeNameTable[4] = "Linus_Forum_Tips.Pages.Shows";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[5];
             _typeTable[0] = typeof(global::Linus_Forum_Tips.Pages.About);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::Linus_Forum_Tips.Pages.Home);
+            _typeTable[4] = typeof(global::Linus_Forum_Tips.Pages.Shows);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -179,6 +181,7 @@ namespace Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo
 
         private object Activate_0_About() { return new global::Linus_Forum_Tips.Pages.About(); }
         private object Activate_3_Home() { return new global::Linus_Forum_Tips.Pages.Home(); }
+        private object Activate_4_Shows() { return new global::Linus_Forum_Tips.Pages.Shows(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -208,6 +211,13 @@ namespace Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo
             case 3:   //  Linus_Forum_Tips.Pages.Home
                 userType = new global::Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_3_Home;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  Linus_Forum_Tips.Pages.Shows
+                userType = new global::Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_Shows;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

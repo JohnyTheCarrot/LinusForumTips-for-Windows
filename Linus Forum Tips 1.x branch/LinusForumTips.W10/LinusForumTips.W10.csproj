@@ -23,7 +23,7 @@
     <UseDotNetNativeSharedAssemblyFrameworkPackage>True</UseDotNetNativeSharedAssemblyFrameworkPackage>
     <PackageCertificateThumbprint>5B19E6BF6A5A4328F1523F8E32A671C1C982EE46</PackageCertificateThumbprint>
     <PackageCertificateKeyFile>LinusForumTips.W10_StoreKey.pfx</PackageCertificateKeyFile>
-    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
     <AppxPackageDir>D:\Desktop\LFT 1.7.7\</AppxPackageDir>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
@@ -485,8 +485,8 @@
   <ItemGroup>
     <Content Include="Assets\BadgeLogo.scale-100.png" />
     <Content Include="Assets\BadgeLogo.scale-125.png" />
+    <Content Include="Assets\BadgeLogo.scale-150.png" />
     <Content Include="Assets\BadgeLogo.scale-200.png" />
-    <Content Include="Assets\BadgeLogo.scale-400.png" />
     <Content Include="Assets\Square150x150Logo.scale-125.png" />
     <Content Include="Assets\Square150x150Logo.scale-150.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />

@@ -28,13 +28,13 @@
     <AppXManifest Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-01T07:09:41.888</Modified>
+      <Modified>2017-02-01T13:33:50.525</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Linus Forum Tips.exe">
       <PackagePath>entrypoint\Linus Forum Tips.exe</PackagePath>
-      <Modified>2017-02-01T07:09:41.374</Modified>
+      <Modified>2017-02-01T13:33:49.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\alast\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -707,20 +707,20 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Linus Forum Tips.xr.xml">
       <PackagePath>Linus Forum Tips.xr.xml</PackagePath>
-      <Modified>2017-02-01T07:09:07.443</Modified>
+      <Modified>2017-02-01T12:59:03.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2017-01-30T12:33:13.138</Modified>
+      <Modified>2017-02-01T13:17:32.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-01T07:09:41.717</Modified>
+      <Modified>2017-02-01T13:33:50.354</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Core\Linus Forum Tips.exe">
       <PackagePath>Linus Forum Tips.exe</PackagePath>
-      <Modified>2017-02-01T07:09:41.882</Modified>
+      <Modified>2017-02-01T13:33:50.522</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
