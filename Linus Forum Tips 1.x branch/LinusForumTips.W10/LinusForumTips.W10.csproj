@@ -24,7 +24,7 @@
     <PackageCertificateThumbprint>5B19E6BF6A5A4328F1523F8E32A671C1C982EE46</PackageCertificateThumbprint>
     <PackageCertificateKeyFile>LinusForumTips.W10_StoreKey.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
-    <AppxPackageDir>D:\Desktop\LFT 1.7.7\</AppxPackageDir>
+    <AppxPackageDir>D:\Desktop\LFT Regular 1.7.7\</AppxPackageDir>
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
   </PropertyGroup>
