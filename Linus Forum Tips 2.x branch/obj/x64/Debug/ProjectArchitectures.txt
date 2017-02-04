@@ -1,1 +1,1 @@
-D:\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\Linus Forum Tips.csproj;x64
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\Linus Forum Tips.csproj;x64

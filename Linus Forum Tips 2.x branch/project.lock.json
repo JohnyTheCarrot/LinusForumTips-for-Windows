@@ -21958,14 +21958,14 @@
     "UAP,Version=v10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\alast\\.nuget\\packages\\": {}
+    "C:\\Users\\JohnyTheCarrot\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Documents\\GitHub\\LinusForumTips-for-Windows\\Linus Forum Tips 2.x branch\\Linus Forum Tips.csproj",
+      "projectUniqueName": "C:\\Users\\JohnyTheCarrot\\Documents\\GitHub\\LinusForumTips-for-Windows\\Linus Forum Tips 2.x branch\\Linus Forum Tips.csproj",
       "projectName": "Linus Forum Tips",
-      "projectPath": "D:\\Documents\\GitHub\\LinusForumTips-for-Windows\\Linus Forum Tips 2.x branch\\Linus Forum Tips.csproj",
-      "projectJsonPath": "D:\\Documents\\GitHub\\LinusForumTips-for-Windows\\Linus Forum Tips 2.x branch\\project.json",
+      "projectPath": "C:\\Users\\JohnyTheCarrot\\Documents\\GitHub\\LinusForumTips-for-Windows\\Linus Forum Tips 2.x branch\\Linus Forum Tips.csproj",
+      "projectJsonPath": "C:\\Users\\JohnyTheCarrot\\Documents\\GitHub\\LinusForumTips-for-Windows\\Linus Forum Tips 2.x branch\\project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

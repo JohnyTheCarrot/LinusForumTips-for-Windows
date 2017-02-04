@@ -31,5 +31,12 @@ namespace Linus_Forum_Tips.Pages
         {
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
         }
+
+        private void settings_Click(object sender, RoutedEventArgs e)
+        {
+            //Change the frame to the Shows frame
+            //
+            Frame.Navigate(typeof(Shows));
+        }
     }
 }
