@@ -34,8 +34,12 @@ namespace Linus_Forum_Tips.Pages
 
         private void settings_Click(object sender, RoutedEventArgs e)
         {
+           
+        }
+
+        private void shows_Click(object sender, RoutedEventArgs e)
+        {
             //Change the frame to the Shows frame
-            //
             Frame.Navigate(typeof(Shows));
         }
     }

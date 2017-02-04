@@ -17,7 +17,7 @@
                     Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="shows" FontFamily="Segoe MDL2 Assets" Content="&#xE786;"
-                    Width="50" Height="50" Background="Transparent"/>
+                    Width="50" Height="50" Background="Transparent" Click="shows_Click"/>
                     <TextBlock Text="Shows" FontSize="18" VerticalAlignment="Center" />
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">

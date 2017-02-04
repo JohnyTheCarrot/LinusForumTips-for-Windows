@@ -866,3 +866,12 @@ C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum 
 C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\obj\x64\Debug\qualifiers.txt.intermediate
 C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Xamarin.Forms.Core.dll
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Xamarin.Forms.Platform.UAP.dll
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Xamarin.Forms.Platform.dll
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Xamarin.Forms.Maps.UWP.dll
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Xamarin.Forms.Maps.dll
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\obj\x64\Debug\Linus Forum Tips.csproj.GenerateResource.Cache
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\obj\x64\Debug\Xamarin.Forms.Platform.UAP.pri.xml
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\obj\x64\Debug\Xamarin.Forms.Maps.UWP.pri.xml

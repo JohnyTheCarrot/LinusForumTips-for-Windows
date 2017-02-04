@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-04T12:04:14.149</Modified>
+      <Modified>2017-02-04T16:27:51.267</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Linus Forum Tips.exe">
       <PackagePath>entrypoint\Linus Forum Tips.exe</PackagePath>
-      <Modified>2017-02-04T12:04:13.003</Modified>
+      <Modified>2017-02-04T16:27:50.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -492,6 +492,30 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T21:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2017-01-12T09:25:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+      <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
+      <Modified>2017-01-12T09:25:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2017-01-12T09:25:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2017-01-12T09:25:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\.nuget\packages\Xamarin.Forms.Maps\2.3.3.180\lib\uap10.0\Xamarin.Forms.Maps.UWP.dll">
+      <PackagePath>Xamarin.Forms.Maps.UWP.dll</PackagePath>
+      <Modified>2017-01-12T09:25:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\.nuget\packages\Xamarin.Forms.Maps\2.3.3.180\lib\uap10.0\Xamarin.Forms.Maps.dll">
+      <PackagePath>Xamarin.Forms.Maps.dll</PackagePath>
+      <Modified>2017-01-12T09:25:36.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -707,20 +731,28 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Linus Forum Tips.xr.xml">
       <PackagePath>Linus Forum Tips.xr.xml</PackagePath>
-      <Modified>2017-02-04T11:47:54.822</Modified>
+      <Modified>2017-02-04T13:57:19.344</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-01-30T10:23:02.495</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
+      <Modified>2017-01-12T09:25:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\.nuget\packages\Xamarin.Forms\2.3.3.180\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
+      <Modified>2017-01-12T09:25:20.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-04T12:04:13.911</Modified>
+      <Modified>2017-02-04T16:27:51.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Core\Linus Forum Tips.exe">
       <PackagePath>Linus Forum Tips.exe</PackagePath>
-      <Modified>2017-02-04T12:04:14.140</Modified>
+      <Modified>2017-02-04T16:27:51.259</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
