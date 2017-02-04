@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="Linus_Forum_Tips.Pages.ShellPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Linus_Forum_Tips.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!-- This is our hamburger menu-->
+    <Grid>
+        <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="True" Visibility="Visible" 
+               CompactPaneLength="50" OpenPaneLength="200" HorizontalAlignment="Left">
+            <SplitView.Pane>
+                <StackPanel Background="DarkOrange">
+                    <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                    Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="home" FontFamily="Segoe MDL2 Assets" Content="&#xE10F;"
+                        Width="50" Height="50" Background="Transparent" Click="home_Click"/>
+                        <TextBlock Text="Home" FontSize="18" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="shows" FontFamily="Segoe MDL2 Assets" Content="&#xE786;"
+                        Width="50" Height="50" Background="Transparent" Click="shows_Click"/>
+                        <TextBlock Text="Shows" FontSize="18" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="search" FontFamily="Segoe MDL2 Assets" Content="&#xE11A;"
+                        Width="50" Height="50" Background="Transparent"/>
+                        <TextBlock Text="Search" FontSize="18" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="downloads" FontFamily="Segoe MDL2 Assets" Content="&#xE896;"
+                        Width="50" Height="50" Background="Transparent"/>
+                        <TextBlock Text="Downloads" FontSize="18" VerticalAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="settings" FontFamily="Segoe MDL2 Assets" Content="&#xE115;"
+                        Width="50" Height="50" Background="Transparent" Click="settings_Click">
+                        </Button>
+                        <TextBlock Text="Settings" FontSize="18" VerticalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+            </SplitView.Pane>
+        </SplitView>
+        <Frame Name="frame" Margin="200,0,0,0"/>
+    </Grid>
+</Page>
