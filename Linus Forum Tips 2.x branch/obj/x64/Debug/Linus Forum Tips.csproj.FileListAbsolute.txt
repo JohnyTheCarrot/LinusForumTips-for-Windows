@@ -885,3 +885,8 @@ C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum 
 C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\obj\x64\Debug\Pages\ShellPage.xbf
 C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Pages\HomePage.xbf
 C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Pages\ShellPage.xbf
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\bin\x64\Debug\Pages\VideoView.xbf
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\obj\x64\Debug\Pages\VideoView.g.i.cs
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\obj\x64\Debug\Pages\VideoView.g.cs
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\obj\x64\Debug\Pages\VideoView.xaml
+C:\Users\JohnyTheCarrot\Documents\GitHub\LinusForumTips-for-Windows\Linus Forum Tips 2.x branch\obj\x64\Debug\Pages\VideoView.xbf

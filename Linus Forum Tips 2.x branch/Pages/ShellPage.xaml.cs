@@ -35,7 +35,7 @@ namespace Linus_Forum_Tips.Pages
 
         private void settings_Click(object sender, RoutedEventArgs e)
         {
-
+            frame.Navigate(typeof(VideoView));
         }
 
         private void shows_Click(object sender, RoutedEventArgs e)

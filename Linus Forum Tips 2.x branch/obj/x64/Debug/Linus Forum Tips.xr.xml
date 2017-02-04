@@ -8,6 +8,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
       <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Background" />
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
     </RootType>
@@ -38,6 +39,8 @@
       <RootProperty Name="OpenPaneLength" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Pane" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Background" />
@@ -62,5 +65,17 @@
       <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Linus_Forum_Tips.Pages.Shows" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.WebView">
+      <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
+      <RootProperty Name="Color" />
+      <RootProperty Name="Opacity" />
+    </RootType>
+    <RootType FullName="Linus_Forum_Tips.Pages.VideoView" />
   </Roots.RootTypes>
 </Roots>

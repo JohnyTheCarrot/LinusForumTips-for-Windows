@@ -9,6 +9,7 @@
 
     <!-- This is our hamburger menu-->
     <Grid>
+        <Frame Name="frame" Margin="50,0,0,0"/>
         <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="True" Visibility="Visible" 
                CompactPaneLength="50" OpenPaneLength="200" HorizontalAlignment="Left">
             <SplitView.Pane>
@@ -45,6 +46,5 @@
                 </StackPanel>
             </SplitView.Pane>
         </SplitView>
-        <Frame Name="frame" Margin="200,0,0,0"/>
     </Grid>
 </Page>

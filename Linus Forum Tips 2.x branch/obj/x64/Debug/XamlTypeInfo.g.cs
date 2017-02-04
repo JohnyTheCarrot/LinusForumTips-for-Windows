@@ -156,7 +156,7 @@ namespace Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[7];
+            _typeNameTable = new string[8];
             _typeNameTable[0] = "Linus_Forum_Tips.Pages.About";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -164,8 +164,9 @@ namespace Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo
             _typeNameTable[4] = "Linus_Forum_Tips.Pages.Home";
             _typeNameTable[5] = "Linus_Forum_Tips.Pages.ShellPage";
             _typeNameTable[6] = "Linus_Forum_Tips.Pages.Shows";
+            _typeNameTable[7] = "Linus_Forum_Tips.Pages.VideoView";
 
-            _typeTable = new global::System.Type[7];
+            _typeTable = new global::System.Type[8];
             _typeTable[0] = typeof(global::Linus_Forum_Tips.Pages.About);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -173,6 +174,7 @@ namespace Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo
             _typeTable[4] = typeof(global::Linus_Forum_Tips.Pages.Home);
             _typeTable[5] = typeof(global::Linus_Forum_Tips.Pages.ShellPage);
             _typeTable[6] = typeof(global::Linus_Forum_Tips.Pages.Shows);
+            _typeTable[7] = typeof(global::Linus_Forum_Tips.Pages.VideoView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -212,6 +214,7 @@ namespace Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo
         private object Activate_4_Home() { return new global::Linus_Forum_Tips.Pages.Home(); }
         private object Activate_5_ShellPage() { return new global::Linus_Forum_Tips.Pages.ShellPage(); }
         private object Activate_6_Shows() { return new global::Linus_Forum_Tips.Pages.Shows(); }
+        private object Activate_7_VideoView() { return new global::Linus_Forum_Tips.Pages.VideoView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -262,6 +265,13 @@ namespace Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo
             case 6:   //  Linus_Forum_Tips.Pages.Shows
                 userType = new global::Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_6_Shows;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  Linus_Forum_Tips.Pages.VideoView
+                userType = new global::Linus_Forum_Tips.Linus_Forum_Tips_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_VideoView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

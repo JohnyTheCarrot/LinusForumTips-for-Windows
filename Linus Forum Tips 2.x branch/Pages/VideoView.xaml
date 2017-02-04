@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="Linus_Forum_Tips.Pages.VideoView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Linus_Forum_Tips.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <!--This is temporally, it will be replaced with a MediaElement-->
+        <WebView Name="Video" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Source="https://www.youtube.com/watch?v=Fi_CSF-Nedo"></WebView>
+        <SplitView x:Name="MySplitView" DisplayMode="Overlay"  IsPaneOpen="True" Visibility="Visible" 
+               CompactPaneLength="700" OpenPaneLength="700" HorizontalAlignment="Right">
+            <SplitView.Background>
+                <SolidColorBrush Color="White" Opacity=".5" />
+            </SplitView.Background>
+            <!--TODO: Fix this up-->
+            <TextBlock FontSize="40" Text="Title"></TextBlock>
+        </SplitView>
+    </Grid>
+</Page>
