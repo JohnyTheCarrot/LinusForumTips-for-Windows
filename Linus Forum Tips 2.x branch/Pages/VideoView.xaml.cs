@@ -25,7 +25,23 @@ namespace Linus_Forum_Tips.Pages
         public VideoView()
         {
             this.InitializeComponent();
+            setTitle("Title stuff");
+            setDescription("Description stuff");
         }
 
+        public void setTitle(String title)
+        {
+            Title.Text = title;
+        }
+
+        public void setDescription(String desc)
+        {
+            Description.Text = desc;
+        }
+
+        private void frame_Navigated(object sender, NavigationEventArgs e)
+        {
+
+        }
     }
 }

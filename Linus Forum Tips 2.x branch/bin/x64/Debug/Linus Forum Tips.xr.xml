@@ -59,6 +59,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Frame">
       <RootProperty Name="Name" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Linus_Forum_Tips.Pages.ShellPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">

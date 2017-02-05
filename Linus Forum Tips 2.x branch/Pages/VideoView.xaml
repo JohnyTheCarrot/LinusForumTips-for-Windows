@@ -10,13 +10,18 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <!--This is temporally, it will be replaced with a MediaElement-->
         <WebView Name="Video" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Source="https://www.youtube.com/watch?v=Fi_CSF-Nedo"></WebView>
-        <SplitView x:Name="MySplitView" DisplayMode="Overlay"  IsPaneOpen="True" Visibility="Visible" 
-               CompactPaneLength="700" OpenPaneLength="700" HorizontalAlignment="Right">
+        <SplitView x:Name="MySplitView" DisplayMode="Overlay"  IsPaneOpen="False" Visibility="Visible" 
+               CompactPaneLength="5" OpenPaneLength="700" HorizontalAlignment="Right">
             <SplitView.Background>
                 <SolidColorBrush Color="White" Opacity=".5" />
             </SplitView.Background>
-            <!--TODO: Fix this up-->
-            <TextBlock FontSize="40" Text="Title"></TextBlock>
+            <Frame Name="frame">
+                <Grid>
+                    <TextBlock Margin="10, 10, 0, 0" FontSize="40" Name="Title" Text="Sorry, the title failed to load. :/"></TextBlock>
+                    <TextBlock Name="Description" Text="Sorry, the description failed to load. :/" Margin="10,74,42,35" TextWrapping="Wrap"></TextBlock>
+                    <!--Make it so that the splitview keeps it size and the description text just skips to the next line-->
+                </Grid>
+            </Frame>
         </SplitView>
     </Grid>
 </Page>

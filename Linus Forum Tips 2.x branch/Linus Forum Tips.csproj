@@ -172,7 +172,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
   <ItemGroup>
     <Page Include="Pages\About.xaml">
       <SubType>Designer</SubType>
