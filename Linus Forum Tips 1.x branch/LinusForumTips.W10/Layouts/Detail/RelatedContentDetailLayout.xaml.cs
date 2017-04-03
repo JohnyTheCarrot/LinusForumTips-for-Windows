@@ -20,5 +20,6 @@ namespace LinusForumTips.Layouts.Detail
         {
             InitializeComponent();
         }
+
     }
 }

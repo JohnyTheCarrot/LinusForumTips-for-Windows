@@ -28,6 +28,10 @@
     </was_controls:ShellControl.CommandBar>
 
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/bg3.jpg"
+                    Stretch="UniformToFill" Opacity="0.8"/>
+        </Grid.Background>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>
 			<RowDefinition Height="*"/>

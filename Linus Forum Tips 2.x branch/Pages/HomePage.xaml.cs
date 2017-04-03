@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Linus_Forum_Tips.Classes.Settings;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,7 @@ namespace Linus_Forum_Tips.Pages
         public HomePage()
         {
             this.InitializeComponent();
+            new Save().init();
         }
     }
 }

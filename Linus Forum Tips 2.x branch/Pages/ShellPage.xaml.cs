@@ -35,7 +35,10 @@ namespace Linus_Forum_Tips.Pages
 
         private void settings_Click(object sender, RoutedEventArgs e)
         {
-            frame.Navigate(typeof(VideoView));
+            //frame.Navigate(typeof(VideoView));
+            Frame f = new Frame();
+            
+            MySplitView.IsPaneOpen = false;
         }
 
         private void shows_Click(object sender, RoutedEventArgs e)
@@ -48,6 +51,7 @@ namespace Linus_Forum_Tips.Pages
         private void home_Click(object sender, RoutedEventArgs e)
         {
             frame.Navigate(typeof(HomePage));
+            MySplitView.IsPaneOpen = false;
         }
     }
 }

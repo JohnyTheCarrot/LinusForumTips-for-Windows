@@ -24,6 +24,10 @@
             CommandBarOverflowPresenterStyle="{StaticResource WasCommandBarOverflowPresenter}"/>
     </was_controls:ShellControl.CommandBar>
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/bg3.jpg"
+                    Stretch="UniformToFill" />
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>

@@ -16,17 +16,17 @@ namespace LinusForumTips.Sections
 {
     public class LinusTechTipsVideosSection : Section<YouTubeSchema>
     {
-		private YouTubeDataProvider _dataProvider;
-		
-		public LinusTechTipsVideosSection()
-		{
-			_dataProvider = new YouTubeDataProvider(new YouTubeOAuthTokens
-			{
-				ApiKey = "AIzaSyAmKtTKgdjw5dsYl1EObQxNoxd7wWdbryA"
-			});
-		}
+        private YouTubeDataProvider _dataProvider;
 
-		public override async Task<IEnumerable<YouTubeSchema>> GetDataAsync(SchemaBase connectedItem = null)
+        public LinusTechTipsVideosSection()
+        {
+            _dataProvider = new YouTubeDataProvider(new YouTubeOAuthTokens
+            {
+                ApiKey = "AIzaSyAmKtTKgdjw5dsYl1EObQxNoxd7wWdbryA"
+            });
+        }
+
+        public override async Task<IEnumerable<YouTubeSchema>> GetDataAsync(SchemaBase connectedItem = null)
         {
             var config = new YouTubeDataConfig
             {
@@ -51,7 +51,7 @@ namespace LinusForumTips.Sections
 
         public override ListPageConfig<YouTubeSchema> ListPage
         {
-            get 
+            get
             {
                 return new ListPageConfig<YouTubeSchema>
                 {
@@ -67,7 +67,7 @@ namespace LinusForumTips.Sections
                     },
                     DetailNavigation = (item) =>
                     {
-						return NavInfo.FromPage<Pages.LinusTechTipsVideosDetailPage>(true);
+                        return NavInfo.FromPage<Pages.LinusTechTipsVideosDetailPage>(true);
                     }
                 };
             }
@@ -85,7 +85,7 @@ namespace LinusForumTips.Sections
                     viewModel.Description = item.Summary.ToSafeString();
                     viewModel.ImageUrl = ItemViewModel.LoadSafeUrl(null);
                     viewModel.Content = item.EmbedHtmlFragment;
-					viewModel.Source = item.ExternalUrl;
+                    viewModel.Source = item.ExternalUrl;
                 });
 
                 var actions = new List<ActionConfig<YouTubeSchema>>

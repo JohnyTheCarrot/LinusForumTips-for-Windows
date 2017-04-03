@@ -4,7 +4,7 @@
 //    Copyright (C) 2015 by Microsoft Corporation.  All rights reserved.
 // </copyright>
 //
-// <createdOn>1/7/2017 1:17:08 AM</createdOn>
+// <createdOn>2/17/2017 11:01:17 AM</createdOn>
 //
 //---------------------------------------------------------------------------
 
@@ -27,12 +27,12 @@ namespace LinusForumTips.Pages
         public LinusTechTipsVideosDetailPage()
         {
             ViewModel = ViewModelFactory.NewDetail(new LinusTechTipsVideosSection());
-			this.ViewModel.ShowInfo = false;
+            this.ViewModel.ShowInfo = false;
             this.InitializeComponent();
-			commandBar.DataContext = ViewModel;
+            commandBar.DataContext = ViewModel;
         }
 
-        public DetailViewModel ViewModel { get; set; }        
+        public DetailViewModel ViewModel { get; set; }
 
         protected async override void OnNavigatedTo(NavigationEventArgs e)
         {

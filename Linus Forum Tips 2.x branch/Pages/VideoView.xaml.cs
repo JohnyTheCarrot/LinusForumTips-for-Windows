@@ -27,6 +27,12 @@ namespace Linus_Forum_Tips.Pages
             this.InitializeComponent();
             setTitle("Title stuff");
             setDescription("Description stuff");
+            MySplitView.Visibility = Visibility.Collapsed;
+        }
+
+        public void setVideo(String url)
+        {
+            //TODO: Do stuff
         }
 
         public void setTitle(String title)
@@ -39,9 +45,5 @@ namespace Linus_Forum_Tips.Pages
             Description.Text = desc;
         }
 
-        private void frame_Navigated(object sender, NavigationEventArgs e)
-        {
-
-        }
     }
 }
