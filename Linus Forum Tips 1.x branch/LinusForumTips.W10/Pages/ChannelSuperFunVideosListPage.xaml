@@ -27,10 +27,10 @@
 		</was_actions:ActionsCommandBar>
     </was_controls:ShellControl.CommandBar>
 
-    <Grid>
+    <Grid Name="grid">
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/bg3.jpg"
-                    Stretch="UniformToFill" Opacity="0.8" />
+                    Stretch="UniformToFill"  Opacity="0.8" />
         </Grid.Background>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>

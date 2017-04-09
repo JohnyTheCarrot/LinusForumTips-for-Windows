@@ -15,11 +15,16 @@ using AppStudio.DataProviders.YouTube;
 using LinusForumTips.Sections;
 using LinusForumTips.ViewModels;
 using AppStudio.Uwp;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
+using LinusForumTips.Extra_Classes.Settings;
+using System;
 
 namespace LinusForumTips.Pages
 {
     public sealed partial class LinusTechTipsVideosListPage : Page
     {
+        public static LinusTechTipsVideosListPage page;
 	    public ListViewModel ViewModel { get; set; }
         public LinusTechTipsVideosListPage()
         {
@@ -28,6 +33,27 @@ namespace LinusForumTips.Pages
             this.InitializeComponent();
 			commandBar.DataContext = ViewModel;
 			NavigationCacheMode = NavigationCacheMode.Enabled;
+            page = this;
+            init();
+        }
+
+        Config c = new Config();
+        
+        //load the background image and it's settings
+        public void init()
+        {
+            BitmapImage image = new BitmapImage(new Uri(c.getString("background"), UriKind.Absolute));
+            getGrid().Background = new ImageBrush { ImageSource = image, Stretch = Stretch.None };
+        }
+
+        public static Grid getGrid()
+        {
+            return page.grid;
+        }
+
+        public static void setBackgroundImage(BitmapImage img)
+        {
+            getGrid().Background = new ImageBrush { ImageSource = img, Stretch = Stretch.None };
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)

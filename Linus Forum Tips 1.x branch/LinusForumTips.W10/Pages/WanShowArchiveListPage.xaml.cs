@@ -15,11 +15,18 @@ using AppStudio.DataProviders.YouTube;
 using LinusForumTips.Sections;
 using LinusForumTips.ViewModels;
 using AppStudio.Uwp;
+using Windows.UI.Xaml.Media.Imaging;
+using Windows.UI.Xaml.Media;
+using System;
+using LinusForumTips.Extra_Classes.Settings;
 
 namespace LinusForumTips.Pages
 {
     public sealed partial class WanShowArchiveListPage : Page
     {
+        Config c = new Config();
+        public static WanShowArchiveListPage page;
+
 	    public ListViewModel ViewModel { get; set; }
         public WanShowArchiveListPage()
         {
@@ -28,6 +35,24 @@ namespace LinusForumTips.Pages
             this.InitializeComponent();
 			commandBar.DataContext = ViewModel;
 			NavigationCacheMode = NavigationCacheMode.Enabled;
+            page = this;
+            init();
+        }
+
+        private void init()
+        {
+            BitmapImage image = new BitmapImage(new Uri(c.getString("background"), UriKind.Absolute));
+            getGrid().Background = new ImageBrush { ImageSource = image, Stretch = Stretch.None };
+        }
+
+        public static Grid getGrid()
+        {
+            return page.grid;
+        }
+
+        public static void setBackgroundImage(BitmapImage img)
+        {
+            getGrid().Background = new ImageBrush { ImageSource = img, Stretch = Stretch.None };
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)

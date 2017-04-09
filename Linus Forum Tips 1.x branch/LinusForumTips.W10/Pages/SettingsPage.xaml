@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="LinusForumTips.Pages.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LinusForumTips.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="Black">
+            <ScrollViewer>
+                <StackPanel Margin="24,32,24,8">
+                <Button IsEnabled="False" Click="openBtn_Click" Content="Choose Image From PC" Height="38" HorizontalAlignment="Stretch" Margin="10, 50, 10, 0" RenderTransformOrigin="0.486,-1.076" Opacity="0.5"/>
+                <TextBlock Margin="10,0">or</TextBlock>
+                    <Button Click="Loadbtn_Click" Content="Load from URL" Height="38" HorizontalAlignment="Stretch" Margin="10, 5, 10, 0" RenderTransformOrigin="0.486,-1.076"/>
+                    <Border BorderThickness="3" BorderBrush="#FF555555" Height="233" Margin="10, 50" >
+                        <Image Name="imageView" Margin="1,1" />
+                    </Border>
+                    <Button Click="Button_Click" Content="Set Background"  Height="38" HorizontalAlignment="Stretch" Margin="10, 0, 10, 0" RenderTransformOrigin="0.468,-3.509"/>
+                    <Slider Name="opaSlider" Margin="10,0" Value="80" ValueChanged="Slider_ValueChanged" Header="Opacity" Minimum="0" Maximum="100"></Slider>
+                </StackPanel>
+            </ScrollViewer>
+    </Grid>
+</Page>

@@ -16,12 +16,16 @@ using AppStudio.Uwp.Controls;
 using AppStudio.Uwp.Navigation;
 
 using LinusForumTips.Navigation;
+using LinusForumTips.Pages.SettingsPages;
+using LinusForumTips.Pages.ForFrames;
+using LinusForumTips.Extra_Classes.Settings;
 
 namespace LinusForumTips.Pages
 {
     public sealed partial class ShellPage : Page
     {
         public static ShellPage Current { get; private set; }
+        Config c = new Config();
 
         public ShellControl ShellControl
         {
@@ -69,6 +73,13 @@ namespace LinusForumTips.Pages
                     }
                 });
             }
+            showLTTV = Boolean.Parse(c.getString("Show_LinusTechTips"));
+            showWSA = Boolean.Parse(c.getString("Show_WanShowArchive"));
+            showTech = Boolean.Parse(c.getString("Show_Techquicky"));
+            showCSFV = Boolean.Parse(c.getString("Show_ChannelSuperFun"));
+            showBG = Boolean.Parse(c.getString("Show_BuildGuides"));
+            showBL = Boolean.Parse(c.getString("Show_BuildLogs"));
+            showGAT = Boolean.Parse(c.getString("Show_GuidesAndTutorials"));
         }
 
 		public bool SupportFullScreen { get; set; }
@@ -97,54 +108,81 @@ namespace LinusForumTips.Pages
         }		        
 		
 		#region Navigation
+
+        /*
+         * Refresh them so we can hide and show certain tabs
+         */
+        public void Refresh()
+        {
+            Current.NavigationItems.Clear();
+            Current.InitializeNavigationItems();
+        }
+
+        public bool showLTTV = true, showWSA = true, showTech = true, showCSFV = true, showBG = true, showBL = true, showGAT = true;
+
         private void InitializeNavigationItems()
         {
             NavigationItems.Add(AppNavigation.NodeFromAction(
-				"Home",
+                "Home",
                 "Home",
                 (ni) => NavigationService.NavigateToRoot(),
                 AppNavigation.IconFromSymbol(Symbol.Home)));
-            NavigationItems.Add(AppNavigation.NodeFromAction(
-				"d6dd521d-7ebf-474f-9578-547618d29d8b",
-                "Linus Tech Tips Videos",                
-                AppNavigation.ActionFromPage("LinusTechTipsVideosListPage"),
-				AppNavigation.IconFromGlyph("\ue173")));
-
-            NavigationItems.Add(AppNavigation.NodeFromAction(
-				"2f9ed5d6-bae9-4833-9ce0-54d827698b7a",
-                "Wan Show Archive",                
-                AppNavigation.ActionFromPage("WanShowArchiveListPage"),
-				AppNavigation.IconFromGlyph("\ue173")));
-
-            NavigationItems.Add(AppNavigation.NodeFromAction(
-				"1cf79357-f873-4210-b657-47ff7cd65396",
-                "Techquickie Videos",                
-                AppNavigation.ActionFromPage("TechquickieVideosListPage"),
-				AppNavigation.IconFromGlyph("\ue173")));
-
-            NavigationItems.Add(AppNavigation.NodeFromAction(
-				"5c707716-fb7e-4986-8c3b-6dc9d09ce700",
-                "Channel Super Fun Videos",                
-                AppNavigation.ActionFromPage("ChannelSuperFunVideosListPage"),
-				AppNavigation.IconFromGlyph("\ue173")));
-
-            NavigationItems.Add(AppNavigation.NodeFromAction(
-				"1a85418c-742c-487e-bd4c-e4809b3f78bb",
-                "Build Guides",                
-                AppNavigation.ActionFromPage("BuildGuidesListPage"),
-				AppNavigation.IconFromGlyph("\ue173")));
-
-            NavigationItems.Add(AppNavigation.NodeFromAction(
-				"c4cea27e-34d3-4a23-b659-d0fa31bec5f2",
-                "Build Logs",                
-                AppNavigation.ActionFromPage("BuildLogsListPage"),
-				AppNavigation.IconFromGlyph("\ue173")));
-
-            NavigationItems.Add(AppNavigation.NodeFromAction(
-				"58b49a14-f3d0-4696-8cd4-31455f130e63",
-                "Guides and Tutorials",                
-                AppNavigation.ActionFromPage("GuidesAndTutorialsListPage"),
-				AppNavigation.IconFromGlyph("\ue173")));
+            if (showLTTV)
+            {
+                NavigationItems.Add(AppNavigation.NodeFromAction(
+                    "d6dd521d-7ebf-474f-9578-547618d29d8b",
+                    "Linus Tech Tips Videos",
+                    AppNavigation.ActionFromPage("LinusTechTipsVideosListPage"),
+                    AppNavigation.IconFromGlyph("\ue173")));
+            }
+            if (showWSA)
+            {
+                NavigationItems.Add(AppNavigation.NodeFromAction(
+                    "2f9ed5d6-bae9-4833-9ce0-54d827698b7a",
+                    "Wan Show Archive",
+                    AppNavigation.ActionFromPage("WanShowArchiveListPage"),
+                    AppNavigation.IconFromGlyph("\ue173")));
+            }
+            if (showTech)
+            {
+                NavigationItems.Add(AppNavigation.NodeFromAction(
+                    "1cf79357-f873-4210-b657-47ff7cd65396",
+                    "Techquickie Videos",
+                    AppNavigation.ActionFromPage("TechquickieVideosListPage"),
+                    AppNavigation.IconFromGlyph("\ue173")));
+            }
+            if (showCSFV)
+            { 
+                NavigationItems.Add(AppNavigation.NodeFromAction(
+                    "5c707716-fb7e-4986-8c3b-6dc9d09ce700",
+                    "Channel Super Fun Videos",
+                    AppNavigation.ActionFromPage("ChannelSuperFunVideosListPage"),
+                    AppNavigation.IconFromGlyph("\ue173")));
+            }
+            if (showBG)
+            {
+                NavigationItems.Add(AppNavigation.NodeFromAction(
+                    "1a85418c-742c-487e-bd4c-e4809b3f78bb",
+                    "Build Guides",
+                    AppNavigation.ActionFromPage("BuildGuidesListPage"),
+                    AppNavigation.IconFromGlyph("\ue173")));
+            }
+            if (showBL)
+            {
+                NavigationItems.Add(AppNavigation.NodeFromAction(
+                    "c4cea27e-34d3-4a23-b659-d0fa31bec5f2",
+                    "Build Logs",
+                    AppNavigation.ActionFromPage("BuildLogsListPage"),
+                    AppNavigation.IconFromGlyph("\ue173")));
+            }
+            if (showGAT)
+            {
+                NavigationItems.Add(AppNavigation.NodeFromAction(
+                    "58b49a14-f3d0-4696-8cd4-31455f130e63",
+                    "Guides and Tutorials",
+                    AppNavigation.ActionFromPage("GuidesAndTutorialsListPage"),
+                    AppNavigation.IconFromGlyph("\ue173")));
+            }
 
             NavigationItems.Add(NavigationItem.Separator);
 
@@ -153,6 +191,12 @@ namespace LinusForumTips.Pages
                 "NavigationPaneAbout".StringResource(),
                 new AboutPage(),
                 AppNavigation.IconFromImage(new Uri("ms-appx:///Assets/about.png"))));
+
+            NavigationItems.Add(AppNavigation.NodeFromControl(
+               "Settings",
+               "Settings",
+               new SettingsHolder(),
+               AppNavigation.IconFromSymbol(Symbol.Setting)));
         }        
         #endregion        
 

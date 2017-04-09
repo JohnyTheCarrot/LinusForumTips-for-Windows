@@ -27,9 +27,9 @@
 		</was_actions:ActionsCommandBar>
     </was_controls:ShellControl.CommandBar>
 
-    <Grid>
+    <Grid x:Name="grid" x:FieldModifier="public">
         <Grid.Background>
-            <ImageBrush ImageSource="/Assets/bg3.png"
+            <ImageBrush ImageSource="/Assets/bg3.jpg"
                     Stretch="UniformToFill" Opacity="0.8" />
         </Grid.Background>
         <Grid.RowDefinitions>

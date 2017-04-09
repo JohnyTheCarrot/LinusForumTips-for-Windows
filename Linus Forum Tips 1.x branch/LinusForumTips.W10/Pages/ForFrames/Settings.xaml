@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="LinusForumTips.Pages.ForFrames.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LinusForumTips.Pages.ForFrames"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="10,10,175,8">
+                <ToggleSwitch Name="Toggle_LinusTechTips" Toggled="LinusTechTips" IsOn="True"  Header="Linus Tech Tips" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+                <ToggleSwitch Name="Toggle_WanShowArchive" Toggled="WanShowArchive" IsOn="True"  Header="Wan Show Archive" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+                <ToggleSwitch Name="Toggle_Techquicky" Toggled="Techquicky" IsOn="True"  Header="Techquicky" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+                <ToggleSwitch Name="Toggle_ChannelSuperFun" Toggled="ChannelSuperFun" IsOn="True"  Header="Channel Super Fun" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+            </StackPanel>
+        <StackPanel Margin="185,10,10,10">
+            <ToggleSwitch Name="Toggle_BuildGuides" Toggled="BuildGuides" IsOn="True"  Header="Build Guides" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+            <ToggleSwitch Name="Toggle_BuildLogs" Toggled="BuildLogs" IsOn="True"  Header="Build Logs" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+            <ToggleSwitch Name="Toggle_GuidesAndTutorials" Toggled="GuidesAndTutorials" IsOn="True"  Header="Guides and Tutorials" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -23,7 +23,7 @@
             Background="{StaticResource AppBarBackground}"
             CommandBarOverflowPresenterStyle="{StaticResource WasCommandBarOverflowPresenter}"/>
     </was_controls:ShellControl.CommandBar>
-    <Grid>
+    <Grid x:Name="grid" x:FieldModifier="public">
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/bg3.jpg"
                     Stretch="UniformToFill" />

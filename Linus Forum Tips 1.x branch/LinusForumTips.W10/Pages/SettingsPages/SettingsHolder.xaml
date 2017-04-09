@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="LinusForumTips.Pages.SettingsPages.SettingsHolder"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LinusForumTips.Pages.SettingsPages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="10,10,10,546">
+            <ComboBox Margin="10,0,10,-80" Header="Settings" HorizontalAlignment="Stretch">
+                <ComboBoxItem Tapped="BgSettings_Tapped">Background Settings</ComboBoxItem>
+                <ComboBoxItem IsSelected="True" Tapped="VisibilitySettings_Tapped">Visibility Settings</ComboBoxItem>
+            </ComboBox>
+        </StackPanel>
+        <Frame Name="frame" Margin="0,99,0,0"/>
+    </Grid>
+</Page>

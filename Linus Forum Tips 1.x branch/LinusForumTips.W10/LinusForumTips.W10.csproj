@@ -112,6 +112,10 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Extra Classes\Dialogs\InputDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Layouts\List\ListBigHorizontalCardBox.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -208,6 +212,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Pages\ForFrames\Settings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\HomePage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -215,6 +223,14 @@
     <Page Include="Pages\LinusTechTipsVideosListPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\SettingsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\SettingsPages\SettingsHolder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\WanShowArchiveListPage.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -310,6 +326,12 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extra Classes\Dialogs\ExceptionAlert.cs" />
+    <Compile Include="Extra Classes\Dialogs\InputDialog.xaml.cs">
+      <DependentUpon>InputDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Extra Classes\Exceptions\NoSuchSettingException.cs" />
+    <Compile Include="Extra Classes\Settings\Config.cs" />
     <Compile Include="Layouts\List\ListBigHorizontalCardBox.xaml.cs">
       <DependentUpon>ListBigHorizontalCardBox.xaml</DependentUpon>
     </Compile>
@@ -382,11 +404,20 @@
     <Compile Include="Layouts\Controls\HeroImage.xaml.cs">
       <DependentUpon>HeroImage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\ForFrames\Settings.xaml.cs">
+      <DependentUpon>Settings.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\LinusTechTipsVideosListPage.xaml.cs">
       <DependentUpon>LinusTechTipsVideosListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SettingsPages\SettingsHolder.xaml.cs">
+      <DependentUpon>SettingsHolder.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\WanShowArchiveListPage.xaml.cs">
       <DependentUpon>WanShowArchiveListPage.xaml</DependentUpon>
